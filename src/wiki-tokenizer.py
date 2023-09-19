@@ -19,11 +19,11 @@ def unite_files():
                         outfile.write(line)
 
 
-def tokenize(text):
+def tokenize(t):
 
     lemma_freq = defaultdict(lambda: {'count': 0, 'pos': '', 'lemma': ''})
 
-    for doc in nlp.pipe(text, batch_size=2000, n_process=-1):
+    for doc in nlp.pipe(t, batch_size=2000, n_process=-1):
         for token in doc:
             if not token.is_punct and not token.is_space:
                 lemma = token.lemma_
@@ -43,7 +43,7 @@ def tokenize(text):
 
 
 if __name__ == '__main__':
-    with open('all_data.txt', 'r') as f:
+    with open('all_data.txt', 'r', encoding='utf-8') as f:
         text = f.read()
         text = text.split('\n')
     
