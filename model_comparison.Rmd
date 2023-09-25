@@ -1,0 +1,276 @@
+---
+title: "Model comparison (generated data)"
+output:
+  pdf_document: default
+  html_document: default
+date: "2023-09-25"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(ggpubr)
+library(DescTools)
+library(scales)
+library(ppcor)
+library(ggdag)
+library(brms)
+library(tidybayes)
+library(marginaleffects)
+
+theme_set(theme_bw())
+```
+
+```{r}
+packageVersion("brms")
+```
+
+
+### Loading the data 
+
+Loading the last step ($t_300$) and transforming dependent variables to z-scores:
+
+```{r}
+last_step <- read.csv('data/model-N570_S1000_p50000.csv') %>%
+  filter(extinct != 1) %>% # remove extinct words
+  group_by(step) %>% # group by time-step
+  mutate(relative_frequency = count / sum(count)) %>% 
+  filter(step == 300-1 & extinct != 1)  %>% 
+  mutate(z_age = (age - mean(age))/sd(age),
+         z_freq = (log(relative_frequency) - 
+                     mean(log(relative_frequency)))/sd(log(relative_frequency)))
+```
+
+```{r}
+head(last_step)
+```
+
+
+Plotting the distribution of number of meanings:
+
+```{r}
+last_step %>%
+  ggplot(aes(x=meanings)) +
+  geom_bar(position = 'identity', fill='blue', alpha = 0.5)
+```
+
+
+### Analysis
+
+#### Correlations
+
+Spearman correlation between age and frequency:
+
+```{r}
+cor.test(last_step$z_age, last_step$z_freq, method = 'spearman', exact=FALSE)
+```
+#### Model selection 
+
+```{r}
+## Zero-inflated
+mod1 <- 
+  brm(meanings - 1 ~ 1, 
+      data = last_step,
+      family = zero_inflated_poisson())
+
+## Standard poisson 
+mod2 <- 
+  brm(meanings - 1 ~ 1,
+      data = last_step, 
+      family = poisson())
+
+## Poisson lognormal
+mod3 <- 
+  brm(meanings - 1 ~ 1 + (1 | id), 
+      data = last_step,
+      family = poisson(), 
+      save_pars = save_pars(all = TRUE))
+```
+
+```{r}
+mod1 <- add_criterion(mod1, criterion = "loo")
+mod2 <- add_criterion(mod2, criterion = "loo")
+mod3 <- add_criterion(
+  mod3, criterion = "loo", moment_matching = T
+)
+
+loo_compare(mod1, mod2, mod3) %>% 
+  print(simplify = F)
+```
+
+
+```{r}
+a <- pp_check(mod1, ndraws = 100, type = "bars",) +
+  xlim(-1, 10) +
+  ggtitle('Zero-inflated')
+b <- pp_check(mod2, ndraws = 100, type = "bars",) +
+  xlim(-1, 10) +
+  ggtitle('Standard poisson')
+c <- pp_check(mod3, ndraws = 100, type = "bars",)+
+  xlim(-1, 10) +
+  ggtitle('Poisson lognormal')
+
+ggarrange(a, b, c,
+          common.legend = TRUE, 
+          legend = 'right')
+```
+
+```{r}
+rbind(bayes_R2(mod1), 
+      bayes_R2(mod2), 
+      bayes_R2(mod3)) %>%
+  as_tibble() %>%
+  mutate(model = c("mod1", "mod2", "mod3"),
+         r_square_posterior_mean = round(Estimate, digits = 6)) %>%
+  dplyr::select(model, r_square_posterior_mean)
+```
+
+The Poisson with random effects per observation seems weird, since the fit is already too good for the intercept only model -- possibility of overfitting? Let's use the zero-inflated model since it's posterior predictive checks look better, and it has the second best loo. 
+
+#### Final analysis 
+
+Fitting the 4 possible models:
+
+- intercept only
+- frequency only 
+- longevity only 
+- full model 
+
+```{r}
+## intercept only
+mod3.1 <- 
+  brm(meanings - 1 ~ 1,
+      data = last_step,
+      family = zero_inflated_poisson())
+
+## frequency only
+mod3.2 <- 
+  brm(meanings - 1 ~ 1 + z_freq, 
+      data = last_step,
+      family = zero_inflated_poisson())
+
+## age only
+mod3.3 <- 
+  brm(meanings - 1 ~ 1 + z_age, 
+      data = last_step,
+      family = zero_inflated_poisson())
+
+## full model
+mod3.4 <- 
+  brm(meanings - 1 ~ 1 + z_age + z_freq, 
+      data = last_step,
+      family = zero_inflated_poisson())
+```
+
+```{r}
+mod3.1 <- add_criterion(
+  mod3.1, criterion = "waic"
+)
+
+mod3.2 <- add_criterion(
+  mod3.2, criterion = "waic"
+)
+
+mod3.3 <- add_criterion(
+  mod3.3, criterion = "waic"
+)
+
+mod3.4 <- add_criterion(
+  mod3.4, criterion = "waic"
+)
+```
+
+
+WAIC comparison:
+
+```{r}
+loo_compare(mod3.1, mod3.2, mod3.3, mod3.4, criterion = 'waic') %>% 
+  print(simplify = F)
+```
+
+Getting coefficients for plotting: 
+
+```{r}
+full <- avg_comparisons(mod3.4) %>%
+  posterior_draws(shape = "rvar") %>%
+  ggplot(aes(y = term, xdist = rvar)) + 
+  stat_slabinterval() +
+  xlim(0, 1) +
+  ggtitle('Full model') +
+  ylab('') + 
+  xlab('') +
+  geom_vline(xintercept = 0, 
+             linetype="dotted",
+             color = 'red')
+
+only_freq <- avg_comparisons(mod3.2) %>%
+  posterior_draws(shape = "rvar") %>%
+  ggplot(aes(y = term, xdist = rvar)) + 
+  stat_slabinterval() +
+  xlim(0, 1) +
+  ggtitle('Only frequency model') +
+  ylab('') + 
+  xlab('') +
+  geom_vline(xintercept = 0, 
+             linetype="dotted",
+             color = 'red')
+
+only_age <- avg_comparisons(mod3.3) %>%
+  posterior_draws(shape = "rvar") %>%
+  ggplot(aes(y = term, xdist = rvar)) + 
+  stat_slabinterval() +
+  xlim(0, 1) +
+  ggtitle('Only longevity model') +
+  ylab('') + 
+  xlab('') +
+  geom_vline(xintercept = 0, 
+             linetype="dotted",
+             color = 'red')
+```
+
+Coefficients comparison:
+
+```{r}
+ggarrange(full, only_freq, only_age, nrow=3, ncol=1)
+```
+
+Predictions:
+
+```{r}
+longevity <- plot_predictions(
+    mod3.4,
+    condition = "z_age") +
+    labs(y = "meanings") +
+  geom_count(data = last_step, 
+             aes(x = z_age, y = meanings - 1),
+             alpha = 0.2, 
+             color = 'blue') +
+  xlab('Longevity (z-scored)') +
+  ylab('Number of additional meanings') +
+  scale_size_area()
+
+frequency <- plot_predictions(
+    mod3.4,
+    condition = "z_freq") +
+    labs(y = "meanings") +
+  geom_count(data = last_step, 
+             aes(x = z_freq, y = meanings - 1),
+             alpha = 0.2,
+             color = 'blue') +
+  xlab('Log relative frequency (z-scored)') +
+  ylab('Number of additional meanings') +
+  scale_size_area()
+
+ggarrange(longevity, frequency, ncol = 2, nrow = 1, labels = c("A", "B"))
+```
+
+
+Posterior predictive check: 
+
+```{r}
+pp_check(mod3.4, ndraws = 100, type = "bars") +
+  xlim(-1, 10) +
+  ylim(0, 2500) +
+  ggtitle('Zero-inflated')
+```
