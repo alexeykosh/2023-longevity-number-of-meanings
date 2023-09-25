@@ -18,6 +18,7 @@ library(ggdag)
 library(brms)
 library(tidybayes)
 library(marginaleffects)
+library(modelr) # data_grid
 
 theme_set(theme_bw())
 ```
@@ -86,6 +87,12 @@ mod3 <-
       data = last_step,
       family = poisson(), 
       save_pars = save_pars(all = TRUE))
+
+## Neg-binomial
+mod4 <- 
+  brm(meanings - 1 ~ 1, 
+      data = last_step,
+      family = negbinomial())
 ```
 
 ```{r}
@@ -94,10 +101,26 @@ mod2 <- add_criterion(mod2, criterion = "loo")
 mod3 <- add_criterion(
   mod3, criterion = "loo", moment_matching = T
 )
+mod4 <- add_criterion(mod4, criterion = "loo")
 
-loo_compare(mod1, mod2, mod3) %>% 
+loo_compare(mod1, mod2, mod3, mod4, criterion = 'loo') %>% 
   print(simplify = F)
 ```
+
+```{r}
+summary(mod4)
+```
+
+Plotting the estimated distribution given that $log(\lambda) = \alpha, \labmda = e ^ \alpha$ (red -- predicted from intercept only, blue -- real data):
+
+```{r}
+tibble(var = rnegbin(5000, mu = exp(0.09), theta = 0.40)) %>%
+  ggplot(aes(x = var)) +
+  geom_bar(color = 'red', fill = NA) +
+  geom_bar(data = last_step, aes(x = meanings - 1), color = 'blue', fill = NA)
+```
+
+Similar plot but for all of our intercept-only models (limited to 0-10 range for better visualization):
 
 
 ```{r}
@@ -110,8 +133,11 @@ b <- pp_check(mod2, ndraws = 100, type = "bars",) +
 c <- pp_check(mod3, ndraws = 100, type = "bars",)+
   xlim(-1, 10) +
   ggtitle('Poisson lognormal')
+d <- pp_check(mod4, ndraws = 100, type = "bars",)+
+  xlim(-1, 10) +
+  ggtitle('Neg-binomial')
 
-ggarrange(a, b, c,
+ggarrange(a, b, c, d,
           common.legend = TRUE, 
           legend = 'right')
 ```
@@ -119,9 +145,10 @@ ggarrange(a, b, c,
 ```{r}
 rbind(bayes_R2(mod1), 
       bayes_R2(mod2), 
-      bayes_R2(mod3)) %>%
+      bayes_R2(mod3),
+      bayes_R2(mod4)) %>%
   as_tibble() %>%
-  mutate(model = c("mod1", "mod2", "mod3"),
+  mutate(model = c("mod1", "mod2", "mod3", "mod4"),
          r_square_posterior_mean = round(Estimate, digits = 6)) %>%
   dplyr::select(model, r_square_posterior_mean)
 ```
@@ -139,45 +166,56 @@ Fitting the 4 possible models:
 
 ```{r}
 ## intercept only
-mod3.1 <- 
+mod4.1 <- 
   brm(meanings - 1 ~ 1,
       data = last_step,
-      family = zero_inflated_poisson())
+      family = negbinomial(),
+      prior = c(prior('normal(0, 1)', class = 'Intercept'),
+                prior('exponential(1)', class = 'shape')))
 
 ## frequency only
-mod3.2 <- 
+mod4.2 <- 
   brm(meanings - 1 ~ 1 + z_freq, 
       data = last_step,
-      family = zero_inflated_poisson())
+      family = negbinomial(),
+      prior = c(prior('normal(0, 1)', class = 'Intercept'),
+                prior('normal(0, 0.5)', class = 'b'),
+                prior('exponential(1)', class = 'shape')))
 
 ## age only
-mod3.3 <- 
+mod4.3 <- 
   brm(meanings - 1 ~ 1 + z_age, 
       data = last_step,
-      family = zero_inflated_poisson())
+      family = negbinomial(),
+      prior = c(prior('normal(0, 1)', class = 'Intercept'),
+                prior('normal(0, 0.5)', class = 'b'),
+                prior('exponential(1)', class = 'shape')))
 
 ## full model
-mod3.4 <- 
+mod4.4 <- 
   brm(meanings - 1 ~ 1 + z_age + z_freq, 
       data = last_step,
-      family = zero_inflated_poisson())
+      family = negbinomial(), 
+      prior = c(prior('normal(0, 1)', class = 'Intercept'),
+                prior('normal(0, 0.5)', class = 'b'),
+                prior('exponential(1)', class = 'shape')))
 ```
 
 ```{r}
-mod3.1 <- add_criterion(
-  mod3.1, criterion = "waic"
+mod4.1 <- add_criterion(
+  mod4.1, criterion = "waic"
 )
 
-mod3.2 <- add_criterion(
-  mod3.2, criterion = "waic"
+mod4.2 <- add_criterion(
+  mod4.2, criterion = "waic"
 )
 
-mod3.3 <- add_criterion(
-  mod3.3, criterion = "waic"
+mod4.3 <- add_criterion(
+  mod4.3, criterion = "waic"
 )
 
-mod3.4 <- add_criterion(
-  mod3.4, criterion = "waic"
+mod4.4 <- add_criterion(
+  mod4.4, criterion = "waic"
 )
 ```
 
@@ -185,18 +223,18 @@ mod3.4 <- add_criterion(
 WAIC comparison:
 
 ```{r}
-loo_compare(mod3.1, mod3.2, mod3.3, mod3.4, criterion = 'waic') %>% 
+loo_compare(mod4.1, mod4.2, mod4.3, mod4.4, criterion = 'waic') %>% 
   print(simplify = F)
 ```
 
 Getting coefficients for plotting: 
 
 ```{r}
-full <- avg_comparisons(mod3.4) %>%
+full <- avg_comparisons(mod4.4) %>%
   posterior_draws(shape = "rvar") %>%
   ggplot(aes(y = term, xdist = rvar)) + 
   stat_slabinterval() +
-  xlim(0, 1) +
+  xlim(0, 1.5) +
   ggtitle('Full model') +
   ylab('') + 
   xlab('') +
@@ -204,11 +242,11 @@ full <- avg_comparisons(mod3.4) %>%
              linetype="dotted",
              color = 'red')
 
-only_freq <- avg_comparisons(mod3.2) %>%
+only_freq <- avg_comparisons(mod4.2) %>%
   posterior_draws(shape = "rvar") %>%
   ggplot(aes(y = term, xdist = rvar)) + 
   stat_slabinterval() +
-  xlim(0, 1) +
+  xlim(0, 1.5) +
   ggtitle('Only frequency model') +
   ylab('') + 
   xlab('') +
@@ -216,11 +254,11 @@ only_freq <- avg_comparisons(mod3.2) %>%
              linetype="dotted",
              color = 'red')
 
-only_age <- avg_comparisons(mod3.3) %>%
+only_age <- avg_comparisons(mod4.3) %>%
   posterior_draws(shape = "rvar") %>%
   ggplot(aes(y = term, xdist = rvar)) + 
   stat_slabinterval() +
-  xlim(0, 1) +
+  xlim(0, 1.5) +
   ggtitle('Only longevity model') +
   ylab('') + 
   xlab('') +
@@ -239,25 +277,25 @@ Predictions:
 
 ```{r}
 longevity <- plot_predictions(
-    mod3.4,
+    mod4.4,
     condition = "z_age") +
     labs(y = "meanings") +
   geom_count(data = last_step, 
              aes(x = z_age, y = meanings - 1),
              alpha = 0.2, 
-             color = 'blue') +
+             color = "#08519C") +
   xlab('Longevity (z-scored)') +
   ylab('Number of additional meanings') +
   scale_size_area()
 
 frequency <- plot_predictions(
-    mod3.4,
+    mod4.4,
     condition = "z_freq") +
     labs(y = "meanings") +
   geom_count(data = last_step, 
              aes(x = z_freq, y = meanings - 1),
              alpha = 0.2,
-             color = 'blue') +
+             color = "#08519C") +
   xlab('Log relative frequency (z-scored)') +
   ylab('Number of additional meanings') +
   scale_size_area()
@@ -265,12 +303,40 @@ frequency <- plot_predictions(
 ggarrange(longevity, frequency, ncol = 2, nrow = 1, labels = c("A", "B"))
 ```
 
+```{r}
+age_ <- last_step %>%
+  data_grid(z_age = seq_range(z_age, n = 20),
+            z_freq = seq_range(z_freq, n = 20))  %>%
+  add_predicted_draws(mod4.4) %>%
+  ggplot(aes(x = z_age, y = meanings - 1)) +
+  stat_lineribbon(aes(y = .prediction), .width = c(.95, 0.8), color = "#08519C") +
+  geom_count(data = last_step, alpha = 0.1) +
+  scale_fill_brewer('CI') +
+  labs(x = 'Longevity', y = 'N of additional meanings')
+
+
+freq_ <- last_step %>%
+  data_grid(z_age = seq_range(z_age, n = 20),
+            z_freq = seq_range(z_freq, n = 20))  %>%
+  add_predicted_draws(mod4.4) %>%
+  ggplot(aes(x = z_freq, y = meanings - 1)) +
+  stat_lineribbon(aes(y = .prediction), .width = c(.95, 0.8), color = "#08519C") +
+  geom_count(data = last_step, alpha = 0.1) +
+  scale_fill_brewer('CI') +
+  labs(x = 'Frequency', y = 'N of additional meanings')
+
+ggarrange(age_, freq_, ncol = 2, nrow = 1, labels = c("A", "B"), common.legend = T) +
+  theme(legend.position = 'bottom')
+```
+
 
 Posterior predictive check: 
 
 ```{r}
-pp_check(mod3.4, ndraws = 100, type = "bars") +
+pp_check(mod4.4, ndraws = 100, type = "bars") +
   xlim(-1, 10) +
   ylim(0, 2500) +
-  ggtitle('Zero-inflated')
+  ggtitle('Neg-binomial')
 ```
+
+
