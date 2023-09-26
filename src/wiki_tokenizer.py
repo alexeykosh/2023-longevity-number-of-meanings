@@ -5,7 +5,7 @@ import pickle
 
 nlp = spacy.load('fr_core_news_sm', disable=['ner'])
 
-def unite_files():
+def unite_files(path):
     '''Unite all files in the current directory into one file'''
 
     path = os.getcwd()
@@ -45,7 +45,7 @@ def tokenize(t):
 
 
 if __name__ == '__main__':
-    unite_files()
+    unite_files('../data/wiki-corpus')
 
     with open('all_data.txt', 'r', encoding='utf-8') as f:
         text = f.read()
