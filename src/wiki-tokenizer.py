@@ -6,6 +6,7 @@ import pickle
 nlp = spacy.load('fr_core_news_sm', disable=['ner'])
 
 def unite_files():
+    '''Unite all files in the current directory into one file'''
 
     path = os.getcwd()
 
@@ -20,6 +21,7 @@ def unite_files():
 
 
 def tokenize(t):
+    '''Tokenize a list of texts'''
 
     lemma_freq = defaultdict(lambda: {'count': 0, 'pos': '', 'lemma': ''})
 
@@ -43,11 +45,13 @@ def tokenize(t):
 
 
 if __name__ == '__main__':
+    unite_files()
+
     with open('all_data.txt', 'r', encoding='utf-8') as f:
         text = f.read()
         text = text.split('\n')
-    
+
     lemma_freq = dict(tokenize(text))
 
-    with open('lemma_freq.pkl', 'wb') as f:
+    with open('../data/lemma_freq.pkl', 'wb') as f:
         pickle.dump(lemma_freq, f)

@@ -5,7 +5,7 @@ import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
-with open('definitions_dict.pickle', 'rb') as f:
+with open('../data/definitions_dict.pickle', 'rb') as f:
     definitions_dict = pickle.load(f)
 
 pos_mapping = {'NOUN': 'N', 'VERB': 'V', 'ADJ': 'Adj', 'ADV': 'Adv'}
@@ -13,7 +13,7 @@ pos_mapping = {'NOUN': 'N', 'VERB': 'V', 'ADJ': 'Adj', 'ADV': 'Adv'}
 # date_pattern = r'\b(?:Ca|ca|Ca\.\s|)(\d{4}|\d{4}(?=\s*[-–])|
 # (\d{4})\s*[-–]\s*\d{2,4}|[IVXLCDM]+(?=\s*[-–])|[IVXLCDM]+|
 # \b[xX]{1,2}[iIvV]{0,3}(?:es)?\b|\b[xX]{1,2}[iIvV]{0,3}es\.\b)(?![^\[]*])(?![^\(]*\))\b'
-# WRITE AS RE-COMPILE WITH BREAKS
+
 date_pattern = re.compile(r'''
                 \b
                 (?:
@@ -103,4 +103,4 @@ df = df[df['etymology'] > 1500]
 # compute age by subtracting etymology from 2020
 df['age'] = 2020 - df['etymology']
 # save to csv
-df.to_csv('age_estimations.csv', index=False)
+df.to_csv('../data/age_estimations.csv', index=False)
