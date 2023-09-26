@@ -76,31 +76,32 @@ def get_etymology(word, pos, dp=date_pattern):
             if valid_years:
                 return min(valid_years)
 
-### Get the etymologies
-with open('lemma_freq.pkl', 'rb') as f:
-    lemma_freq = pickle.load(f)
-# remove elements with count < 1000
-lemma_freq_ = {k: v for k, v in lemma_freq.items() if v['count'] > 100}
-# convert to a dataframe
-df = pd.DataFrame.from_dict(lemma_freq_, orient='index')
-df.reset_index(inplace=True)
-df.columns = ['lemma_', 'count', 'pos', 'lemma', 'freq']
-# match NOUN, VERB and ADJ to substantif, verbe and adjectif in a dict
-# match NOUN, VERB and ADJ to substantif, verbe and adjectif in a dict
-pos_dict = {'NOUN': 'substantif', 'VERB': 'verbe', 'ADJ': 'adjectif', 'ADV': 'adverbe'}
-# apply pos_dict to df['pos'] to get the correct pos for the url
-df['pos_fr'] = df['pos'].apply(lambda x: pos_dict[x] if x in pos_dict else None)
-df = df.query('pos_fr == pos_fr')
-# apply get_number_of_m to df['pos'] and df['lemma']
-df['number_of_meanings'] = df.apply(lambda x: get_number_of_m(x['pos'], x['lemma']), axis=1)
-# df where number_of_meanings is not null
-df = df.query('number_of_meanings > 0')
-# get etymology for each word
-df['etymology'] = df.progress_apply(lambda x: get_etymology(x['lemma'], x['pos_fr']), axis=1)
-# df where etymology is not null
-df = df[df['etymology'] == df['etymology']]
-df = df[df['etymology'] > 1500]
-# compute age by subtracting etymology from 2020
-df['age'] = 2020 - df['etymology']
-# save to csv
-df.to_csv('../data/age_estimations.csv', index=False)
+if __name__ == '__main__':
+    ### Get the etymologies
+    with open('lemma_freq.pkl', 'rb') as f:
+        lemma_freq = pickle.load(f)
+    # remove elements with count < 1000
+    lemma_freq_ = {k: v for k, v in lemma_freq.items() if v['count'] > 100}
+    # convert to a dataframe
+    df = pd.DataFrame.from_dict(lemma_freq_, orient='index')
+    df.reset_index(inplace=True)
+    df.columns = ['lemma_', 'count', 'pos', 'lemma', 'freq']
+    # match NOUN, VERB and ADJ to substantif, verbe and adjectif in a dict
+    # match NOUN, VERB and ADJ to substantif, verbe and adjectif in a dict
+    pos_dict = {'NOUN': 'substantif', 'VERB': 'verbe', 'ADJ': 'adjectif', 'ADV': 'adverbe'}
+    # apply pos_dict to df['pos'] to get the correct pos for the url
+    df['pos_fr'] = df['pos'].apply(lambda x: pos_dict[x] if x in pos_dict else None)
+    df = df.query('pos_fr == pos_fr')
+    # apply get_number_of_m to df['pos'] and df['lemma']
+    df['number_of_meanings'] = df.apply(lambda x: get_number_of_m(x['pos'], x['lemma']), axis=1)
+    # df where number_of_meanings is not null
+    df = df.query('number_of_meanings > 0')
+    # get etymology for each word
+    df['etymology'] = df.progress_apply(lambda x: get_etymology(x['lemma'], x['pos_fr']), axis=1)
+    # df where etymology is not null
+    df = df[df['etymology'] == df['etymology']]
+    df = df[df['etymology'] > 1500]
+    # compute age by subtracting etymology from 2020
+    df['age'] = 2020 - df['etymology']
+    # save to csv
+    df.to_csv('../data/age_estimations.csv', index=False)
