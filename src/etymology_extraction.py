@@ -1,9 +1,10 @@
 import pickle
 import re
-
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
+from tqdm.auto import tqdm
+tqdm.pandas()
 
 with open('../data/definitions_dict.pickle', 'rb') as f:
     definitions_dict = pickle.load(f)
@@ -78,7 +79,7 @@ def get_etymology(word, pos, dp=date_pattern):
 
 if __name__ == '__main__':
     ### Get the etymologies
-    with open('lemma_freq.pkl', 'rb') as f:
+    with open('../data/lemma_freq.pkl', 'rb') as f:
         lemma_freq = pickle.load(f)
     # remove elements with count < 1000
     lemma_freq_ = {k: v for k, v in lemma_freq.items() if v['count'] > 100}
@@ -100,8 +101,9 @@ if __name__ == '__main__':
     df['etymology'] = df.progress_apply(lambda x: get_etymology(x['lemma'], x['pos_fr']), axis=1)
     # df where etymology is not null
     df = df[df['etymology'] == df['etymology']]
-    df = df[df['etymology'] > 1500]
+    df = df[df['etymology'] >= 1500]
     # compute age by subtracting etymology from 2020
     df['age'] = 2020 - df['etymology']
+    df = df[df['lemma'].str.contains('-') == False]
     # save to csv
     df.to_csv('../data/age_estimations.csv', index=False)
