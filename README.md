@@ -11,37 +11,35 @@ The folder with the Wiki40b dataset should be names `wiki-corpus' and put in the
 
 ## 2. Getting the dataset.
 
-First, install the Python requirements by running:
+First, install the necessary Python packages by running the following command in your terminal:
 
-```{bash}
+```bash
 pip install -r requirements.txt
 ```
 
-Then, run the following command in bash:
+To process the Wiki40b dataset, you can use the provided bash script. Make sure you have Python 3 installed on your system.
 
-```{bash}
-python3 src/wiki_tokenizer.py
+1. First, ensure the bash script (`run_preprocessing.sh`) is present in the same directory as your Python scripts.
+
+2. Make the bash script executable by running the following command in your terminal:
+
+```bash
+chmod +x run_preprocessing.sh
 ```
 
-After that, you can run the following command to preprocess the Wiktionary dump:
+3. Run the bash script by running the following command in your terminal:
 
-```{bash}
-python3 src/wikitionnary_preprocessing.py
+```bash
+./run_preprocessing.sh
 ```
 
-Finally, you can run the following command to compute the longevity and number of meanings of the words in the Wiki40b dataset:
-
-```{bash}
-python3 src/etymology_extraction.py
-```
-
-The results will be saved as a CSV file in the data folder. 
+This script will execute the necessary Python commands to tokenize the Wiki40b dataset, preprocess the Wiktionary dump, and compute the longevity and number of meanings for the words in the dataset. The results will be saved as **age_estimations.csv** in the **data** folder.
 
 ## 3. Analysis
 
 ### 3.1. Validity check 
 
-The *change_point_detection.ipynb* notebook contains the code to check the validity of the etymology extraction method using Google n-gram and change point detection algorithms.
+The [change_point_detection.ipynb](https://github.com/alexeykosh/2023-longevity-number-of-meanings/tree/main/notebooks) notebook contains the code to check the validity of the etymology extraction method using Google n-gram and change point detection algorithms.
 
 ### 3.2. Analysis of the results
 
