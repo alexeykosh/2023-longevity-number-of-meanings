@@ -6,6 +6,8 @@ library(ppcor)
 
 theme_set(theme_bw())
 
+### Pre-reg plot:
+
 ### Longevity distribution
 age_estimation <- read.csv("data/age_estimations.csv")
 nrow(age_estimation)

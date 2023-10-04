@@ -44,7 +44,6 @@ avion@NOUN,57101,NOUN,avion,0.00010875253053993263,substantif,1,1875.0,145.0
 iranien@ADJ,8796,ADJ,iranien,1.675254826761786e-05,adjectif,1,1840.0,180.0
 islamique@ADJ,13625,ADJ,islamique,2.5949689648282555e-05,adjectif,1,1835.0,185.0
 initiative@NOUN,31856,NOUN,initiative,6.0671802820968005e-05,substantif,1,1567.0,453.0
-cessez-le-feu@NOUN,2088,NOUN,cessez-le-feu,3.976730420962493e-06,substantif,1,1919.0,101.0
 coalition@NOUN,20593,NOUN,coalition,3.922069423318038e-05,substantif,2,1544.0,476.0
 respecter@VERB,20421,VERB,respecter,3.889310916018921e-05,verbe,3,1554.0,466.0
 loyaliste@ADJ,1235,ADJ,loyaliste,2.352137006651666e-06,adjectif,1,1717.0,303.0
@@ -81,13 +80,11 @@ résultat@NOUN,106958,NOUN,résultat,0.0002037083967266793,substantif,1,1611.0,4
 fragiliser@VERB,1724,VERB,fragiliser,3.2834689874230547e-06,verbe,1,1956.0,64.0
 critique@NOUN,63730,NOUN,critique,0.0001213778878007374,substantif,5,1580.0,440.0
 alimentaire@ADJ,15452,ADJ,alimentaire,2.9429328766624736e-05,adjectif,2,1580.0,440.0
-porte-parole@NOUN,6734,NOUN,porte-parole,1.2825336520479612e-05,substantif,1,1552.0,468.0
 assassinat@NOUN,16435,NOUN,assassinat,3.130151555005679e-05,substantif,1,1547.0,473.0
 tir@NOUN,31976,NOUN,tir,6.090035054631067e-05,substantif,3,1660.0,360.0
 intermédiaire@NOUN,19028,NOUN,intermédiaire,3.624005098183636e-05,substantif,3,1678.0,342.0
 originaire@ADJ,36331,ADJ,originaire,6.919472841187181e-05,adjectif,2,1524.0,496.0
 frontalier@ADJ,4331,ADJ,frontalier,8.248668320492605e-06,adjectif,1,1730.0,290.0
-sous-traiter@VERB,387,VERB,sous-traiter,7.370664142301173e-07,verbe,2,1673.0,347.0
 américain@ADJ,193679,ADJ,américain,0.0003688741241386948,adjectif,2,1576.0,444.0
 musulman@ADJ,8001,ADJ,musulman,1.5238419587222658e-05,adjectif,1,1551.0,469.0
 manque@NOUN,27380,NOUN,manque,5.2146972665686335e-05,substantif,1,1594.0,426.0
@@ -168,7 +165,6 @@ végétal@NOUN,5698,NOUN,végétal,1.085220782502121e-05,substantif,2,1575.0,445
 algue@NOUN,4230,NOUN,algue,8.05630731832919e-06,substantif,2,1542.0,478.0
 mimétisme@NOUN,535,NOUN,mimétisme,1.018941942152746e-06,substantif,3,1874.0,146.0
 utilisation@NOUN,58393,NOUN,utilisation,0.00011121322771612206,substantif,1,1796.0,224.0
-micro-organisme@NOUN,1246,NOUN,micro-organisme,2.373087214808078e-06,substantif,1,1876.0,144.0
 biotique@ADJ,242,ADJ,biotique,4.609045794410553e-07,adjectif,3,1845.0,175.0
 pathogène@ADJ,1579,ADJ,pathogène,3.007307152633993e-06,adjectif,1,1878.0,142.0
 abiotique@ADJ,355,ADJ,abiotique,6.761203541387381e-07,adjectif,2,1874.0,146.0
@@ -193,6 +189,7 @@ fonctionnaire@NOUN,13668,NOUN,fonctionnaire,2.6031585916530346e-05,substantif,1,
 placarder@VERB,338,VERB,placarder,6.437427597151929e-07,verbe,3,1611.0,409.0
 christianisation@NOUN,1190,NOUN,christianisation,2.2664316096481642e-06,substantif,1,1833.0,187.0
 paganisme@NOUN,1058,NOUN,paganisme,2.015029111771225e-06,substantif,1,1546.0,474.0
+christianisme@NOUN,12129,NOUN,christianisme,2.3100461339010575e-05,substantif,1,1500.0,520.0
 minoritaire@ADJ,4157,ADJ,minoritaire,7.91727411874573e-06,adjectif,2,1920.0,100.0
 idéologique@ADJ,5734,ADJ,idéologique,1.0920772142624011e-05,adjectif,1,1801.0,219.0
 christianiser@VERB,928,VERB,christianiser,1.767435742649997e-06,verbe,2,1575.0,445.0
@@ -238,6 +235,7 @@ cratère@NOUN,5932,NOUN,cratère,1.129787588943942e-05,substantif,4,1502.0,518.0
 culminer@VERB,9570,VERB,culminer,1.8226681096078094e-05,verbe,2,1708.0,312.0
 caractéristique@NOUN,56186,NOUN,caractéristique,0.00010700985413419476,substantif,4,1550.0,470.0
 immerger@VERB,1900,VERB,immerger,3.6186723179256406e-06,verbe,1,1501.0,519.0
+additionnel@ADJ,3364,ADJ,additionnel,6.406954567106239e-06,adjectif,2,1500.0,520.0
 océanique@ADJ,5274,ADJ,océanique,1.0044672528810435e-05,adjectif,1,1548.0,472.0
 lave@NOUN,4122,NOUN,lave,7.850614365520784e-06,substantif,2,1739.0,281.0
 maximal@ADJ,18268,ADJ,maximal,3.4792582054666104e-05,adjectif,1,1877.0,143.0
@@ -245,7 +243,6 @@ perméable@ADJ,593,ADJ,perméable,1.129406676068371e-06,adjectif,1,1556.0,464.0
 interaction@NOUN,11172,NOUN,interaction,2.1277793229402766e-05,substantif,2,1876.0,144.0
 magma@NOUN,1037,NOUN,magma,1.9750332598362576e-06,substantif,2,1694.0,326.0
 imperméabilité@NOUN,143,NOUN,imperméabilité,2.7235270603335086e-07,substantif,1,1779.0,241.0
-sous-marin@ADJ,6417,ADJ,sous-marin,1.2221589612699387e-05,adjectif,1,1557.0,463.0
 caractériser@VERB,62790,VERB,caractériser,0.00011958759728555313,verbe,3,1512.0,508.0
 silice@NOUN,1262,NOUN,silice,2.4035602448537676e-06,substantif,2,1787.0,233.0
 phrase@NOUN,12321,NOUN,phrase,2.346613769955885e-05,substantif,2,1530.0,490.0
@@ -396,7 +393,6 @@ glissade@NOUN,297,NOUN,glissade,5.656556202231132e-07,substantif,2,1553.0,467.0
 risquer@VERB,6968,VERB,risquer,1.3271004584897822e-05,verbe,2,1577.0,443.0
 touriste@NOUN,8774,NOUN,touriste,1.6710647851305037e-05,substantif,1,1650.0,370.0
 professionnel@ADJ,75321,ADJ,professionnel,0.00014345369350446166,adjectif,2,1842.0,178.0
-demi-heure@NOUN,2320,NOUN,demi-heure,4.418589356624993e-06,substantif,1,1647.0,373.0
 acclimater@VERB,562,VERB,acclimater,1.0703651803548474e-06,verbe,3,1775.0,245.0
 piste@NOUN,29628,NOUN,piste,5.6428433387105726e-05,substantif,9,1550.0,470.0
 éboulis@NOUN,421,NOUN,éboulis,8.018216030772077e-07,substantif,1,1680.0,340.0
@@ -478,7 +474,6 @@ cérébral@ADJ,7237,ADJ,cérébral,1.378333240254098e-05,adjectif,2,1615.0,405.0
 impressionnisme@NOUN,790,NOUN,impressionnisme,1.5046058585059241e-06,substantif,2,1874.0,146.0
 fauvisme@NOUN,339,NOUN,fauvisme,6.456473240930485e-07,substantif,1,1927.0,93.0
 repêchage@NOUN,7479,NOUN,repêchage,1.4244236981982035e-05,substantif,1,1844.0,176.0
-lock-out@NOUN,409,NOUN,lock-out,7.789668305429405e-07,substantif,1,1854.0,166.0
 hockey@NOUN,15754,NOUN,hockey,3.0004507208737127e-05,substantif,2,1527.0,493.0
 mongol@NOUN,5355,NOUN,mongol,1.019894224341674e-05,substantif,4,1540.0,480.0
 mongol@ADJ,3022,ADJ,mongol,5.755593549879624e-06,adjectif,2,1540.0,480.0
@@ -538,7 +533,6 @@ fusion@NOUN,29401,NOUN,fusion,5.599609727333251e-05,substantif,3,1547.0,473.0
 assureur@NOUN,1123,NOUN,assureur,2.1388257963318393e-06,substantif,2,1550.0,470.0
 actionnaire@NOUN,8327,NOUN,actionnaire,1.5859307574403584e-05,substantif,1,1675.0,345.0
 millésime@NOUN,1178,NOUN,millésime,2.2435768371138973e-06,substantif,5,1515.0,505.0
-sous-préfecture@NOUN,2075,NOUN,sous-préfecture,3.951971084050371e-06,substantif,4,1800.0,220.0
 optique@NOUN,4569,NOUN,optique,8.701954642422237e-06,substantif,3,1605.0,415.0
 cylindrique@ADJ,4384,ADJ,cylindrique,8.349610232518951e-06,adjectif,1,1596.0,424.0
 publicitaire@ADJ,9187,ADJ,publicitaire,1.74972329393594e-05,adjectif,1,1930.0,90.0
@@ -550,6 +544,7 @@ populariser@VERB,5014,VERB,populariser,9.549485790567979e-06,verbe,1,1622.0,398.
 isolé@ADJ,11136,ADJ,isolé,2.1209228911799963e-05,adjectif,7,1550.0,470.0
 inchangé@ADJ,1503,ADJ,inchangé,2.8625602599169672e-06,adjectif,1,1794.0,226.0
 sélection@NOUN,54920,NOUN,sélection,0.00010459867563182957,substantif,2,1609.0,411.0
+externe@ADJ,5406,ADJ,externe,1.0296075026687375e-05,adjectif,5,1500.0,520.0
 migration@NOUN,8347,NOUN,migration,1.5897398861960696e-05,substantif,4,1531.0,489.0
 interne@ADJ,27355,ADJ,interne,5.2099358556239946e-05,adjectif,5,1550.0,470.0
 reproduction@NOUN,13730,NOUN,reproduction,2.614966890795739e-05,substantif,6,1690.0,330.0
@@ -562,6 +557,7 @@ concerto@NOUN,5288,NOUN,concerto,1.0071336430100415e-05,substantif,1,1647.0,373.
 argentine@NOUN,14306,NOUN,argentine,2.724669798960222e-05,substantif,4,1838.0,182.0
 gigantesque@ADJ,4472,ADJ,gigantesque,8.517211897770245e-06,adjectif,2,1598.0,422.0
 milliard@NOUN,32073,NOUN,milliard,6.108509329096267e-05,substantif,3,1538.0,482.0
+énergie@NOUN,53489,NOUN,énergie,0.0001018732440071182,substantif,5,1500.0,520.0
 considérablement@ADV,7797,ADV,considérablement,1.4849888454140115e-05,adverbe,1,1677.0,343.0
 navigabilité@NOUN,349,NOUN,navigabilité,6.646929678716045e-07,substantif,2,1823.0,197.0
 irrigation@NOUN,4109,NOUN,irrigation,7.82585502860866e-06,substantif,1,1507.0,513.0
@@ -591,7 +587,6 @@ solo@NOUN,2147,NOUN,solo,4.089099719255974e-06,substantif,3,1550.0,470.0
 gramme@NOUN,22738,NOUN,gramme,4.330598482368064e-05,substantif,2,1790.0,230.0
 are@NOUN,1853,NOUN,are,3.5291577921664274e-06,substantif,1,1793.0,227.0
 connerie@NOUN,216,NOUN,connerie,4.1138590561680966e-07,substantif,2,1865.0,155.0
-non-sens@NOUN,286,NOUN,non-sens,5.447054120667017e-07,substantif,3,1614.0,406.0
 commercialiser@VERB,12275,VERB,commercialiser,2.3378527738177494e-05,verbe,1,1845.0,175.0
 numéro@NOUN,69224,NOUN,numéro,0.00013184156449267607,substantif,4,1589.0,431.0
 sondage@NOUN,8461,NOUN,sondage,1.6114519201036235e-05,substantif,2,1773.0,247.0
@@ -612,6 +607,7 @@ costume@NOUN,13712,NOUN,costume,2.6115386749155992e-05,substantif,5,1550.0,470.0
 opéra@NOUN,36040,NOUN,opéra,6.864050017791583e-05,substantif,3,1639.0,381.0
 napolitain@ADJ,2077,ADJ,napolitain,3.9557802128060815e-06,adjectif,2,1549.0,471.0
 chorégraphe@NOUN,2082,NOUN,chorégraphe,3.96530303469536e-06,substantif,1,1786.0,234.0
+orchestre@NOUN,33652,NOUN,orchestre,6.409240044359667e-05,substantif,3,1500.0,520.0
 symphonique@ADJ,7550,ADJ,symphonique,1.4379461052809782e-05,adjectif,1,1674.0,346.0
 bonus@NOUN,4388,NOUN,bonus,8.357228490030375e-06,substantif,2,1773.0,247.0
 ajout@NOUN,7184,NOUN,ajout,1.3682390490514632e-05,substantif,1,1895.0,125.0
@@ -634,7 +630,6 @@ surélévation@NOUN,386,NOUN,surélévation,7.351618498522617e-07,substantif,1,1
 escalier@NOUN,11788,NOUN,escalier,2.2451004886161817e-05,substantif,1,1531.0,489.0
 hisser@VERB,3858,VERB,hisser,7.347809369766906e-06,verbe,3,1552.0,468.0
 palan@NOUN,106,NOUN,palan,2.0188382405269363e-07,substantif,1,1553.0,467.0
-petit-fils@NOUN,11381,NOUN,petit-fils,2.1675847184374585e-05,substantif,1,1509.0,511.0
 intermédiaire@ADJ,7460,ADJ,intermédiaire,1.4208050258802777e-05,adjectif,2,1678.0,342.0
 décomposer@VERB,2398,VERB,décomposer,4.56714537809773e-06,verbe,5,1516.0,504.0
 envol@NOUN,2049,NOUN,envol,3.902452410226125e-06,substantif,1,1873.0,147.0
@@ -774,6 +769,7 @@ métallurgique@ADJ,1772,ADJ,métallurgique,3.3748880775601237e-06,adjectif,1,175
 plan@ADJ,7391,ADJ,plan,1.4076635316730741e-05,adjectif,3,1520.0,500.0
 ferroviaire@ADJ,19370,ADJ,ferroviaire,3.6891411999062975e-05,adjectif,2,1877.0,143.0
 gare@NOUN,81453,NOUN,gare,0.0001551324822694722,substantif,1,1690.0,330.0
+comédien@NOUN,12062,NOUN,comédien,2.297285552569425e-05,substantif,2,1500.0,520.0
 rêve@NOUN,17386,NOUN,rêve,3.311275627339747e-05,substantif,4,1674.0,346.0
 collaboration@NOUN,40100,NOUN,collaboration,7.637303155200958e-05,substantif,3,1753.0,267.0
 concert@NOUN,60824,NOUN,concert,0.00011584322371868904,substantif,4,1550.0,470.0
@@ -830,8 +826,8 @@ interconnexion@NOUN,1190,NOUN,interconnexion,2.2664316096481642e-06,substantif,2
 pavie@NOUN,1953,NOUN,pavie,3.7196142299519873e-06,substantif,1,1572.0,448.0
 soviétique@ADJ,42970,ADJ,soviétique,8.183913131645515e-05,adjectif,1,1920.0,100.0
 relève@NOUN,6875,NOUN,relève,1.3093880097757252e-05,substantif,1,1872.0,148.0
-rendez-vous@NOUN,9060,NOUN,rendez-vous,1.7255353263371738e-05,substantif,3,1583.0,437.0
 surfacer@VERB,1356,VERB,surfacer,2.582589296372194e-06,verbe,1,1778.0,242.0
+rival@ADJ,5317,ADJ,rival,1.0126568797058227e-05,adjectif,1,1500.0,520.0
 droitier@NOUN,511,NOUN,droitier,9.732323970842118e-07,substantif,2,1611.0,409.0
 complet@NOUN,3558,NOUN,complet,6.776440056410225e-06,substantif,2,1874.0,146.0
 blanchissage@NOUN,1030,NOUN,blanchissage,1.9617013091912683e-06,substantif,4,1539.0,481.0
@@ -883,9 +879,7 @@ délimiter@VERB,7959,VERB,délimiter,1.5158427883352723e-05,verbe,1,1773.0,247.0
 génie@NOUN,15772,NOUN,génie,3.0038789367538527e-05,substantif,11,1532.0,488.0
 gentilhommière@NOUN,165,NOUN,gentilhommière,3.1425312234617405e-07,substantif,1,1604.0,416.0
 promenade@NOUN,7072,NOUN,promenade,1.3469079280194805e-05,substantif,3,1557.0,463.0
-avant-corps@NOUN,937,NOUN,avant-corps,1.7845768220506975e-06,substantif,2,1671.0,349.0
 mascaron@NOUN,430,NOUN,mascaron,8.189626824779081e-07,substantif,1,1550.0,470.0
-porte-fenêtre@NOUN,112,NOUN,porte-fenêtre,2.1331121031982722e-07,substantif,1,1676.0,344.0
 déroulement@NOUN,4615,NOUN,déroulement,8.789564603803596e-06,substantif,2,1704.0,316.0
 téléphone@NOUN,12231,NOUN,téléphone,2.329472690555185e-05,substantif,3,1809.0,211.0
 canalisation@NOUN,2591,NOUN,canalisation,4.934726303023861e-06,substantif,4,1823.0,197.0
@@ -929,7 +923,6 @@ silicium@NOUN,1569,NOUN,silicium,2.9882615088554367e-06,substantif,4,1808.0,212.
 critère@NOUN,13563,NOUN,critère,2.5831606656855506e-05,substantif,1,1643.0,377.0
 classification@NOUN,10278,NOUN,classification,1.957511267559986e-05,substantif,1,1780.0,240.0
 cohérence@NOUN,4519,NOUN,cohérence,8.606726423529458e-06,substantif,2,1524.0,496.0
-sous-classe@NOUN,427,NOUN,sous-classe,8.132489893443413e-07,substantif,2,1809.0,211.0
 hybride@ADJ,649,ADJ,hybride,1.2360622812282847e-06,adjectif,2,1596.0,424.0
 graphe@NOUN,6784,NOUN,graphe,1.2920564739372393e-05,substantif,2,1926.0,94.0
 informatique@NOUN,719,NOUN,informatique,1.3693817876781766e-06,substantif,1,1962.0,58.0
@@ -937,7 +930,6 @@ schéma@NOUN,9489,NOUN,schéma,1.807241138147179e-05,substantif,2,1549.0,471.0
 groupuscule@NOUN,684,NOUN,groupuscule,1.3027220344532305e-06,substantif,1,1936.0,84.0
 raciste@NOUN,1115,NOUN,raciste,2.1235892813089945e-06,substantif,2,1892.0,128.0
 délinquance@NOUN,1580,NOUN,délinquance,3.0092117170118483e-06,substantif,1,1946.0,74.0
-pare-brise@NOUN,695,NOUN,pare-brise,1.3236722426096422e-06,substantif,1,1908.0,112.0
 nationaliste@NOUN,4879,NOUN,nationaliste,9.292369599557474e-06,substantif,1,1830.0,190.0
 garage@NOUN,5157,NOUN,garage,9.821838496601331e-06,substantif,4,1802.0,218.0
 nationaliste@ADJ,11382,ADJ,nationaliste,2.1677751748752443e-05,adjectif,1,1830.0,190.0
@@ -976,7 +968,6 @@ module@NOUN,10688,NOUN,module,2.0355984070520656e-05,substantif,4,1547.0,473.0
 multicolore@ADJ,433,ADJ,multicolore,8.24676375611475e-07,adjectif,1,1512.0,508.0
 reposer@VERB,15239,VERB,reposer,2.902365655414149e-05,verbe,11,1831.0,189.0
 agence@NOUN,36139,NOUN,agence,6.882905205132354e-05,substantif,4,1550.0,470.0
-entre-deux-guerres@NOUN,3450,NOUN,entre-deux-guerres,6.570747103601821e-06,substantif,1,1915.0,105.0
 victoria@NOUN,1405,NOUN,victoria,2.675912950887118e-06,substantif,3,1837.0,183.0
 carrare@NOUN,754,NOUN,carrare,1.4360415409031226e-06,substantif,1,1755.0,265.0
 diplôme@NOUN,30770,NOUN,diplôme,5.860344590661682e-05,substantif,2,1617.0,403.0
@@ -1061,7 +1052,6 @@ intempérie@NOUN,1672,NOUN,intempérie,3.184431639774564e-06,substantif,1,1534.0
 hamburger@NOUN,449,NOUN,hamburger,8.551494056571645e-07,substantif,1,1930.0,90.0
 littéraire@ADJ,35894,ADJ,littéraire,6.836243377874892e-05,adjectif,1,1527.0,493.0
 rétrospective@NOUN,2569,NOUN,rétrospective,4.892825886711037e-06,substantif,2,1779.0,241.0
-extra-terrestre@NOUN,1340,NOUN,extra-terrestre,2.5521162663265045e-06,substantif,1,1856.0,164.0
 déclasser@VERB,3062,VERB,déclasser,5.831776124993848e-06,verbe,4,1813.0,207.0
 candidature@NOUN,14143,NOUN,candidature,2.6936253996011755e-05,substantif,2,1825.0,195.0
 surveiller@VERB,10624,VERB,surveiller,2.0234091950337897e-05,verbe,2,1586.0,434.0
@@ -1086,10 +1076,10 @@ impromptu@ADJ,155,ADJ,impromptu,2.95207478567618e-07,adjectif,1,1651.0,369.0
 traumatiser@VERB,1047,VERB,traumatiser,1.9940789036148133e-06,verbe,1,1896.0,124.0
 maquette@NOUN,4986,NOUN,maquette,9.496157987988023e-06,substantif,2,1752.0,268.0
 télévisuel@ADJ,2567,ADJ,télévisuel,4.889016757955326e-06,adjectif,1,1949.0,71.0
+ridicule@ADJ,1568,ADJ,ridicule,2.9863569444775813e-06,adjectif,2,1500.0,520.0
 pathétique@ADJ,401,ADJ,pathétique,7.637303155200958e-07,adjectif,3,1584.0,436.0
 drôle@ADJ,544,ADJ,drôle,1.0360830215534465e-06,adjectif,2,1549.0,471.0
 colonel@NOUN,31095,NOUN,colonel,5.922242932941989e-05,substantif,3,1534.0,486.0
-demi-finale@NOUN,20746,NOUN,demi-finale,3.951209258299228e-05,substantif,1,1898.0,122.0
 fascicule@NOUN,910,NOUN,fascicule,1.7331535838485962e-06,substantif,2,1532.0,488.0
 reliure@NOUN,1172,NOUN,reliure,2.2321494508467634e-06,substantif,2,1548.0,472.0
 amérindien@ADJ,3238,ADJ,amérindien,6.166979455496433e-06,adjectif,2,1699.0,321.0
@@ -1107,7 +1097,6 @@ robot@NOUN,7009,NOUN,robot,1.3349091724389903e-05,substantif,6,1920.0,100.0
 robotique@NOUN,701,NOUN,robotique,1.3350996288767757e-06,substantif,1,1941.0,79.0
 transmission@NOUN,16149,NOUN,transmission,3.075681013799009e-05,substantif,1,1515.0,505.0
 transmissible@ADJ,897,ADJ,transmissible,1.7083942469364734e-06,adjectif,1,1583.0,437.0
-nord-américain@ADJ,4438,ADJ,nord-américain,8.452456708923153e-06,adjectif,1,1849.0,171.0
 réchauffement@NOUN,3554,NOUN,réchauffement,6.768821798898804e-06,substantif,4,1525.0,495.0
 métallurgie@NOUN,2785,NOUN,métallurgie,5.304211792327847e-06,substantif,1,1611.0,409.0
 sidérurgie@NOUN,1243,NOUN,sidérurgie,2.367373521674511e-06,substantif,1,1812.0,208.0
@@ -1121,16 +1110,13 @@ sida@NOUN,3873,NOUN,sida,7.37637783543474e-06,substantif,2,1982.0,38.0
 archéologie@NOUN,9120,NOUN,archéologie,1.7369627126043074e-05,substantif,1,1599.0,421.0
 immédiatement@ADV,29586,ADV,immédiatement,5.634844168323579e-05,adverbe,2,1534.0,486.0
 anthologie@NOUN,5263,NOUN,anthologie,1.0023722320654025e-05,substantif,2,1574.0,446.0
-anglo-saxon@ADJ,3015,ADJ,anglo-saxon,5.742261599234635e-06,adjectif,2,1690.0,330.0
 fictif@ADJ,6325,ADJ,fictif,1.2046369689936671e-05,adjectif,1,1731.0,289.0
 psychologie@NOUN,10901,NOUN,psychologie,2.0761656283003897e-05,substantif,2,1550.0,470.0
-extra-terrestre@ADJ,360,ADJ,extra-terrestre,6.856431760280161e-07,adjectif,1,1856.0,164.0
 complexité@NOUN,6665,NOUN,complexité,1.2693921578407576e-05,substantif,1,1755.0,265.0
 globalement@ADV,5856,ADV,globalement,1.1153128996722395e-05,adverbe,2,1840.0,180.0
 centrer@VERB,9936,VERB,centrer,1.8923751658373244e-05,verbe,2,1699.0,321.0
 protagoniste@NOUN,8121,NOUN,protagoniste,1.546696731256533e-05,substantif,3,1787.0,233.0
 regroupement@NOUN,7500,NOUN,regroupement,1.4284232833917002e-05,substantif,1,1918.0,102.0
-gallo-romain@ADJ,4559,ADJ,gallo-romain,8.68290899864368e-06,adjectif,1,1833.0,187.0
 administrativement@ADV,406,ADV,administrativement,7.732531374093737e-07,adverbe,1,1829.0,191.0
 papetier@ADJ,450,ADJ,papetier,8.570539700350202e-07,adjectif,1,1507.0,513.0
 urbanisation@NOUN,4793,NOUN,urbanisation,9.128577063061892e-06,substantif,2,1919.0,101.0
@@ -1141,7 +1127,6 @@ célibataire@NOUN,1096,NOUN,célibataire,2.087402558129738e-06,substantif,2,1711
 coopérative@NOUN,5043,NOUN,coopérative,9.604718157525793e-06,substantif,1,1883.0,137.0
 licenciement@NOUN,3257,NOUN,licenciement,6.20316617867569e-06,substantif,2,1592.0,428.0
 ambiance@NOUN,7096,NOUN,ambiance,1.351478882526334e-05,substantif,1,1885.0,135.0
-sous-sol@NOUN,7522,NOUN,sous-sol,1.4326133250229825e-05,substantif,2,1835.0,185.0
 concrètement@ADV,1034,ADV,concrètement,1.969319566702691e-06,adverbe,1,1550.0,470.0
 panorama@NOUN,3026,NOUN,panorama,5.763211807391047e-06,substantif,3,1787.0,233.0
 remontage@NOUN,389,NOUN,remontage,7.408755429858285e-07,substantif,3,1543.0,477.0
@@ -1169,7 +1154,6 @@ rococo@NOUN,180,NOUN,rococo,3.4282158801400806e-07,substantif,1,1825.0,195.0
 balustrade@NOUN,1987,NOUN,balustrade,3.7843694187990777e-06,substantif,2,1653.0,367.0
 protestant@ADJ,14880,ADJ,protestant,2.833991794249133e-05,adjectif,1,1529.0,491.0
 chantilly@NOUN,1401,NOUN,chantilly,2.668294693375696e-06,substantif,2,1831.0,189.0
-arrière-grand-père@NOUN,1240,NOUN,arrière-grand-père,2.361659828540944e-06,substantif,1,1787.0,233.0
 algérien@ADJ,11618,ADJ,algérien,2.2127228941926364e-05,adjectif,1,1721.0,299.0
 lycée@NOUN,27808,NOUN,lycée,5.2962126219408533e-05,substantif,1,1544.0,476.0
 amnistier@VERB,600,VERB,amnistier,1.1427386267133602e-06,verbe,1,1795.0,225.0
@@ -1203,7 +1187,6 @@ latéralement@ADV,1390,ADV,latéralement,2.6473444852192845e-06,adverbe,1,1521.0
 arrêté@NOUN,22527,NOUN,arrêté,4.290412173995311e-05,substantif,2,1965.0,55.0
 écologie@NOUN,4657,NOUN,écologie,8.86955630767353e-06,substantif,4,1866.0,154.0
 équatorial@ADJ,2738,ADJ,équatorial,5.214697266568634e-06,adjectif,2,1784.0,236.0
-non-violence@NOUN,1075,NOUN,non-violence,2.04740670619477e-06,substantif,1,1924.0,96.0
 canadien@ADJ,30323,ADJ,canadien,5.775210562971537e-05,adjectif,1,1732.0,288.0
 modernisme@NOUN,1264,NOUN,modernisme,2.407369373609479e-06,substantif,2,1879.0,141.0
 mahatma@NOUN,274,NOUN,mahatma,5.218506395324344e-07,substantif,1,1902.0,118.0
@@ -1213,7 +1196,6 @@ tracé@NOUN,9298,NOUN,tracé,1.770863958530137e-05,substantif,2,1681.0,339.0
 express@ADJ,2562,ADJ,express,4.879493936066048e-06,adjectif,1,1849.0,171.0
 terminal@NOUN,5469,NOUN,terminal,1.0416062582492277e-05,substantif,4,1850.0,170.0
 rame@NOUN,10841,NOUN,rame,2.0647382420332564e-05,substantif,4,1669.0,351.0
-demi-tour@NOUN,715,NOUN,demi-tour,1.3617635301667542e-06,substantif,2,1536.0,484.0
 terminal@ADJ,4662,ADJ,terminal,8.879079129562809e-06,adjectif,4,1530.0,490.0
 viaduc@NOUN,1623,NOUN,viaduc,3.0911079852596393e-06,substantif,1,1816.0,204.0
 connecter@VERB,6060,VERB,connecter,1.1541660129804938e-05,verbe,1,1834.0,186.0
@@ -1224,8 +1206,8 @@ financement@NOUN,17857,NOUN,financement,3.400980609536746e-05,substantif,1,1933.
 wagon@NOUN,5173,NOUN,wagon,9.85231152664702e-06,substantif,2,1650.0,370.0
 hospitaliser@VERB,3289,VERB,hospitaliser,6.264112238767069e-06,verbe,2,1801.0,219.0
 locomotive@NOUN,8976,NOUN,locomotive,1.7095369855631867e-05,substantif,1,1834.0,186.0
+nominal@ADJ,3169,ADJ,nominal,6.035564513424397e-06,adjectif,1,1500.0,520.0
 nautique@ADJ,6255,ADJ,nautique,1.191305018348678e-05,adjectif,1,1550.0,470.0
-grand-mère@NOUN,7445,NOUN,grand-mère,1.4179481793134943e-05,substantif,3,1529.0,491.0
 voyou@NOUN,1150,NOUN,voyou,2.1902490345339404e-06,substantif,4,1832.0,188.0
 muter@VERB,2765,VERB,muter,5.266120504770735e-06,verbe,3,1765.0,255.0
 stagiaire@ADJ,1847,ADJ,stagiaire,3.517730405899294e-06,adjectif,1,1743.0,277.0
@@ -1284,7 +1266,6 @@ corinthien@ADJ,910,ADJ,corinthien,1.7331535838485962e-06,adjectif,2,1526.0,494.0
 envasement@NOUN,237,NOUN,envasement,4.5138175755177725e-07,substantif,1,1792.0,228.0
 réemployer@VERB,543,VERB,réemployer,1.0341784571755909e-06,verbe,1,1798.0,222.0
 podium@NOUN,14310,NOUN,podium,2.725431624711364e-05,substantif,2,1545.0,475.0
-sous-estimer@VERB,1156,VERB,sous-estimer,2.201676420801074e-06,verbe,1,1898.0,122.0
 exhumer@VERB,2060,VERB,exhumer,3.9234026183825366e-06,verbe,3,1614.0,406.0
 aqueduc@NOUN,3443,NOUN,aqueduc,6.557415152956832e-06,substantif,3,1518.0,502.0
 stèle@NOUN,4604,NOUN,stèle,8.768614395647183e-06,substantif,2,1694.0,326.0
@@ -1324,7 +1305,6 @@ surveillance@NOUN,15220,NOUN,surveillance,2.8987469830962237e-05,substantif,1,17
 cuirasser@VERB,2344,VERB,cuirasser,4.464298901693527e-06,verbe,2,1636.0,384.0
 destroyer@NOUN,6176,NOUN,destroyer,1.1762589597636188e-05,substantif,1,1893.0,127.0
 torpillage@NOUN,370,NOUN,torpillage,7.046888198065721e-07,substantif,1,1915.0,105.0
-après-midi@NOUN,8461,NOUN,après-midi,1.6114519201036235e-05,substantif,2,1649.0,371.0
 météorologique@ADJ,7416,ADJ,météorologique,1.4124249426177131e-05,adjectif,1,1547.0,473.0
 blocage@NOUN,3181,NOUN,blocage,6.058419285958664e-06,substantif,3,1547.0,473.0
 échouage@NOUN,395,NOUN,échouage,7.523029292529621e-07,substantif,1,1674.0,346.0
@@ -1348,6 +1328,7 @@ hautain@NOUN,361,NOUN,hautain,6.875477404058717e-07,substantif,3,1562.0,458.0
 espalier@NOUN,175,NOUN,espalier,3.3329876612473007e-07,substantif,3,1572.0,448.0
 rotonde@NOUN,980,NOUN,rotonde,1.8664730902984883e-06,substantif,3,1606.0,414.0
 rivaliser@VERB,2942,VERB,rivaliser,5.603228399651176e-06,verbe,1,1750.0,270.0
+portugais@ADJ,11892,ADJ,portugais,2.26490795814588e-05,adjectif,2,1500.0,520.0
 acquis@NOUN,1290,NOUN,acquis,2.456888047433724e-06,substantif,1,1601.0,419.0
 slovène@ADJ,2265,ADJ,slovène,4.3138383158429344e-06,adjectif,1,1875.0,145.0
 modernité@NOUN,3845,NOUN,modernité,7.323050032854783e-06,substantif,2,1848.0,172.0
@@ -1369,7 +1350,6 @@ impasse@NOUN,4609,NOUN,impasse,8.778137217536461e-06,substantif,2,1730.0,290.0
 rocheux@ADJ,6720,ADJ,rocheux,1.2798672619189634e-05,adjectif,1,1549.0,471.0
 touristique@ADJ,15795,ADJ,touristique,3.0082594348229206e-05,adjectif,1,1844.0,176.0
 réquisitionner@VERB,2801,VERB,réquisitionner,5.334684822373537e-06,verbe,2,1796.0,224.0
-ex-voto@NOUN,673,NOUN,ex-voto,1.281771826296819e-06,substantif,1,1643.0,377.0
 toiture@NOUN,8638,NOUN,toiture,1.6451627095916677e-05,substantif,1,1594.0,426.0
 macaron@NOUN,322,NOUN,macaron,6.132697296695033e-07,substantif,3,1552.0,468.0
 vedette@NOUN,11334,NOUN,vedette,2.1586332658615372e-05,substantif,7,1550.0,470.0
@@ -1473,8 +1453,6 @@ dormant@NOUN,778,NOUN,dormant,1.481751085971657e-06,substantif,1,1950.0,70.0
 oscar@NOUN,7215,NOUN,oscar,1.3741431986228155e-05,substantif,1,1928.0,92.0
 déportation@NOUN,6320,NOUN,déportation,1.2036846868047393e-05,substantif,2,1508.0,512.0
 concentration@NOUN,18088,NOUN,concentration,3.4449760466652095e-05,substantif,1,1674.0,346.0
-sous-titrer@VERB,1053,VERB,sous-titrer,2.005506289881947e-06,verbe,1,1923.0,97.0
-sous-titrage@NOUN,191,NOUN,sous-titrage,3.637717961704196e-07,substantif,2,1923.0,97.0
 agissement@NOUN,1548,NOUN,agissement,2.948265656920469e-06,substantif,1,1819.0,201.0
 gang@NOUN,4367,NOUN,gang,8.317232638095406e-06,substantif,1,1632.0,388.0
 orthopédique@ADJ,331,ADJ,orthopédique,6.304108090702036e-07,adjectif,1,1771.0,249.0
@@ -1485,6 +1463,7 @@ scandinave@ADJ,2929,ADJ,scandinave,5.578469062739053e-06,adjectif,1,1756.0,264.0
 copilote@NOUN,1288,NOUN,copilote,2.4530789186780133e-06,substantif,1,1927.0,93.0
 suffixe@NOUN,9282,NOUN,suffixe,1.767816655525568e-05,substantif,1,1809.0,211.0
 catcheur@NOUN,3728,NOUN,catcheur,7.100216000645678e-06,substantif,1,1949.0,71.0
+impulser@VERB,750,VERB,impulser,1.4284232833917002e-06,verbe,1,1500.0,520.0
 scolaire@ADJ,25497,ADJ,scolaire,4.856067794218424e-05,adjectif,1,1807.0,213.0
 chartiste@NOUN,141,NOUN,chartiste,2.685435772776396e-07,substantif,1,1814.0,206.0
 archéologue@NOUN,7731,NOUN,archéologue,1.4724187205201646e-05,substantif,1,1812.0,208.0
@@ -1520,7 +1499,6 @@ dialectal@ADJ,1122,ADJ,dialectal,2.1369212319539834e-06,adjectif,1,1870.0,150.0
 hydrocarbure@NOUN,2663,NOUN,hydrocarbure,5.071854938229463e-06,substantif,1,1809.0,211.0
 gazier@NOUN,520,NOUN,gazier,9.903734764849122e-07,substantif,5,1865.0,155.0
 pipeline@NOUN,958,NOUN,pipeline,1.824572673985665e-06,substantif,2,1885.0,135.0
-bas-fond@NOUN,597,NOUN,bas-fond,1.1370249335797934e-06,substantif,4,1690.0,330.0
 survie@NOUN,8166,NOUN,survie,1.5552672709568832e-05,substantif,2,1544.0,476.0
 concocter@VERB,322,VERB,concocter,6.132697296695033e-07,verbe,3,1950.0,70.0
 galaxie@NOUN,7568,NOUN,galaxie,1.4413743211611183e-05,substantif,1,1557.0,463.0
@@ -1563,7 +1541,6 @@ locomotif@ADJ,829,ADJ,locomotif,1.5788838692422926e-06,adjectif,1,1583.0,437.0
 pamphlétaire@NOUN,245,NOUN,pamphlétaire,4.666182725746221e-07,substantif,1,1790.0,230.0
 entraîneur@NOUN,38628,NOUN,entraîneur,7.356951278780613e-05,substantif,2,1828.0,192.0
 stage@NOUN,9525,NOUN,stage,1.8140975699074594e-05,substantif,2,1630.0,390.0
-grand-père@NOUN,13710,NOUN,grand-père,2.611157762040028e-05,substantif,2,1529.0,491.0
 déboulonner@VERB,132,VERB,déboulonner,2.5140249787693924e-07,verbe,2,1867.0,153.0
 roumain@NOUN,3005,NOUN,roumain,5.723215955456079e-06,substantif,2,1836.0,184.0
 référendum@NOUN,6046,NOUN,référendum,1.1514996228514959e-05,substantif,1,1750.0,270.0
@@ -1579,7 +1556,6 @@ japonais@NOUN,15937,NOUN,japonais,3.03530424898847e-05,substantif,2,1580.0,440.0
 scooter@NOUN,351,NOUN,scooter,6.685020966273157e-07,substantif,1,1919.0,101.0
 rationnement@NOUN,610,NOUN,rationnement,1.1617842704919162e-06,substantif,1,1846.0,174.0
 stock@NOUN,5495,NOUN,stock,1.0465581256316523e-05,substantif,3,1611.0,409.0
-porte-à-faux@NOUN,506,NOUN,porte-à-faux,9.637095751949337e-07,substantif,2,1835.0,185.0
 slogan@NOUN,4567,NOUN,slogan,8.698145513666526e-06,substantif,1,1842.0,178.0
 japonais@ADJ,44453,ADJ,japonais,8.466360028881499e-05,adjectif,2,1580.0,440.0
 automobile@NOUN,8788,NOUN,automobile,1.6737311752595014e-05,substantif,1,1866.0,154.0
@@ -1697,6 +1673,7 @@ terminologie@NOUN,2403,NOUN,terminologie,4.576668199987008e-06,substantif,4,1764
 électrolytique@ADJ,233,ADJ,électrolytique,4.4376350004035486e-07,adjectif,1,1838.0,182.0
 voltage@NOUN,331,NOUN,voltage,6.304108090702036e-07,substantif,2,1890.0,130.0
 anode@NOUN,561,NOUN,anode,1.0684606159769917e-06,substantif,1,1834.0,186.0
+externe@NOUN,3890,NOUN,externe,7.408755429858285e-06,substantif,2,1500.0,520.0
 oxydation@NOUN,2369,NOUN,oxydation,4.511913011139917e-06,substantif,2,1788.0,232.0
 électron@NOUN,6077,NOUN,électron,1.1574037724228483e-05,substantif,1,1902.0,118.0
 électrolyte@NOUN,335,NOUN,électrolyte,6.380290665816261e-07,substantif,1,1834.0,186.0
@@ -1743,12 +1720,14 @@ sismicité@NOUN,3053,NOUN,sismicité,5.814635045593148e-06,substantif,1,1892.0,1
 cartographie@NOUN,2807,NOUN,cartographie,5.34611220864067e-06,substantif,1,1832.0,188.0
 gonflement@NOUN,1055,NOUN,gonflement,2.0093154186376585e-06,substantif,2,1561.0,459.0
 rétracter@VERB,1444,VERB,rétracter,2.7501909616234866e-06,verbe,3,1600.0,420.0
+zonage@NOUN,1097,NOUN,zonage,2.0893071225075937e-06,substantif,2,1500.0,520.0
 gaz@NOUN,32029,NOUN,gaz,6.100129245833702e-05,substantif,3,1670.0,350.0
 brumaire@NOUN,1901,NOUN,brumaire,3.620576882303496e-06,substantif,1,1793.0,227.0
 minimal@ADJ,9684,ADJ,minimal,1.8443801435153633e-05,adjectif,1,1877.0,143.0
 collectivité@NOUN,11946,NOUN,collectivité,2.2751926057863002e-05,substantif,1,1836.0,184.0
 emballage@NOUN,3051,NOUN,emballage,5.810825916837437e-06,substantif,4,1547.0,473.0
 sélectif@ADJ,3162,ADJ,sélectif,6.022232562779408e-06,adjectif,1,1872.0,148.0
+carton@NOUN,5083,NOUN,carton,9.680900732640017e-06,substantif,11,1500.0,520.0
 obligatoirement@ADV,2999,ADV,obligatoirement,5.7117885691889456e-06,adverbe,1,1846.0,174.0
 épuration@NOUN,3769,NOUN,épuration,7.1783031401377575e-06,substantif,1,1611.0,409.0
 fonctionnement@NOUN,21073,NOUN,fonctionnement,4.013488513455106e-05,substantif,1,1838.0,182.0
@@ -1833,6 +1812,7 @@ implantation@NOUN,10753,NOUN,implantation,2.047978075508127e-05,substantif,1,155
 familiariser@VERB,1224,VERB,familiariser,2.3311867984952546e-06,verbe,2,1551.0,469.0
 crème@ADJ,2010,ADJ,crème,3.828174399489756e-06,adjectif,1,1892.0,128.0
 cacao@NOUN,2052,NOUN,cacao,3.908166103359691e-06,substantif,3,1532.0,488.0
+approvisionner@VERB,2787,VERB,approvisionner,5.308020921083558e-06,verbe,3,1500.0,520.0
 colza@NOUN,928,NOUN,colza,1.767435742649997e-06,substantif,1,1664.0,356.0
 calorie@NOUN,689,NOUN,calorie,1.3122448563425086e-06,substantif,2,1845.0,175.0
 commercialisation@NOUN,5116,NOUN,commercialisation,9.74375135710925e-06,substantif,1,1845.0,175.0
@@ -1850,7 +1830,6 @@ balustre@NOUN,421,NOUN,balustre,8.018216030772077e-07,substantif,2,1529.0,491.0
 lituanien@ADJ,1229,ADJ,lituanien,2.3407096203845327e-06,adjectif,1,1540.0,480.0
 lituanien@NOUN,1243,NOUN,lituanien,2.367373521674511e-06,substantif,2,1540.0,480.0
 remarque@NOUN,2201,NOUN,remarque,4.191946195660176e-06,substantif,5,1579.0,441.0
-sous-officier@NOUN,2260,NOUN,sous-officier,4.304315493953656e-06,substantif,1,1765.0,255.0
 comptabilité@NOUN,2713,NOUN,comptabilité,5.167083157122244e-06,substantif,1,1579.0,441.0
 cavalier@NOUN,8717,NOUN,cavalier,1.6602087681767267e-05,substantif,10,1546.0,474.0
 ceinturon@NOUN,136,NOUN,ceinturon,2.5902075538836163e-07,substantif,2,1579.0,441.0
@@ -1880,7 +1859,6 @@ financièrement@ADV,425,ADV,financièrement,8.094398605886301e-07,adverbe,2,1829
 montage@NOUN,8276,NOUN,montage,1.576217479113295e-05,substantif,3,1604.0,416.0
 sponsoring@NOUN,252,NOUN,sponsoring,4.799502232196113e-07,substantif,1,1972.0,48.0
 sponsor@NOUN,723,NOUN,sponsor,1.377000045189599e-06,substantif,1,1650.0,370.0
-sous-main@NOUN,260,NOUN,sous-main,4.951867382424561e-07,substantif,1,1548.0,472.0
 rédacteur@NOUN,18511,NOUN,rédacteur,3.525539119848502e-05,substantif,2,1722.0,298.0
 plagiat@NOUN,1143,NOUN,plagiat,2.176917083888951e-06,substantif,2,1680.0,340.0
 copyright@NOUN,819,NOUN,copyright,1.5598382254637367e-06,substantif,1,1767.0,253.0
@@ -1947,7 +1925,6 @@ indissociable@ADJ,1191,ADJ,indissociable,2.26833617402602e-06,adjectif,1,1542.0,
 toponymique@ADJ,1676,ADJ,toponymique,3.192049897285986e-06,adjectif,1,1853.0,167.0
 incompréhension@NOUN,1249,NOUN,incompréhension,2.378800907941645e-06,substantif,1,1860.0,160.0
 encaisser@VERB,3561,VERB,encaisser,6.7821537495437925e-06,verbe,6,1510.0,510.0
-gallo-romain@NOUN,1215,NOUN,gallo-romain,2.3140457190945544e-06,substantif,1,1833.0,187.0
 corréler@VERB,1451,VERB,corréler,2.763522912268476e-06,verbe,2,1963.0,57.0
 minier@ADJ,7037,ADJ,minier,1.3402419526969858e-05,adjectif,2,1859.0,161.0
 roulement@NOUN,1964,NOUN,roulement,3.740564438108399e-06,substantif,7,1538.0,482.0
@@ -1955,6 +1932,7 @@ fonctionnel@ADJ,6703,ADJ,fonctionnel,1.276629502476609e-05,adjectif,3,1830.0,190
 immobiliser@VERB,1873,VERB,immobiliser,3.567249079723539e-06,verbe,2,1507.0,513.0
 solvabilité@NOUN,237,NOUN,solvabilité,4.5138175755177725e-07,substantif,1,1662.0,358.0
 virginité@NOUN,977,NOUN,virginité,1.8607593971649214e-06,substantif,2,1550.0,470.0
+villageois@NOUN,3891,NOUN,villageois,7.4106599942361405e-06,substantif,4,1500.0,520.0
 calviniste@NOUN,808,NOUN,calviniste,1.538888017307325e-06,substantif,1,1562.0,458.0
 exhaustif@ADJ,2563,ADJ,exhaustif,4.881398500443903e-06,adjectif,2,1818.0,202.0
 diverger@VERB,2140,VERB,diverger,4.075767768610984e-06,verbe,1,1785.0,235.0
@@ -1984,7 +1962,6 @@ manège@NOUN,1619,NOUN,manège,3.0834897277482167e-06,substantif,8,1590.0,430.0
 régimentaire@ADJ,473,ADJ,régimentaire,9.00858950725699e-07,adjectif,1,1791.0,229.0
 majuscule@ADJ,535,ADJ,majuscule,1.018941942152746e-06,adjectif,1,1529.0,491.0
 listel@NOUN,383,NOUN,listel,7.294481567186949e-07,substantif,2,1546.0,474.0
-petite-fille@NOUN,3882,NOUN,petite-fille,7.39351891483544e-06,substantif,1,1509.0,511.0
 suivi@NOUN,6100,NOUN,suivi,1.1617842704919161e-05,substantif,1,1585.0,435.0
 strictement@ADV,6511,ADV,strictement,1.2400618664217813e-05,adverbe,2,1534.0,486.0
 socialiste@ADJ,33848,ADJ,socialiste,6.446569506165636e-05,adjectif,1,1765.0,255.0
@@ -2044,12 +2021,10 @@ interplanétaire@ADJ,644,ADJ,interplanétaire,1.2265394593390066e-06,adjectif,1,
 momifier@VERB,304,VERB,momifier,5.789875708681025e-07,verbe,3,1789.0,231.0
 surplomb@NOUN,408,NOUN,surplomb,7.770622661650849e-07,substantif,1,1676.0,344.0
 anthropomorphe@ADJ,334,ADJ,anthropomorphe,6.361245022037705e-07,adjectif,1,1734.0,286.0
-demi-lune@NOUN,417,NOUN,demi-lune,7.942033455657853e-07,substantif,4,1553.0,467.0
 symboliser@VERB,6904,VERB,symboliser,1.3149112464715064e-05,verbe,1,1512.0,508.0
 monolithe@NOUN,721,NOUN,monolithe,1.3731909164338879e-06,substantif,2,1532.0,488.0
 fœtal@ADJ,616,ADJ,fœtal,1.1732116567590497e-06,adjectif,1,1813.0,207.0
 crâne@ADJ,174,ADJ,crâne,3.313942017468744e-07,adjectif,1,1757.0,263.0
-best-seller@NOUN,1272,NOUN,best-seller,2.4226058886323237e-06,substantif,2,1895.0,125.0
 philharmonique@ADJ,3111,ADJ,philharmonique,5.9250997795087724e-06,adjectif,1,1739.0,281.0
 violoncelle@NOUN,3378,NOUN,violoncelle,6.433618468396218e-06,substantif,2,1665.0,355.0
 violoniste@NOUN,2330,NOUN,violoniste,4.437635000403549e-06,substantif,1,1811.0,209.0
@@ -2119,7 +2094,6 @@ revolver@NOUN,985,NOUN,revolver,1.8759959121877664e-06,substantif,1,1835.0,185.0
 médiatiser@VERB,2071,VERB,médiatiser,3.944352826538948e-06,verbe,2,1819.0,201.0
 stop@NOUN,277,NOUN,stop,5.275643326660013e-07,substantif,2,1550.0,470.0
 sexiste@ADJ,594,ADJ,sexiste,1.1313112404462265e-06,adjectif,1,1970.0,50.0
-arrière-petit-fils@NOUN,1394,NOUN,arrière-petit-fils,2.6549627427307067e-06,substantif,1,1559.0,461.0
 réaliste@ADJ,6810,ADJ,réaliste,1.2970083413196637e-05,adjectif,2,1599.0,421.0
 paysagiste@NOUN,1050,NOUN,paysagiste,1.9997925967483804e-06,substantif,3,1651.0,369.0
 miniaturiste@NOUN,214,NOUN,miniaturiste,4.0757677686109846e-07,substantif,1,1748.0,272.0
@@ -2140,14 +2114,12 @@ manioc@NOUN,1140,NOUN,manioc,2.1712033907553843e-06,substantif,1,1556.0,464.0
 bandit@NOUN,3180,NOUN,bandit,6.056514721580809e-06,substantif,2,1533.0,487.0
 provisoirement@ADV,1410,ADV,provisoirement,2.6854357727763962e-06,adverbe,2,1694.0,326.0
 paraître@NOUN,981,NOUN,paraître,1.8683776546763438e-06,substantif,1,1617.0,403.0
-sous-titre@NOUN,1382,NOUN,sous-titre,2.6321079701964397e-06,substantif,2,1837.0,183.0
 maquis@NOUN,4823,NOUN,maquis,9.18571399439756e-06,substantif,3,1775.0,245.0
 réorganisation@NOUN,6176,NOUN,réorganisation,1.1762589597636188e-05,substantif,1,1791.0,229.0
 réorientation@NOUN,495,NOUN,réorientation,9.427593670385221e-07,substantif,1,1952.0,68.0
 mécanicien@NOUN,4088,NOUN,mécanicien,7.785859176673694e-06,substantif,5,1696.0,324.0
 imprimerie@NOUN,6542,NOUN,imprimerie,1.2459660159931338e-05,substantif,3,1523.0,497.0
 étonnant@ADJ,3834,ADJ,étonnant,7.302099824698371e-06,adjectif,1,1752.0,268.0
-avant-guerre@NOUN,1869,NOUN,avant-guerre,3.559630822212117e-06,substantif,2,1918.0,102.0
 piette@NOUN,150,NOUN,piette,2.8568465667834004e-07,substantif,1,1553.0,467.0
 épithète@NOUN,1693,NOUN,épithète,3.2244274917095314e-06,substantif,2,1517.0,503.0
 lancéolé@ADJ,432,ADJ,lancéolé,8.227718112336193e-07,adjectif,1,1778.0,242.0
@@ -2209,7 +2181,6 @@ antibiotique@ADJ,443,ADJ,antibiotique,8.437220193900309e-07,adjectif,1,1928.0,92
 peuplade@NOUN,857,NOUN,peuplade,1.6322116718222495e-06,substantif,2,1564.0,456.0
 vernaculaire@ADJ,2031,ADJ,vernaculaire,3.868170251424724e-06,adjectif,1,1765.0,255.0
 générique@ADJ,4756,ADJ,générique,9.058108181081235e-06,adjectif,2,1596.0,424.0
-indo-européen@NOUN,541,NOUN,indo-européen,1.0303693284198798e-06,substantif,2,1813.0,207.0
 mucus@NOUN,696,NOUN,mucus,1.3255768069874977e-06,substantif,1,1661.0,359.0
 méditerranéen@ADJ,9697,ADJ,méditerranéen,1.8468560772065756e-05,adjectif,1,1569.0,451.0
 photosynthèse@NOUN,1037,NOUN,photosynthèse,1.9750332598362576e-06,substantif,1,1902.0,118.0
@@ -2256,7 +2227,6 @@ omelette@NOUN,355,NOUN,omelette,6.761203541387381e-07,substantif,1,1548.0,472.0
 culinaire@ADJ,2540,ADJ,culinaire,4.837593519753225e-06,adjectif,1,1546.0,474.0
 cèpe@NOUN,182,NOUN,cèpe,3.4663071676971925e-07,substantif,1,1798.0,222.0
 ramassage@NOUN,985,NOUN,ramassage,1.8759959121877664e-06,substantif,1,1797.0,223.0
-socio-économique@ADJ,1923,ADJ,socio-économique,3.6624772986163195e-06,adjectif,1,1957.0,63.0
 dentiste@NOUN,1944,NOUN,dentiste,3.702473150551287e-06,substantif,1,1735.0,285.0
 saignement@NOUN,726,NOUN,saignement,1.3827137383231657e-06,substantif,1,1688.0,332.0
 cutané@ADJ,1657,ADJ,cutané,3.1558631741067297e-06,adjectif,1,1546.0,474.0
@@ -2279,18 +2249,17 @@ cyclisme@NOUN,6460,NOUN,cyclisme,1.2303485880947178e-05,substantif,1,1889.0,131.
 censurer@VERB,2493,VERB,censurer,4.748078993994012e-06,verbe,4,1518.0,502.0
 alliage@NOUN,4171,NOUN,alliage,7.943938020035708e-06,substantif,4,1507.0,513.0
 vertical@ADJ,8504,ADJ,vertical,1.6196415469284026e-05,adjectif,1,1545.0,475.0
-bas-relief@NOUN,4343,NOUN,bas-relief,8.271523093026872e-06,substantif,1,1547.0,473.0
 escalader@VERB,1184,VERB,escalader,2.2550042233810308e-06,verbe,3,1610.0,410.0
 inca@NOUN,540,NOUN,inca,1.0284647640420241e-06,substantif,2,1558.0,462.0
 cohésion@NOUN,3078,NOUN,cohésion,5.862249155039538e-06,substantif,2,1740.0,280.0
 inca@ADJ,593,ADJ,inca,1.129406676068371e-06,adjectif,1,1558.0,462.0
 mythe@NOUN,7680,NOUN,mythe,1.462705442193101e-05,substantif,3,1803.0,217.0
 labelle@NOUN,264,NOUN,labelle,5.028049957538785e-07,substantif,1,1815.0,205.0
-anglo-normand@ADJ,812,ADJ,anglo-normand,1.5465062748187474e-06,adjectif,1,1828.0,192.0
 orchis@NOUN,453,NOUN,orchis,8.627676631685869e-07,substantif,1,1546.0,474.0
 sépale@NOUN,835,NOUN,sépale,1.5903112555094263e-06,substantif,1,1790.0,230.0
 footballeur@NOUN,5111,NOUN,footballeur,9.734228535219973e-06,substantif,1,1894.0,126.0
 attaquant@NOUN,7681,NOUN,attaquant,1.4628958986308866e-05,substantif,3,1835.0,185.0
+rival@NOUN,12196,NOUN,rival,2.32280671523269e-05,substantif,1,1500.0,520.0
 penalty@NOUN,1429,NOUN,penalty,2.721622495955653e-06,substantif,1,1512.0,508.0
 disciplinaire@ADJ,1887,ADJ,disciplinaire,3.5939129810135178e-06,adjectif,2,1571.0,449.0
 suédois@NOUN,6409,NOUN,suédois,1.2206353097676541e-05,substantif,1,1616.0,404.0
@@ -2300,7 +2269,6 @@ replacer@VERB,2211,VERB,replacer,4.210991839438732e-06,verbe,3,1669.0,351.0
 girondin@NOUN,2828,NOUN,girondin,5.386108060575638e-06,substantif,2,1792.0,228.0
 performant@ADJ,3596,ADJ,performant,6.848813502768739e-06,adjectif,2,1968.0,52.0
 homérique@ADJ,626,ADJ,homérique,1.1922573005376058e-06,adjectif,3,1548.0,472.0
-contre-attaque@NOUN,3336,NOUN,contre-attaque,6.3536267645262825e-06,substantif,2,1838.0,182.0
 costaud@ADJ,169,ADJ,costaud,3.2187137985759644e-07,adjectif,5,1806.0,214.0
 altruiste@ADJ,215,ADJ,altruiste,4.0948134123895406e-07,adjectif,1,1852.0,168.0
 ratio@NOUN,2588,NOUN,ratio,4.9290126098902935e-06,substantif,2,1660.0,360.0
@@ -2308,11 +2276,11 @@ replacement@NOUN,174,NOUN,replacement,3.313942017468744e-07,substantif,1,1769.0,
 maltais@ADJ,1509,ADJ,maltais,2.8739876461841007e-06,adjectif,1,1606.0,414.0
 postérieurement@ADV,621,ADV,postérieurement,1.1827344786483277e-06,adverbe,1,1660.0,360.0
 soviétique@NOUN,7994,NOUN,soviétique,1.5225087636577668e-05,substantif,1,1920.0,100.0
-sous-ensemble@NOUN,1261,NOUN,sous-ensemble,2.4016556804759118e-06,substantif,1,1962.0,58.0
 ligure@ADJ,359,ADJ,ligure,6.837386116501605e-07,adjectif,1,1831.0,189.0
 karstique@ADJ,1351,ADJ,karstique,2.573066474482916e-06,adjectif,1,1902.0,118.0
 sonorisation@NOUN,479,NOUN,sonorisation,9.122863369928325e-07,substantif,1,1872.0,148.0
 automate@NOUN,4444,NOUN,automate,8.463884095190288e-06,substantif,3,1534.0,486.0
+percement@NOUN,2068,NOUN,percement,3.938639133405382e-06,substantif,1,1500.0,520.0
 physiologique@ADJ,2940,ADJ,physiologique,5.5994192708954645e-06,adjectif,1,1547.0,473.0
 vélodrome@NOUN,1364,NOUN,vélodrome,2.597825811395039e-06,substantif,1,1879.0,141.0
 préfectoral@ADJ,6031,ADJ,préfectoral,1.1486427762847125e-05,adjectif,1,1811.0,209.0
@@ -2374,7 +2342,6 @@ stylisation@NOUN,292,NOUN,stylisation,5.561327983338353e-07,substantif,1,1893.0,
 cadrage@NOUN,798,NOUN,cadrage,1.519842373528769e-06,substantif,2,1866.0,154.0
 indiscernable@ADJ,180,ADJ,indiscernable,3.4282158801400806e-07,adjectif,1,1582.0,438.0
 commanditer@VERB,901,VERB,commanditer,1.7160125044478958e-06,verbe,2,1809.0,211.0
-contre-pied@NOUN,276,NOUN,contre-pied,5.256597682881456e-07,substantif,2,1561.0,459.0
 réincarner@VERB,405,VERB,réincarner,7.713485730315181e-07,verbe,1,1858.0,162.0
 virtuosité@NOUN,1433,NOUN,virtuosité,2.729240753467075e-06,substantif,1,1857.0,163.0
 trucage@NOUN,413,NOUN,trucage,7.865850880543629e-07,substantif,2,1872.0,148.0
@@ -2391,7 +2358,6 @@ impitoyablement@ADV,205,ADV,impitoyablement,3.9043569746039804e-07,adverbe,1,155
 dépassement@NOUN,2287,NOUN,dépassement,4.3557387321557575e-06,substantif,3,1865.0,155.0
 trombe@NOUN,393,NOUN,trombe,7.484938004972509e-07,substantif,1,1547.0,473.0
 contretemps@NOUN,235,NOUN,contretemps,4.4757262879606606e-07,substantif,3,1553.0,467.0
-bas-côté@NOUN,8169,NOUN,bas-côté,1.55583864027024e-05,substantif,1,1676.0,344.0
 dramaturge@NOUN,4186,NOUN,dramaturge,7.972506485703542e-06,substantif,1,1773.0,247.0
 fanatique@NOUN,386,NOUN,fanatique,7.351618498522617e-07,substantif,1,1564.0,456.0
 brimade@NOUN,415,NOUN,brimade,7.903942168100741e-07,substantif,3,1818.0,202.0
@@ -2462,7 +2428,6 @@ interface@NOUN,7779,NOUN,interface,1.4815606295338714e-05,substantif,4,1965.0,55
 plissement@NOUN,431,NOUN,plissement,8.208672468557637e-07,substantif,2,1636.0,384.0
 pyrénéen@ADJ,1662,ADJ,pyrénéen,3.1653859959960078e-06,adjectif,1,1819.0,201.0
 sédimentation@NOUN,816,NOUN,sédimentation,1.5541245323301698e-06,substantif,1,1861.0,159.0
-sous-marin@NOUN,14141,NOUN,sous-marin,2.6932444867256042e-05,substantif,1,1557.0,463.0
 détritique@ADJ,370,ADJ,détritique,7.046888198065721e-07,adjectif,1,1838.0,182.0
 pointillé@NOUN,200,NOUN,pointillé,3.8091287557112005e-07,substantif,2,1765.0,255.0
 déblai@NOUN,424,NOUN,déblai,8.075352962107745e-07,substantif,3,1507.0,513.0
@@ -2473,6 +2438,7 @@ sourcier@NOUN,104,NOUN,sourcier,1.9807469529698244e-07,substantif,2,1585.0,435.0
 génome@NOUN,3593,NOUN,génome,6.843099809635172e-06,substantif,1,1920.0,100.0
 démobiliser@VERB,2070,VERB,démobiliser,3.942448262161093e-06,verbe,1,1826.0,194.0
 magdalénien@NOUN,392,NOUN,magdalénien,7.465892361193953e-07,substantif,1,1872.0,148.0
+diverticule@NOUN,142,NOUN,diverticule,2.7044814165549526e-07,substantif,1,1500.0,520.0
 chamane@NOUN,276,NOUN,chamane,5.256597682881456e-07,substantif,1,1699.0,321.0
 mas@NOUN,2952,NOUN,mas,5.622274043429732e-06,substantif,1,1552.0,468.0
 magdalénien@ADJ,210,ADJ,magdalénien,3.999585193496761e-07,adjectif,1,1872.0,148.0
@@ -2606,7 +2572,6 @@ filtre@NOUN,4060,NOUN,filtre,7.732531374093737e-06,substantif,1,1575.0,445.0
 abordable@ADJ,1119,ADJ,abordable,2.1312075388204167e-06,adjectif,4,1562.0,458.0
 estudiantin@ADJ,554,ADJ,estudiantin,1.0551286653320026e-06,adjectif,1,1934.0,86.0
 socle@NOUN,5420,NOUN,socle,1.0322738927977353e-05,substantif,3,1549.0,471.0
-demi-circulaire@ADJ,309,ADJ,demi-circulaire,5.885103927573805e-07,adjectif,1,1529.0,491.0
 piédestal@NOUN,1512,NOUN,piédestal,2.8797013393176674e-06,substantif,1,1526.0,494.0
 médaillon@NOUN,3396,NOUN,médaillon,6.467900627197619e-06,substantif,6,1550.0,470.0
 sauvegarder@VERB,2893,VERB,sauvegarder,5.509904745136251e-06,verbe,2,1788.0,232.0
@@ -2673,6 +2638,7 @@ pacifisme@NOUN,807,NOUN,pacifisme,1.5369834529294693e-06,substantif,1,1845.0,175
 progressiste@ADJ,5316,ADJ,progressiste,1.012466423268037e-05,adjectif,1,1830.0,190.0
 libéralisme@NOUN,2572,NOUN,libéralisme,4.898539579844604e-06,substantif,3,1818.0,202.0
 individualisme@NOUN,973,NOUN,individualisme,1.853141139653499e-06,substantif,1,1825.0,195.0
+incroyable@ADJ,3412,ADJ,incroyable,6.4983736572433085e-06,adjectif,3,1500.0,520.0
 malencontreusement@ADV,406,ADV,malencontreusement,7.732531374093737e-07,adverbe,1,1618.0,402.0
 instantanément@ADV,1149,ADV,instantanément,2.188344470156085e-06,adverbe,1,1787.0,233.0
 trajectoire@NOUN,5941,NOUN,trajectoire,1.1315016968840122e-05,substantif,1,1727.0,293.0
@@ -2699,7 +2665,6 @@ zouave@NOUN,740,NOUN,zouave,1.4093776396131442e-06,substantif,3,1623.0,397.0
 tricolore@ADJ,1580,ADJ,tricolore,3.0092117170118483e-06,adjectif,2,1695.0,325.0
 casernement@NOUN,707,NOUN,casernement,1.3465270151439094e-06,substantif,1,1800.0,220.0
 fourragère@NOUN,629,NOUN,fourragère,1.1979709936711725e-06,substantif,2,1829.0,191.0
-anti-char@ADJ,315,ADJ,anti-char,5.999377790245141e-07,adjectif,1,1928.0,92.0
 simultanément@ADV,9060,ADV,simultanément,1.7255353263371738e-05,adverbe,1,1788.0,232.0
 déploiement@NOUN,3191,NOUN,déploiement,6.07746492973722e-06,substantif,2,1538.0,482.0
 baïonnette@NOUN,1648,NOUN,baïonnette,3.138722094706029e-06,substantif,3,1572.0,448.0
@@ -2748,7 +2713,6 @@ psychopathologie@NOUN,488,NOUN,psychopathologie,9.29427416393533e-07,substantif,
 pathos@NOUN,311,NOUN,pathos,5.923195215130917e-07,substantif,1,1672.0,348.0
 psychiatrie@NOUN,2571,NOUN,psychiatrie,4.8966350154667485e-06,substantif,1,1842.0,178.0
 inconscient@ADJ,1277,ADJ,inconscient,2.4321287105216013e-06,adjectif,6,1820.0,200.0
-sous-jacent@ADJ,1440,ADJ,sous-jacent,2.7425727041120645e-06,adjectif,1,1812.0,208.0
 décalage@NOUN,3425,NOUN,décalage,6.523132994155431e-06,substantif,3,1845.0,175.0
 observable@ADJ,1893,ADJ,observable,3.6053403672806513e-06,adjectif,1,1550.0,470.0
 internement@NOUN,1555,NOUN,internement,2.9615976075654585e-06,substantif,1,1852.0,168.0
@@ -2767,7 +2731,6 @@ chlorure@NOUN,1932,NOUN,chlorure,3.6796183780170197e-06,substantif,1,1815.0,205.
 chlore@NOUN,1280,NOUN,chlore,2.4378424036551685e-06,substantif,3,1814.0,206.0
 junte@NOUN,2673,NOUN,junte,5.090900582008019e-06,substantif,2,1581.0,439.0
 momentanément@ADV,1190,ADV,momentanément,2.2664316096481642e-06,adverbe,1,1763.0,257.0
-court-circuiter@VERB,244,VERB,court-circuiter,4.647137081967665e-07,verbe,3,1931.0,89.0
 controverser@VERB,7839,VERB,controverser,1.492988015801005e-05,verbe,1,1579.0,441.0
 drame@NOUN,12264,NOUN,drame,2.335757753002108e-05,substantif,4,1657.0,363.0
 sentimental@ADJ,3025,ADJ,sentimental,5.761307243013191e-06,adjectif,2,1769.0,251.0
@@ -2802,7 +2765,6 @@ théoriquement@ADV,1915,ADV,théoriquement,3.6472407835934747e-06,adverbe,1,1557
 normalisation@NOUN,2054,NOUN,normalisation,3.911975232115403e-06,substantif,1,1873.0,147.0
 signalisation@NOUN,4244,NOUN,signalisation,8.082971219619168e-06,substantif,1,1909.0,111.0
 affichage@NOUN,3925,NOUN,affichage,7.475415183083231e-06,substantif,2,1792.0,228.0
-bien-être@NOUN,3848,NOUN,bien-être,7.32876372598835e-06,substantif,2,1555.0,465.0
 émetteur@NOUN,5556,NOUN,émetteur,1.0581759683365715e-05,substantif,3,1792.0,228.0
 informaticien@NOUN,746,NOUN,informaticien,1.4208050258802779e-06,substantif,1,1966.0,54.0
 vulgarisation@NOUN,1873,NOUN,vulgarisation,3.567249079723539e-06,substantif,1,1846.0,174.0
@@ -2882,7 +2844,6 @@ torpilleur@NOUN,1987,NOUN,torpilleur,3.7843694187990777e-06,substantif,2,1872.0,
 tripode@ADJ,105,ADJ,tripode,1.9997925967483804e-07,adjectif,1,1562.0,458.0
 salve@NOUN,913,NOUN,salve,1.738867276982163e-06,substantif,4,1550.0,470.0
 radoub@NOUN,276,NOUN,radoub,5.256597682881456e-07,substantif,2,1532.0,488.0
-contre-amiral@NOUN,2851,NOUN,contre-amiral,5.429913041266316e-06,substantif,1,1642.0,378.0
 minimiser@VERB,3071,VERB,minimiser,5.848917204394548e-06,verbe,1,1802.0,218.0
 dérivé@NOUN,3308,NOUN,dérivé,6.300298961946326e-06,substantif,3,1628.0,392.0
 spéculatif@ADJ,1664,ADJ,spéculatif,3.169195124751719e-06,adjectif,3,1566.0,454.0
@@ -2910,6 +2871,7 @@ pige@NOUN,701,NOUN,pige,1.3350996288767757e-06,substantif,4,1836.0,184.0
 dérapage@NOUN,528,NOUN,dérapage,1.005609991507757e-06,substantif,1,1832.0,188.0
 reporter@NOUN,1028,NOUN,reporter,1.957892180435557e-06,substantif,1,1829.0,191.0
 discrédit@NOUN,460,NOUN,discrédit,8.760996138135761e-07,substantif,1,1719.0,301.0
+scabreux@ADJ,144,ADJ,scabreux,2.7425727041120646e-07,adjectif,4,1500.0,520.0
 conjuguer@VERB,2498,VERB,conjuguer,4.75760181588329e-06,verbe,2,1572.0,448.0
 productivité@NOUN,3190,NOUN,productivité,6.075560365359365e-06,substantif,3,1840.0,180.0
 rentabilité@NOUN,2433,NOUN,rentabilité,4.633805131322675e-06,substantif,1,1909.0,111.0
@@ -2939,7 +2901,6 @@ bûcheron@NOUN,935,NOUN,bûcheron,1.7807676932949862e-06,substantif,1,1550.0,470
 armistice@NOUN,7096,NOUN,armistice,1.351478882526334e-05,substantif,1,1680.0,340.0
 dada@NOUN,768,NOUN,dada,1.462705442193101e-06,substantif,4,1508.0,512.0
 magnétique@ADJ,9324,ADJ,magnétique,1.7758158259125617e-05,adjectif,2,1617.0,403.0
-anglo-saxon@NOUN,3080,NOUN,anglo-saxon,5.866058283795249e-06,substantif,3,1690.0,330.0
 brésilien@ADJ,7422,ADJ,brésilien,1.4135676812444266e-05,adjectif,1,1578.0,442.0
 canonicat@NOUN,279,NOUN,canonicat,5.313734614217125e-07,substantif,2,1611.0,409.0
 pharmacologique@ADJ,476,ADJ,pharmacologique,9.065726438592657e-07,adjectif,1,1803.0,217.0
@@ -2989,6 +2950,7 @@ inspecter@VERB,1593,VERB,inspecter,3.033971053923971e-06,verbe,2,1771.0,249.0
 literie@NOUN,220,NOUN,literie,4.1900416312823205e-07,substantif,1,1832.0,188.0
 imperméable@ADJ,1076,ADJ,imperméable,2.049311270572626e-06,adjectif,2,1546.0,474.0
 interlude@NOUN,473,NOUN,interlude,9.00858950725699e-07,substantif,3,1819.0,201.0
+narrateur@NOUN,6759,NOUN,narrateur,1.2872950629926002e-05,substantif,1,1500.0,520.0
 finaliste@ADJ,671,ADJ,finaliste,1.2779626975411077e-06,adjectif,1,1808.0,212.0
 lycéen@NOUN,3310,NOUN,lycéen,6.304108090702037e-06,substantif,1,1816.0,204.0
 hollywoodien@ADJ,1669,ADJ,hollywoodien,3.1787179466409967e-06,adjectif,1,1937.0,83.0
@@ -3004,7 +2966,6 @@ multinational@ADJ,1828,ADJ,multinational,3.481543682720037e-06,adjectif,1,1928.0
 résidentiel@ADJ,3991,ADJ,résidentiel,7.6011164320217e-06,adjectif,1,1895.0,125.0
 berrichon@ADJ,434,ADJ,berrichon,8.265809399893305e-07,adjectif,1,1721.0,299.0
 invalide@ADJ,609,ADJ,invalide,1.1598797061140606e-06,adjectif,3,1515.0,505.0
-avant-dernier@ADJ,1305,ADJ,avant-dernier,2.4854565131015583e-06,adjectif,1,1740.0,280.0
 légiférer@VERB,663,VERB,légiférer,1.262726182518263e-06,verbe,2,1796.0,224.0
 euthanasie@NOUN,972,NOUN,euthanasie,1.8512365752756435e-06,substantif,1,1771.0,249.0
 homosexualité@NOUN,5263,NOUN,homosexualité,1.0023722320654025e-05,substantif,2,1891.0,129.0
@@ -3042,10 +3003,8 @@ kiosque@NOUN,2019,NOUN,kiosque,3.845315478890457e-06,substantif,5,1608.0,412.0
 sketch@NOUN,3303,NOUN,sketch,6.290776140057048e-06,substantif,3,1908.0,112.0
 anarchique@ADJ,693,ADJ,anarchique,1.319863113853931e-06,adjectif,2,1593.0,427.0
 simpliste@ADJ,646,ADJ,simpliste,1.2303485880947177e-06,adjectif,1,1650.0,370.0
-avant-propos@NOUN,482,NOUN,avant-propos,9.180000301263993e-07,substantif,2,1556.0,464.0
 paradigme@NOUN,1869,NOUN,paradigme,3.559630822212117e-06,substantif,4,1584.0,436.0
 sportif@NOUN,6728,NOUN,sportif,1.2813909134212478e-05,substantif,1,1550.0,470.0
-arrière-plan@NOUN,3253,NOUN,arrière-plan,6.1955479211642675e-06,substantif,2,1811.0,209.0
 généraliser@VERB,3412,VERB,généraliser,6.4983736572433085e-06,verbe,3,1600.0,420.0
 traumatisme@NOUN,3078,NOUN,traumatisme,5.862249155039538e-06,substantif,1,1855.0,165.0
 stalinisme@NOUN,645,NOUN,stalinisme,1.228444023716862e-06,substantif,1,1929.0,91.0
@@ -3071,6 +3030,7 @@ préliminaire@ADJ,6106,ADJ,préliminaire,1.1629270091186295e-05,adjectif,1,1671.
 quasar@NOUN,224,NOUN,quasar,4.2662242063965443e-07,substantif,1,1963.0,57.0
 apache@NOUN,1173,NOUN,apache,2.2340540152246192e-06,substantif,2,1745.0,275.0
 traquer@VERB,2199,VERB,traquer,4.188137066904465e-06,verbe,3,1577.0,443.0
+parasite@NOUN,3659,NOUN,parasite,6.9688010585736415e-06,substantif,5,1500.0,520.0
 activation@NOUN,2586,NOUN,activation,4.925203481134583e-06,substantif,1,1910.0,110.0
 démultiplier@VERB,247,VERB,démultiplier,4.704274013303333e-07,verbe,2,1901.0,119.0
 optimiser@VERB,3307,VERB,optimiser,6.29839439756847e-06,verbe,1,1844.0,176.0
@@ -3087,7 +3047,6 @@ guérilla@NOUN,4348,NOUN,guérilla,8.28104591491615e-06,substantif,2,1535.0,485.
 kibboutz@NOUN,817,NOUN,kibboutz,1.5560290967080254e-06,substantif,1,1909.0,111.0
 camaraderie@NOUN,382,NOUN,camaraderie,7.275435923408393e-07,substantif,2,1671.0,349.0
 libanais@NOUN,490,NOUN,libanais,9.332365451492442e-07,substantif,1,1914.0,106.0
-social-démocrate@ADJ,1702,ADJ,social-démocrate,3.2415685711102316e-06,adjectif,1,1893.0,127.0
 leadership@NOUN,1857,NOUN,leadership,3.5367760496778496e-06,substantif,1,1864.0,156.0
 triptyque@NOUN,1466,NOUN,triptyque,2.79209137793631e-06,substantif,2,1842.0,178.0
 expressionnisme@NOUN,1192,NOUN,expressionnisme,2.2702407384038755e-06,substantif,1,1921.0,99.0
@@ -3131,7 +3090,6 @@ surintendant@NOUN,435,NOUN,surintendant,8.284855043671862e-07,substantif,2,1556.
 nazi@NOUN,1648,NOUN,nazi,3.138722094706029e-06,substantif,2,1932.0,88.0
 progressisme@NOUN,217,NOUN,progressisme,4.1329046999466526e-07,substantif,1,1842.0,178.0
 aménageur@NOUN,249,NOUN,aménageur,4.7423653008604447e-07,substantif,1,1906.0,114.0
-sous-traitant@NOUN,787,NOUN,sous-traitant,1.4988921653723574e-06,substantif,1,1656.0,364.0
 karting@NOUN,498,NOUN,karting,9.484730601720889e-07,substantif,2,1960.0,60.0
 brumeux@ADJ,319,ADJ,brumeux,6.075560365359365e-07,adjectif,1,1787.0,233.0
 matador@NOUN,1020,NOUN,matador,1.942655665412712e-06,substantif,3,1660.0,360.0
@@ -3170,7 +3128,6 @@ totalitaire@ADJ,1501,ADJ,totalitaire,2.858751131161256e-06,adjectif,1,1933.0,87.
 stalinien@ADJ,1683,ADJ,stalinien,3.2053818479309753e-06,adjectif,1,1926.0,94.0
 calquer@VERB,1493,VERB,calquer,2.843514616138411e-06,verbe,2,1550.0,470.0
 réunifier@VERB,1391,VERB,réunifier,2.64924904959714e-06,verbe,1,1956.0,64.0
-sous-espèce@NOUN,4623,NOUN,sous-espèce,8.80480111882644e-06,substantif,2,1845.0,175.0
 zoologiste@NOUN,962,NOUN,zoologiste,1.8321909314970875e-06,substantif,1,1663.0,357.0
 zoologique@ADJ,1491,ADJ,zoologique,2.8397054873827e-06,adjectif,1,1661.0,359.0
 otarie@NOUN,602,NOUN,otarie,1.1465477554690715e-06,substantif,1,1810.0,210.0
@@ -3189,7 +3146,6 @@ symétriquement@ADV,494,ADV,symétriquement,9.408548026606665e-07,adverbe,1,1529
 denteler@VERB,619,VERB,denteler,1.1789253498926167e-06,verbe,1,1545.0,475.0
 tva@NOUN,652,NOUN,tva,1.2417759743618514e-06,substantif,1,1954.0,66.0
 jean@NOUN,559,NOUN,jean,1.0646514872212806e-06,substantif,2,1948.0,72.0
-sous-genre@NOUN,1284,NOUN,sous-genre,2.4454606611665907e-06,substantif,1,1798.0,222.0
 écoulement@NOUN,4231,NOUN,écoulement,8.058211882707045e-06,substantif,5,1539.0,481.0
 conjonctivite@NOUN,162,NOUN,conjonctivite,3.0853942921260726e-07,substantif,1,1832.0,188.0
 déséquilibre@NOUN,2207,NOUN,déséquilibre,4.20337358192731e-06,substantif,1,1883.0,137.0
@@ -3208,7 +3164,6 @@ mandchou@NOUN,494,NOUN,mandchou,9.408548026606665e-07,substantif,2,1724.0,296.0
 séparatiste@ADJ,1264,ADJ,séparatiste,2.407369373609479e-06,adjectif,2,1608.0,412.0
 friction@NOUN,1503,NOUN,friction,2.8625602599169672e-06,substantif,2,1538.0,482.0
 émissaire@NOUN,3390,NOUN,émissaire,6.456473240930485e-06,substantif,3,1519.0,501.0
-non-violent@ADJ,313,ADJ,non-violent,5.961286502688029e-07,adjectif,1,1920.0,100.0
 égalitaire@ADJ,1106,ADJ,égalitaire,2.106448201908294e-06,adjectif,2,1836.0,184.0
 délocaliser@VERB,1148,VERB,délocaliser,2.186439905778229e-06,verbe,1,1863.0,157.0
 rééducation@NOUN,1823,NOUN,rééducation,3.472020860830759e-06,substantif,3,1900.0,120.0
@@ -3374,7 +3329,6 @@ orchestral@ADJ,1845,ADJ,orchestral,3.5139212771435826e-06,adjectif,1,1845.0,175.
 discographie@NOUN,1192,NOUN,discographie,2.2702407384038755e-06,substantif,3,1935.0,85.0
 incohérent@ADJ,464,ADJ,incohérent,8.837178713249985e-07,adjectif,1,1751.0,269.0
 prématurément@ADV,1390,ADV,prématurément,2.6473444852192845e-06,adverbe,1,1616.0,404.0
-contre-révolutionnaire@ADJ,987,ADJ,contre-révolutionnaire,1.8798050409434774e-06,adjectif,2,1790.0,230.0
 monarchiste@ADJ,1683,ADJ,monarchiste,3.2053818479309753e-06,adjectif,1,1550.0,470.0
 académicien@NOUN,1448,NOUN,académicien,2.7578092191349092e-06,substantif,2,1555.0,465.0
 expressionniste@ADJ,883,ADJ,expressionniste,1.6817303456464951e-06,adjectif,1,1904.0,116.0
@@ -3396,7 +3350,6 @@ nègre@NOUN,1796,NOUN,nègre,3.420597622628658e-06,substantif,4,1529.0,491.0
 cocotte@NOUN,290,NOUN,cocotte,5.523236695781241e-07,substantif,9,1789.0,231.0
 suicidaire@ADJ,606,ADJ,suicidaire,1.1541660129804938e-06,adjectif,3,1901.0,119.0
 sanatorium@NOUN,1500,NOUN,sanatorium,2.8568465667834005e-06,substantif,1,1839.0,181.0
-avant-première@NOUN,1557,NOUN,avant-première,2.96540673632117e-06,substantif,1,1892.0,128.0
 paria@NOUN,355,NOUN,paria,6.761203541387381e-07,substantif,2,1575.0,445.0
 paquebot@NOUN,3676,NOUN,paquebot,7.0011786529971865e-06,substantif,2,1641.0,379.0
 cognac@NOUN,1138,NOUN,cognac,2.167394261999673e-06,substantif,1,1687.0,333.0
@@ -3464,7 +3417,6 @@ hiérarchisation@NOUN,396,NOUN,hiérarchisation,7.542074936308177e-07,substantif
 centralisation@NOUN,1254,NOUN,centralisation,2.388323729830923e-06,substantif,2,1794.0,226.0
 décentraliser@VERB,1331,VERB,décentraliser,2.534975186925804e-06,verbe,1,1834.0,186.0
 décentralisation@NOUN,2332,NOUN,décentralisation,4.44144412915926e-06,substantif,2,1829.0,191.0
-indo-européen@ADJ,1860,ADJ,indo-européen,3.5424897428114163e-06,adjectif,2,1813.0,207.0
 ascendant@NOUN,878,NOUN,ascendant,1.672207523757217e-06,substantif,3,1617.0,403.0
 organisationnel@ADJ,1181,ADJ,organisationnel,2.249290530247464e-06,adjectif,1,1935.0,85.0
 épigraphique@ADJ,477,ADJ,épigraphique,9.084772082371213e-07,adjectif,1,1845.0,175.0
@@ -3485,7 +3437,6 @@ reparaître@VERB,885,VERB,reparaître,1.6855394744022062e-06,verbe,1,1611.0,409.
 gastronome@NOUN,223,NOUN,gastronome,4.2471785626179884e-07,substantif,2,1803.0,217.0
 nordique@ADJ,5446,ADJ,nordique,1.03722576018016e-05,adjectif,1,1898.0,122.0
 saurien@NOUN,673,NOUN,saurien,1.281771826296819e-06,substantif,1,1800.0,220.0
-trois-quarts@NOUN,1038,NOUN,trois-quarts,1.976937824214113e-06,substantif,2,1690.0,330.0
 conscription@NOUN,1860,NOUN,conscription,3.5424897428114163e-06,substantif,1,1789.0,231.0
 protectorat@NOUN,4849,NOUN,protectorat,9.235232668221805e-06,substantif,2,1751.0,269.0
 malgache@ADJ,1458,ADJ,malgache,2.7768548629134653e-06,adjectif,2,1722.0,298.0
@@ -3497,7 +3448,6 @@ tacle@NOUN,1360,NOUN,tacle,2.5902075538836163e-06,substantif,1,1892.0,128.0
 codéine@NOUN,186,NOUN,codéine,3.5424897428114164e-07,substantif,1,1832.0,188.0
 écoper@VERB,451,VERB,écoper,8.589585344128757e-07,verbe,2,1837.0,183.0
 indéfiniment@ADV,1017,ADV,indéfiniment,1.9369419722791455e-06,adverbe,2,1505.0,515.0
-avant-plan@NOUN,193,NOUN,avant-plan,3.6758092492613087e-07,substantif,1,1866.0,154.0
 embrasure@NOUN,503,NOUN,embrasure,9.57995882061367e-07,substantif,4,1522.0,498.0
 collectionner@VERB,1450,VERB,collectionner,2.7616183478906205e-06,verbe,1,1840.0,180.0
 béret@NOUN,803,NOUN,béret,1.529365195418047e-06,substantif,2,1835.0,185.0
@@ -3650,7 +3600,6 @@ hussard@NOUN,2500,NOUN,hussard,4.7614109446390005e-06,substantif,2,1550.0,470.0
 catafalque@NOUN,104,NOUN,catafalque,1.9807469529698244e-07,substantif,1,1690.0,330.0
 confessionnal@NOUN,442,NOUN,confessionnal,8.418174550121753e-07,substantif,1,1521.0,499.0
 athénée@NOUN,727,NOUN,athénée,1.3846183027010214e-06,substantif,4,1740.0,280.0
-semi-remorque@NOUN,289,NOUN,semi-remorque,5.504191052002685e-07,substantif,2,1951.0,69.0
 rénovateur@NOUN,280,NOUN,rénovateur,5.33278025799568e-07,substantif,1,1555.0,465.0
 dévaluer@VERB,330,VERB,dévaluer,6.285062446923481e-07,verbe,2,1928.0,92.0
 aurifère@ADJ,309,ADJ,aurifère,5.885103927573805e-07,adjectif,1,1535.0,485.0
@@ -3680,12 +3629,12 @@ collectivisation@NOUN,641,NOUN,collectivisation,1.2208257662054397e-06,substanti
 stylet@NOUN,555,NOUN,stylet,1.0570332297098582e-06,substantif,2,1620.0,400.0
 montagnard@NOUN,2084,NOUN,montagnard,3.969112163451071e-06,substantif,11,1510.0,510.0
 sabbatique@ADJ,631,ADJ,sabbatique,1.2017801224268838e-06,adjectif,3,1569.0,451.0
-social-démocrate@NOUN,1385,NOUN,social-démocrate,2.6378216633300065e-06,substantif,1,1893.0,127.0
 soviet@NOUN,1421,NOUN,soviet,2.706385980932808e-06,substantif,4,1840.0,180.0
 présidium@NOUN,306,NOUN,présidium,5.827966996238137e-07,substantif,1,1918.0,102.0
 éventualité@NOUN,1369,NOUN,éventualité,2.607348633284317e-06,substantif,1,1793.0,227.0
 trotskisme@NOUN,164,NOUN,trotskisme,3.1234855796831845e-07,substantif,1,1925.0,95.0
 fusiller@VERB,4748,VERB,fusiller,9.04287166605839e-06,verbe,4,1732.0,288.0
+typhon@NOUN,727,NOUN,typhon,1.3846183027010214e-06,substantif,1,1500.0,520.0
 hase@NOUN,111,NOUN,hase,2.1140664594197162e-07,substantif,1,1556.0,464.0
 yen@NOUN,1269,NOUN,yen,2.4168921954987566e-06,substantif,1,1892.0,128.0
 miniature@NOUN,4208,NOUN,miniature,8.014406902016365e-06,substantif,3,1645.0,375.0
@@ -3731,6 +3680,7 @@ minéral@NOUN,5034,NOUN,minéral,9.587577078125091e-06,substantif,2,1516.0,504.0
 applicabilité@NOUN,112,NOUN,applicabilité,2.1331121031982722e-07,substantif,1,1836.0,184.0
 épaississement@NOUN,268,NOUN,épaississement,5.104232532653009e-07,substantif,1,1538.0,482.0
 décaper@VERB,200,VERB,décaper,3.8091287557112005e-07,verbe,2,1742.0,278.0
+mécaniquement@ADV,882,ADV,mécaniquement,1.6798257812686395e-06,adverbe,1,1500.0,520.0
 tabatière@NOUN,187,NOUN,tabatière,3.5615353865899724e-07,substantif,2,1652.0,368.0
 visser@VERB,610,VERB,visser,1.1617842704919162e-06,verbe,3,1762.0,258.0
 grincement@NOUN,105,NOUN,grincement,1.9997925967483804e-07,substantif,2,1530.0,490.0
@@ -3743,12 +3693,12 @@ reggae@NOUN,805,NOUN,reggae,1.5331743241737582e-06,substantif,1,1976.0,44.0
 tonique@ADJ,627,ADJ,tonique,1.1941618649154614e-06,adjectif,4,1538.0,482.0
 déclamer@VERB,306,VERB,déclamer,5.827966996238137e-07,verbe,3,1542.0,478.0
 incantatoire@ADJ,111,ADJ,incantatoire,2.1140664594197162e-07,adjectif,1,1886.0,134.0
+ridicule@NOUN,1021,NOUN,ridicule,1.944560229790568e-06,substantif,3,1500.0,520.0
 charisme@NOUN,1265,NOUN,charisme,2.4092739379873344e-06,substantif,2,1879.0,141.0
 cycliste@NOUN,3218,NOUN,cycliste,6.128888167939321e-06,substantif,1,1882.0,138.0
 sprinter@VERB,380,VERB,sprinter,7.237344635851281e-07,verbe,1,1871.0,149.0
 sprinter@NOUN,224,NOUN,sprinter,4.2662242063965443e-07,substantif,1,1871.0,149.0
 déblocage@NOUN,201,NOUN,déblocage,3.8281743994897565e-07,substantif,1,1819.0,201.0
-contre-offensive@NOUN,1143,NOUN,contre-offensive,2.176917083888951e-06,substantif,1,1916.0,104.0
 redéployer@VERB,489,VERB,redéployer,9.313319807713885e-07,verbe,1,1865.0,155.0
 tactile@ADJ,1391,ADJ,tactile,2.64924904959714e-06,adjectif,2,1541.0,479.0
 eugénie@NOUN,2138,NOUN,eugénie,4.0719586398552734e-06,substantif,1,1729.0,291.0
@@ -3812,7 +3762,6 @@ hyacinthe@NOUN,189,NOUN,hyacinthe,3.5996266741470843e-07,substantif,3,1523.0,497
 dissection@NOUN,855,NOUN,dissection,1.6284025430665382e-06,substantif,1,1538.0,482.0
 ébauche@NOUN,2325,NOUN,ébauche,4.428112178514271e-06,substantif,5,1619.0,401.0
 édicule@NOUN,566,NOUN,édicule,1.0779834378662697e-06,substantif,2,1863.0,157.0
-néo-classicisme@NOUN,345,NOUN,néo-classicisme,6.570747103601821e-07,substantif,2,1928.0,92.0
 dogme@NOUN,2492,NOUN,dogme,4.746174429616156e-06,substantif,4,1570.0,450.0
 sécularisation@NOUN,933,NOUN,sécularisation,1.776958564539275e-06,substantif,3,1567.0,453.0
 ontologique@ADJ,778,ADJ,ontologique,1.481751085971657e-06,adjectif,1,1765.0,255.0
@@ -3844,7 +3793,6 @@ immensément@ADV,257,ADV,immensément,4.894730451088892e-07,adverbe,1,1725.0,295
 canadienne@NOUN,694,NOUN,canadienne,1.3217676782317866e-06,substantif,4,1732.0,288.0
 chimiste@NOUN,3019,NOUN,chimiste,5.749879856746057e-06,substantif,1,1548.0,472.0
 validation@NOUN,2063,NOUN,validation,3.929116311516104e-06,substantif,2,1529.0,491.0
-contre-indiquer@VERB,238,VERB,contre-indiquer,4.5328632192963285e-07,verbe,1,1832.0,188.0
 occlusion@NOUN,458,NOUN,occlusion,8.722904850578649e-07,substantif,3,1808.0,212.0
 iceberg@NOUN,823,NOUN,iceberg,1.567456482975159e-06,substantif,1,1715.0,305.0
 lacune@NOUN,2222,NOUN,lacune,4.231942047595144e-06,substantif,3,1515.0,505.0
@@ -3932,12 +3880,12 @@ drain@NOUN,313,NOUN,drain,5.961286502688029e-07,substantif,4,1552.0,468.0
 conventionnellement@ADV,213,ADV,conventionnellement,4.0567221248324287e-07,adverbe,1,1636.0,384.0
 cargaison@NOUN,2512,NOUN,cargaison,4.7842657171732675e-06,substantif,3,1554.0,466.0
 réapprovisionner@VERB,310,VERB,réapprovisionner,5.90414957135236e-07,verbe,1,1823.0,197.0
-trois-mâts@NOUN,631,NOUN,trois-mâts,1.2017801224268838e-06,substantif,2,1698.0,322.0
 voilier@NOUN,4044,NOUN,voilier,7.702058344048048e-06,substantif,3,1550.0,470.0
 chavirer@VERB,487,VERB,chavirer,9.275228520156773e-07,verbe,4,1687.0,333.0
 ferromagnétique@ADJ,350,ADJ,ferromagnétique,6.665975322494601e-07,adjectif,2,1850.0,170.0
 précession@NOUN,467,NOUN,précession,8.894315644585654e-07,substantif,1,1690.0,330.0
 expérimentalement@ADV,491,ADV,expérimentalement,9.351411095270997e-07,adverbe,1,1755.0,265.0
+mark@NOUN,1498,NOUN,mark,2.853037438027689e-06,substantif,2,1500.0,520.0
 hoc@NOUN,1130,NOUN,hoc,2.152157746976828e-06,substantif,1,1640.0,380.0
 commando@NOUN,4169,NOUN,commando,7.940128891279997e-06,substantif,3,1824.0,196.0
 affairer@VERB,208,VERB,affairer,3.961493905939649e-07,verbe,1,1888.0,132.0
@@ -3967,6 +3915,7 @@ corallien@ADJ,1357,ADJ,corallien,2.5844938607500495e-06,adjectif,1,1866.0,154.0
 caréner@VERB,436,VERB,caréner,8.303900687450417e-07,verbe,1,1643.0,377.0
 atoll@NOUN,2938,NOUN,atoll,5.595610142139754e-06,substantif,1,1611.0,409.0
 goélette@NOUN,1166,NOUN,goélette,2.22072206457963e-06,substantif,1,1740.0,280.0
+ironiquement@ADV,1199,ADV,ironiquement,2.283572689048865e-06,adverbe,1,1500.0,520.0
 sextant@NOUN,153,NOUN,sextant,2.9139834981190683e-07,substantif,2,1547.0,473.0
 improviser@VERB,2800,VERB,improviser,5.332780257995681e-06,verbe,3,1642.0,378.0
 yacht@NOUN,1346,NOUN,yacht,2.563543652593638e-06,substantif,1,1528.0,492.0
@@ -4019,7 +3968,6 @@ caricatural@ADJ,799,ADJ,caricatural,1.5217469379066246e-06,adjectif,1,1842.0,178
 fulgurance@NOUN,122,NOUN,fulgurance,2.3235685409838324e-07,substantif,2,1866.0,154.0
 essayage@NOUN,127,NOUN,essayage,2.4187967598766125e-07,substantif,1,1828.0,192.0
 styliste@NOUN,1133,NOUN,styliste,2.157871440110395e-06,substantif,1,1836.0,184.0
-coca-cola@NOUN,603,NOUN,coca-cola,1.148452319846927e-06,substantif,1,1886.0,134.0
 grizzli@NOUN,135,NOUN,grizzli,2.5711619101050603e-07,substantif,1,1860.0,160.0
 biennal@ADJ,978,ADJ,biennal,1.862663961542777e-06,adjectif,2,1550.0,470.0
 caïman@NOUN,340,NOUN,caïman,6.475518884709041e-07,substantif,1,1530.0,490.0
@@ -4066,7 +4014,6 @@ momification@NOUN,243,NOUN,momification,4.628091438189109e-07,substantif,1,1789.
 chiffon@NOUN,595,NOUN,chiffon,1.1332158048240821e-06,substantif,3,1609.0,411.0
 désuétude@NOUN,1358,NOUN,désuétude,2.586398425127905e-06,substantif,2,1596.0,424.0
 antiseptique@ADJ,351,ADJ,antiseptique,6.685020966273157e-07,adjectif,2,1751.0,269.0
-médico-légal@ADJ,407,ADJ,médico-légal,7.751577017872293e-07,adjectif,1,1767.0,253.0
 germinal@ADJ,1917,ADJ,germinal,3.6510499123491856e-06,adjectif,1,1831.0,189.0
 argot@NOUN,1264,NOUN,argot,2.407369373609479e-06,substantif,4,1628.0,392.0
 chrome@NOUN,1168,NOUN,chrome,2.224531193335341e-06,substantif,5,1562.0,458.0
@@ -4080,10 +4027,10 @@ crétin@NOUN,170,NOUN,crétin,3.2377594423545203e-07,substantif,2,1750.0,270.0
 émotif@ADJ,399,ADJ,émotif,7.599211867643845e-07,adjectif,1,1735.0,285.0
 galanterie@NOUN,242,NOUN,galanterie,4.609045794410553e-07,substantif,4,1537.0,483.0
 génial@ADJ,1015,ADJ,génial,1.933132843523434e-06,adjectif,1,1509.0,511.0
+monologue@NOUN,1495,NOUN,monologue,2.8473237448941225e-06,substantif,3,1500.0,520.0
 anarchisme@NOUN,1371,NOUN,anarchisme,2.6111577620400278e-06,substantif,2,1840.0,180.0
 bureaucratie@NOUN,1366,NOUN,bureaucratie,2.60163494015075e-06,substantif,3,1759.0,261.0
 décimateur@NOUN,202,NOUN,décimateur,3.8472200432683125e-07,substantif,1,1542.0,478.0
-sous-développé@ADJ,157,ADJ,sous-développé,2.990166073233292e-07,adjectif,2,1949.0,71.0
 barragiste@NOUN,224,NOUN,barragiste,4.2662242063965443e-07,substantif,1,1845.0,175.0
 synthétique@ADJ,4294,ADJ,synthétique,8.178199438511948e-06,adjectif,3,1602.0,418.0
 généticien@NOUN,494,NOUN,généticien,9.408548026606665e-07,substantif,1,1931.0,89.0
@@ -4108,6 +4055,7 @@ galène@NOUN,221,NOUN,galène,4.2090872750608764e-07,substantif,1,1553.0,467.0
 cabotage@NOUN,477,NOUN,cabotage,9.084772082371213e-07,substantif,3,1678.0,342.0
 embouteillage@NOUN,1052,NOUN,embouteillage,2.0036017255040913e-06,substantif,3,1845.0,175.0
 cyclable@ADJ,2298,ADJ,cyclable,4.37668894031217e-06,adjectif,1,1898.0,122.0
+villageois@ADJ,1311,ADJ,villageois,2.4968838993686917e-06,adjectif,4,1500.0,520.0
 complexifier@VERB,538,VERB,complexifier,1.024655635286313e-06,verbe,2,1951.0,69.0
 affleurement@NOUN,1271,NOUN,affleurement,2.420701324254468e-06,substantif,3,1593.0,427.0
 chaînage@NOUN,536,NOUN,chaînage,1.0208465065306017e-06,substantif,2,1605.0,415.0
@@ -4153,7 +4101,6 @@ moire@NOUN,156,NOUN,moire,2.971120429454736e-07,substantif,2,1570.0,450.0
 noyade@NOUN,1348,NOUN,noyade,2.5673527813493493e-06,substantif,2,1794.0,226.0
 estompe@NOUN,414,NOUN,estompe,7.884896524322185e-07,substantif,1,1666.0,354.0
 toto@NOUN,864,NOUN,toto,1.6455436224672386e-06,substantif,2,1837.0,183.0
-grand-duché@NOUN,2322,NOUN,grand-duché,4.422398485380704e-06,substantif,1,1573.0,447.0
 bordée@NOUN,1128,NOUN,bordée,2.148348618221117e-06,substantif,11,1546.0,474.0
 réfrigérateur@NOUN,867,NOUN,réfrigérateur,1.6512573156008054e-06,substantif,1,1611.0,409.0
 indiscutablement@ADV,229,ADV,indiscutablement,4.3614524252893247e-07,adverbe,1,1876.0,144.0
@@ -4201,7 +4148,6 @@ massorétique@ADJ,224,ADJ,massorétique,4.2662242063965443e-07,adjectif,1,1678.0
 romaniser@VERB,828,VERB,romaniser,1.576979304864437e-06,verbe,5,1566.0,454.0
 réimprimer@VERB,1009,VERB,réimprimer,1.9217054572563007e-06,verbe,1,1511.0,509.0
 pâtir@VERB,343,VERB,pâtir,6.532655816044709e-07,verbe,1,1546.0,474.0
-porte-avions@NOUN,6508,NOUN,porte-avions,1.2394904971084246e-05,substantif,2,1921.0,99.0
 ponte@NOUN,3235,NOUN,ponte,6.161265762362867e-06,substantif,6,1570.0,450.0
 naturiste@ADJ,426,ADJ,naturiste,8.113444249664857e-07,adjectif,1,1821.0,199.0
 cambrioler@VERB,317,VERB,cambrioler,6.037469077802253e-07,verbe,1,1847.0,173.0
@@ -4245,7 +4191,6 @@ théoricien@NOUN,3432,NOUN,théoricien,6.53646494480042e-06,substantif,1,1550.0,
 pochoir@NOUN,343,NOUN,pochoir,6.532655816044709e-07,substantif,1,1874.0,146.0
 subjectivité@NOUN,852,NOUN,subjectivité,1.6226888499329715e-06,substantif,1,1801.0,219.0
 théoriser@VERB,1234,VERB,théoriser,2.3502324422738107e-06,verbe,1,1823.0,197.0
-va-et-vient@NOUN,321,NOUN,va-et-vient,6.113651652916477e-07,substantif,8,1765.0,255.0
 grillage@NOUN,699,NOUN,grillage,1.3312905001210646e-06,substantif,10,1735.0,285.0
 chronologiquement@ADV,960,ADV,chronologiquement,1.8283818027413762e-06,adverbe,1,1829.0,191.0
 interné@ADJ,162,ADJ,interné,3.0853942921260726e-07,adjectif,2,1550.0,470.0
@@ -4266,7 +4211,6 @@ janséniste@NOUN,518,NOUN,janséniste,9.865643477292009e-07,substantif,1,1656.0,
 mentor@NOUN,1560,NOUN,mentor,2.9711204294547365e-06,substantif,2,1699.0,321.0
 uniate@NOUN,119,NOUN,uniate,2.2664316096481642e-07,substantif,1,1843.0,177.0
 marianiste@NOUN,165,NOUN,marianiste,3.1425312234617405e-07,substantif,1,1892.0,128.0
-cache-cache@NOUN,120,NOUN,cache-cache,2.2854772534267202e-07,substantif,1,1778.0,242.0
 mestre@NOUN,483,NOUN,mestre,9.199045945042549e-07,substantif,4,1546.0,474.0
 réévaluer@VERB,734,VERB,réévaluer,1.3979502533460107e-06,verbe,2,1925.0,95.0
 quadrille@NOUN,191,NOUN,quadrille,3.637717961704196e-07,substantif,5,1546.0,474.0
@@ -4320,7 +4264,6 @@ shaman@NOUN,129,NOUN,shaman,2.4568880474337245e-07,substantif,1,1699.0,321.0
 météorologie@NOUN,1779,NOUN,météorologie,3.3882200282051127e-06,substantif,3,1547.0,473.0
 mascotte@NOUN,1976,NOUN,mascotte,3.763419210642666e-06,substantif,1,1867.0,153.0
 régie@NOUN,3283,NOUN,régie,6.252684852499936e-06,substantif,2,1550.0,470.0
-casse-noisette@NOUN,160,NOUN,casse-noisette,3.0473030045689606e-07,substantif,1,1680.0,340.0
 machinerie@NOUN,958,NOUN,machinerie,1.824572673985665e-06,substantif,2,1650.0,370.0
 plaisancier@NOUN,362,NOUN,plaisancier,6.894523047837273e-07,substantif,1,1893.0,127.0
 prestataire@NOUN,1084,NOUN,prestataire,2.064547785595471e-06,substantif,2,1845.0,175.0
@@ -4356,7 +4299,6 @@ rembarquer@VERB,359,VERB,rembarquer,6.837386116501605e-07,verbe,3,1527.0,493.0
 pilonnage@NOUN,244,NOUN,pilonnage,4.647137081967665e-07,substantif,1,1803.0,217.0
 chiffrer@VERB,2355,VERB,chiffrer,4.485249109849938e-06,verbe,6,1515.0,505.0
 reclasser@VERB,961,VERB,reclasser,1.8302863671192318e-06,verbe,1,1875.0,145.0
-nord-africain@ADJ,761,ADJ,nord-africain,1.4493734915481118e-06,adjectif,1,1900.0,120.0
 australien@NOUN,5688,NOUN,australien,1.0833162181242654e-05,substantif,1,1842.0,178.0
 algonquin@NOUN,715,NOUN,algonquin,1.3617635301667542e-06,substantif,2,1625.0,395.0
 féminiser@VERB,305,VERB,féminiser,5.808921352459581e-07,verbe,3,1534.0,486.0
@@ -4397,12 +4339,10 @@ omnibus@NOUN,2056,NOUN,omnibus,3.915784360871114e-06,substantif,1,1828.0,192.0
 terreau@NOUN,782,NOUN,terreau,1.4893693434830794e-06,substantif,4,1611.0,409.0
 acidification@NOUN,467,NOUN,acidification,8.894315644585654e-07,substantif,1,1786.0,234.0
 engrais@NOUN,883,NOUN,engrais,1.6817303456464951e-06,substantif,3,1510.0,510.0
-non-respect@NOUN,1228,NOUN,non-respect,2.3388050560066772e-06,substantif,1,1843.0,177.0
 désagréger@VERB,628,VERB,désagréger,1.1960664292933169e-06,verbe,1,1798.0,222.0
 planaire@NOUN,163,NOUN,planaire,3.1044399359046285e-07,substantif,1,1776.0,244.0
 dégénérescence@NOUN,1047,NOUN,dégénérescence,1.9940789036148133e-06,substantif,1,1796.0,224.0
 algorithmique@ADJ,596,ADJ,algorithmique,1.1351203692019378e-06,adjectif,1,1845.0,175.0
-social-démocratie@NOUN,646,NOUN,social-démocratie,1.2303485880947177e-06,substantif,3,1899.0,121.0
 pétrifier@VERB,431,VERB,pétrifier,8.208672468557637e-07,verbe,2,1580.0,440.0
 pessimisme@NOUN,610,NOUN,pessimisme,1.1617842704919162e-06,substantif,1,1759.0,261.0
 réélection@NOUN,2406,NOUN,réélection,4.582381893120574e-06,substantif,1,1784.0,236.0
@@ -4438,7 +4378,6 @@ réversibilité@NOUN,281,NOUN,réversibilité,5.351825901774237e-07,substantif,3
 égoïste@ADJ,940,ADJ,égoïste,1.7902905151842642e-06,adjectif,1,1698.0,322.0
 personnification@NOUN,828,NOUN,personnification,1.576979304864437e-06,substantif,2,1772.0,248.0
 antipathie@NOUN,370,NOUN,antipathie,7.046888198065721e-07,substantif,2,1555.0,465.0
-gratte-ciel@NOUN,1528,NOUN,gratte-ciel,2.910174369363357e-06,substantif,1,1883.0,137.0
 prépondérant@ADJ,1580,ADJ,prépondérant,3.0092117170118483e-06,adjectif,1,1723.0,297.0
 ide@NOUN,437,NOUN,ide,8.322946331228974e-07,substantif,2,1785.0,235.0
 ostrogoth@NOUN,637,NOUN,ostrogoth,1.2132075086940173e-06,substantif,1,1534.0,486.0
@@ -4521,7 +4460,6 @@ rotor@NOUN,1795,NOUN,rotor,3.4186930582508026e-06,substantif,1,1900.0,120.0
 centrifuge@ADJ,234,ADJ,centrifuge,4.4566806441821046e-07,adjectif,2,1687.0,333.0
 inconditionnel@ADJ,931,ADJ,inconditionnel,1.7731494357835638e-06,adjectif,1,1783.0,237.0
 scepticisme@NOUN,1408,NOUN,scepticisme,2.6816266440206854e-06,substantif,2,1669.0,351.0
-franc-tireur@NOUN,812,NOUN,franc-tireur,1.5465062748187474e-06,substantif,2,1792.0,228.0
 imminence@NOUN,700,NOUN,imminence,1.3331950644989203e-06,substantif,1,1787.0,233.0
 gradé@NOUN,366,NOUN,gradé,6.970705622951497e-07,substantif,1,1796.0,224.0
 parachuter@VERB,1195,VERB,parachuter,2.2759544315374423e-06,verbe,2,1945.0,75.0
@@ -4533,6 +4471,7 @@ intimider@VERB,1025,VERB,intimider,1.9521784873019902e-06,verbe,1,1515.0,505.0
 saxon@NOUN,2318,NOUN,saxon,4.414780227869281e-06,substantif,1,1512.0,508.0
 pétrolifère@ADJ,499,ADJ,pétrolifère,9.503776245499446e-07,adjectif,1,1867.0,153.0
 encerclement@NOUN,558,NOUN,encerclement,1.062746922843425e-06,substantif,1,1578.0,442.0
+inéluctable@ADJ,945,ADJ,inéluctable,1.7998133370735423e-06,adjectif,1,1500.0,520.0
 égéen@ADJ,370,ADJ,égéen,7.046888198065721e-07,adjectif,2,1838.0,182.0
 bolchévisme@NOUN,211,NOUN,bolchévisme,4.0186308372753167e-07,substantif,2,1898.0,122.0
 impérialiste@NOUN,270,NOUN,impérialiste,5.142323820210121e-07,substantif,2,1525.0,495.0
@@ -4540,7 +4479,6 @@ impérialiste@NOUN,270,NOUN,impérialiste,5.142323820210121e-07,substantif,2,152
 malformation@NOUN,1225,NOUN,malformation,2.3330913628731105e-06,substantif,1,1858.0,162.0
 coiffeuse@NOUN,193,NOUN,coiffeuse,3.6758092492613087e-07,substantif,2,1919.0,101.0
 fédérer@VERB,3015,VERB,fédérer,5.742261599234635e-06,verbe,1,1521.0,499.0
-franc-maçonnerie@NOUN,3069,NOUN,franc-maçonnerie,5.845108075638837e-06,substantif,3,1742.0,278.0
 scotch@NOUN,243,NOUN,scotch,4.628091438189109e-07,substantif,2,1898.0,122.0
 extrapolation@NOUN,553,NOUN,extrapolation,1.053224100954147e-06,substantif,3,1877.0,143.0
 objecteur@NOUN,609,NOUN,objecteur,1.1598797061140606e-06,substantif,2,1611.0,409.0
@@ -4582,6 +4520,7 @@ travestissement@NOUN,241,NOUN,travestissement,4.5900001506319964e-07,substantif,
 morphine@NOUN,830,NOUN,morphine,1.5807884336201482e-06,substantif,1,1817.0,203.0
 baptiste@NOUN,568,NOUN,baptiste,1.081792566621981e-06,substantif,1,1751.0,269.0
 optimisme@NOUN,1066,NOUN,optimisme,2.03026562679407e-06,substantif,3,1737.0,283.0
+provocateur@NOUN,798,NOUN,provocateur,1.519842373528769e-06,substantif,1,1500.0,520.0
 éminemment@ADV,720,ADV,éminemment,1.3712863520560322e-06,adverbe,2,1587.0,433.0
 délirer@VERB,322,VERB,délirer,6.132697296695033e-07,verbe,2,1525.0,495.0
 maniérer@VERB,121,VERB,maniérer,2.3045228972052764e-07,verbe,1,1672.0,348.0
@@ -4605,7 +4544,6 @@ dragage@NOUN,555,NOUN,dragage,1.0570332297098582e-06,substantif,1,1765.0,255.0
 mariner@VERB,601,VERB,mariner,1.1446431910912158e-06,verbe,4,1552.0,468.0
 épisodique@ADJ,687,ADJ,épisodique,1.3084357275867975e-06,adjectif,1,1633.0,387.0
 éditorial@NOUN,1737,NOUN,éditorial,3.3082283243351775e-06,substantif,1,1852.0,168.0
-non-lieu@NOUN,950,NOUN,non-lieu,1.8093361589628203e-06,substantif,1,1836.0,184.0
 inculper@VERB,2419,VERB,inculper,4.607141230032697e-06,verbe,1,1611.0,409.0
 embolie@NOUN,449,NOUN,embolie,8.551494056571645e-07,substantif,1,1845.0,175.0
 déchiffrement@NOUN,450,NOUN,déchiffrement,8.570539700350202e-07,substantif,1,1553.0,467.0
@@ -4638,7 +4576,6 @@ nylon@NOUN,435,NOUN,nylon,8.284855043671862e-07,substantif,1,1938.0,82.0
 étanchéité@NOUN,1354,NOUN,étanchéité,2.578780167616483e-06,substantif,1,1873.0,147.0
 crotale@NOUN,220,NOUN,crotale,4.1900416312823205e-07,substantif,2,1596.0,424.0
 intouchable@ADJ,527,ADJ,intouchable,1.0037054271299013e-06,adjectif,1,1569.0,451.0
-tiers-monde@NOUN,311,NOUN,tiers-monde,5.923195215130917e-07,substantif,2,1952.0,68.0
 civiliser@VERB,732,VERB,civiliser,1.3941411245902994e-06,verbe,2,1550.0,470.0
 prof@NOUN,482,NOUN,prof,9.180000301263993e-07,substantif,1,1890.0,130.0
 panique@ADJ,927,ADJ,panique,1.7655311782721414e-06,adjectif,2,1534.0,486.0
@@ -4664,7 +4601,6 @@ attroupement@NOUN,208,NOUN,attroupement,3.961493905939649e-07,substantif,1,1550.
 bagarreur@NOUN,237,NOUN,bagarreur,4.5138175755177725e-07,substantif,2,1927.0,93.0
 démarchage@NOUN,152,NOUN,démarchage,2.8949378543405123e-07,substantif,1,1934.0,86.0
 mac@NOUN,1440,NOUN,mac,2.7425727041120645e-06,substantif,4,1835.0,185.0
-haut-parleur@NOUN,1276,NOUN,haut-parleur,2.430224146143746e-06,substantif,1,1884.0,136.0
 directionnel@ADJ,851,ADJ,directionnel,1.6207842855551158e-06,adjectif,2,1951.0,69.0
 désagrément@NOUN,436,NOUN,désagrément,8.303900687450417e-07,substantif,1,1640.0,380.0
 ultrason@NOUN,636,NOUN,ultrason,1.2113029443161619e-06,substantif,1,1926.0,94.0
@@ -4722,7 +4658,6 @@ déconcentrer@VERB,360,VERB,déconcentrer,6.856431760280161e-07,verbe,3,1835.0,1
 combine@NOUN,967,NOUN,combine,1.8417137533863655e-06,substantif,1,1906.0,114.0
 préliminaire@NOUN,560,NOUN,préliminaire,1.066556051599136e-06,substantif,3,1671.0,349.0
 ferreux@ADJ,475,ADJ,ferreux,9.046680794814102e-07,adjectif,1,1611.0,409.0
-gréco-romain@ADJ,1445,ADJ,gréco-romain,2.7520955260013425e-06,adjectif,1,1832.0,188.0
 rejeton@NOUN,418,NOUN,rejeton,7.96107909943641e-07,substantif,2,1539.0,481.0
 réticent@ADJ,1024,ADJ,réticent,1.950273922924135e-06,adjectif,2,1845.0,175.0
 colloïde@NOUN,153,NOUN,colloïde,2.9139834981190683e-07,substantif,1,1845.0,175.0
@@ -4829,8 +4764,6 @@ migratoire@ADJ,2383,ADJ,migratoire,4.538576912429896e-06,adjectif,1,1840.0,180.0
 trapèze@NOUN,698,NOUN,trapèze,1.329385935743209e-06,substantif,3,1542.0,478.0
 comparativement@ADV,1754,ADV,comparativement,3.340605918758723e-06,adverbe,1,1556.0,464.0
 hermétique@ADJ,730,ADJ,hermétique,1.390331995834588e-06,adjectif,4,1554.0,466.0
-haut-fond@NOUN,415,NOUN,haut-fond,7.903942168100741e-07,substantif,1,1716.0,304.0
-pied-à-terre@NOUN,106,NOUN,pied-à-terre,2.0188382405269363e-07,substantif,1,1752.0,268.0
 téléphérique@NOUN,1478,NOUN,téléphérique,2.814946150470577e-06,substantif,1,1920.0,100.0
 védique@ADJ,589,ADJ,védique,1.1217884185569486e-06,adjectif,1,1842.0,178.0
 caspien@ADJ,101,ADJ,caspien,1.9236100216341562e-07,adjectif,1,1863.0,157.0
@@ -4841,6 +4774,7 @@ optionnel@ADJ,993,ADJ,optionnel,1.8912324272106111e-06,adjectif,2,1960.0,60.0
 régulateur@NOUN,1507,NOUN,régulateur,2.8701785174283894e-06,substantif,2,1550.0,470.0
 rétroviseur@NOUN,478,NOUN,rétroviseur,9.103817726149769e-07,substantif,2,1929.0,91.0
 boussole@NOUN,762,NOUN,boussole,1.4512780559259674e-06,substantif,2,1527.0,493.0
+portugais@NOUN,4140,NOUN,portugais,7.884896524322185e-06,substantif,2,1500.0,520.0
 mandarine@NOUN,288,NOUN,mandarine,5.485145408224129e-07,substantif,3,1773.0,247.0
 hybridation@NOUN,1409,NOUN,hybridation,2.683531208398541e-06,substantif,1,1826.0,194.0
 bactériologie@NOUN,289,NOUN,bactériologie,5.504191052002685e-07,substantif,1,1888.0,132.0
@@ -4863,7 +4797,6 @@ pneumatique@NOUN,2083,NOUN,pneumatique,3.967207599073215e-06,substantif,4,1520.0
 turbo@NOUN,1713,NOUN,turbo,3.262518779266643e-06,substantif,3,1758.0,262.0
 éperdument@ADV,142,ADV,éperdument,2.7044814165549526e-07,adverbe,1,1520.0,500.0
 musculation@NOUN,680,NOUN,musculation,1.2951037769418081e-06,substantif,2,1865.0,155.0
-porte-bonheur@NOUN,175,NOUN,porte-bonheur,3.3329876612473007e-07,substantif,1,1706.0,314.0
 ineptie@NOUN,115,NOUN,ineptie,2.1902490345339404e-07,substantif,1,1546.0,474.0
 hombre@NOUN,220,NOUN,hombre,4.1900416312823205e-07,substantif,2,1550.0,470.0
 squelette@NOUN,5616,NOUN,squelette,1.0696033546037051e-05,substantif,5,1552.0,468.0
@@ -4951,7 +4884,6 @@ déflagration@NOUN,291,NOUN,déflagration,5.542282339559797e-07,substantif,2,172
 tram@NOUN,1817,NOUN,tram,3.4605934745636257e-06,substantif,1,1818.0,202.0
 averse@NOUN,486,NOUN,averse,9.256182876378218e-07,substantif,1,1688.0,332.0
 affreux@ADJ,654,ADJ,affreux,1.2455851031175625e-06,adjectif,3,1520.0,500.0
-extrême-onction@NOUN,132,NOUN,extrême-onction,2.5140249787693924e-07,substantif,1,1549.0,471.0
 hippomobile@ADJ,791,ADJ,hippomobile,1.5065104228837798e-06,adjectif,1,1896.0,124.0
 machiniste@NOUN,375,NOUN,machiniste,7.142116416958501e-07,substantif,4,1643.0,377.0
 paléographie@NOUN,402,NOUN,paléographie,7.656348798979513e-07,substantif,1,1708.0,312.0
@@ -5012,7 +4944,6 @@ thé@NOUN,4052,NOUN,thé,7.717294859070891e-06,substantif,5,1589.0,431.0
 assaisonnement@NOUN,209,NOUN,assaisonnement,3.980539549718205e-07,substantif,3,1538.0,482.0
 oléique@ADJ,102,ADJ,oléique,1.9426556654127122e-07,adjectif,1,1822.0,198.0
 camélia@NOUN,367,NOUN,camélia,6.989751266730053e-07,substantif,2,1650.0,370.0
-non-activité@NOUN,340,NOUN,non-activité,6.475518884709041e-07,substantif,1,1791.0,229.0
 statutaire@ADJ,773,ADJ,statutaire,1.472228264082379e-06,adjectif,1,1589.0,431.0
 plagier@VERB,406,VERB,plagier,7.732531374093737e-07,verbe,1,1801.0,219.0
 triade@NOUN,1208,NOUN,triade,2.300713768449565e-06,substantif,1,1562.0,458.0
@@ -5061,7 +4992,6 @@ marseillais@NOUN,1787,NOUN,marseillais,3.403456543227958e-06,substantif,3,1605.0
 cyclone@NOUN,3386,NOUN,cyclone,6.448854983419063e-06,substantif,2,1860.0,160.0
 régionalisation@NOUN,420,NOUN,régionalisation,7.999170386993522e-07,substantif,2,1960.0,60.0
 indiscutable@ADJ,1941,ADJ,indiscutable,3.69675945741772e-06,adjectif,1,1832.0,188.0
-grand-oncle@NOUN,1021,NOUN,grand-oncle,1.944560229790568e-06,substantif,1,1538.0,482.0
 typhoïde@ADJ,287,ADJ,typhoïde,5.466099764445573e-07,adjectif,2,1800.0,220.0
 parachutage@NOUN,1064,NOUN,parachutage,2.0264564980383587e-06,substantif,1,1944.0,76.0
 surlendemain@NOUN,530,NOUN,surlendemain,1.009419120263468e-06,substantif,1,1714.0,306.0
@@ -5085,7 +5015,6 @@ capitaliser@VERB,541,VERB,capitaliser,1.0303693284198798e-06,verbe,3,1770.0,250.
 inexistant@ADJ,1577,ADJ,inexistant,3.0034980238782815e-06,adjectif,2,1784.0,236.0
 imbattable@ADJ,172,ADJ,imbattable,3.2758507299116323e-07,adjectif,1,1806.0,214.0
 brûlot@NOUN,623,NOUN,brûlot,1.186543607404039e-06,substantif,8,1627.0,393.0
-vice-présidence@NOUN,1584,NOUN,vice-présidence,3.016829974523271e-06,substantif,1,1771.0,249.0
 panel@NOUN,1500,NOUN,panel,2.8568465667834005e-06,substantif,2,1953.0,67.0
 idéologue@NOUN,592,NOUN,idéologue,1.1275021116905154e-06,substantif,2,1800.0,220.0
 alcaloïde@NOUN,781,NOUN,alcaloïde,1.4874647791052237e-06,substantif,2,1823.0,197.0
@@ -5093,7 +5022,6 @@ stimulant@ADJ,505,ADJ,stimulant,9.61805010817078e-07,adjectif,2,1752.0,268.0
 nicotine@NOUN,373,NOUN,nicotine,7.104025129401389e-07,substantif,1,1818.0,202.0
 parasympathique@ADJ,157,ADJ,parasympathique,2.990166073233292e-07,adjectif,1,1905.0,115.0
 oralement@ADV,713,ADV,oralement,1.3579544014110429e-06,adverbe,1,1829.0,191.0
-petit-neveu@NOUN,954,NOUN,petit-neveu,1.8169544164742427e-06,substantif,1,1531.0,489.0
 ordonnateur@NOUN,457,NOUN,ordonnateur,8.703859206800093e-07,substantif,3,1504.0,516.0
 confiseur@NOUN,322,NOUN,confiseur,6.132697296695033e-07,substantif,1,1600.0,420.0
 hasardeux@ADJ,710,ADJ,hasardeux,1.3522407082774762e-06,adjectif,2,1540.0,480.0
@@ -5104,7 +5032,6 @@ poliomyélite@NOUN,485,NOUN,poliomyélite,9.237137232599661e-07,substantif,2,187
 enneigement@NOUN,270,NOUN,enneigement,5.142323820210121e-07,substantif,2,1873.0,147.0
 aérostation@NOUN,178,NOUN,aérostation,3.3901245925829686e-07,substantif,1,1784.0,236.0
 chablis@NOUN,186,NOUN,chablis,3.5424897428114164e-07,substantif,2,1837.0,183.0
-aéro-club@NOUN,674,NOUN,aéro-club,1.2836763906746747e-06,substantif,1,1898.0,122.0
 optimal@ADJ,3631,ADJ,optimal,6.915473255993684e-06,adjectif,1,1906.0,114.0
 compatibilité@NOUN,1552,NOUN,compatibilité,2.9558839144318918e-06,substantif,2,1586.0,434.0
 soutra@NOUN,169,NOUN,soutra,3.2187137985759644e-07,substantif,1,1842.0,178.0
@@ -5180,6 +5107,7 @@ fougue@NOUN,545,NOUN,fougue,1.0379875859313022e-06,substantif,3,1580.0,440.0
 prévisible@ADJ,1255,ADJ,prévisible,2.3902282942087783e-06,adjectif,1,1844.0,176.0
 sournois@ADJ,219,ADJ,sournois,4.1709959875037645e-07,adjectif,2,1640.0,380.0
 imprécision@NOUN,581,NOUN,imprécision,1.1065519035341037e-06,substantif,2,1803.0,217.0
+élégie@NOUN,720,NOUN,élégie,1.3712863520560322e-06,substantif,2,1500.0,520.0
 exégète@NOUN,579,NOUN,exégète,1.1027427747783926e-06,substantif,1,1732.0,288.0
 trivial@ADJ,1070,ADJ,trivial,2.037883884305492e-06,adjectif,3,1545.0,475.0
 banalité@NOUN,543,NOUN,banalité,1.0341784571755909e-06,substantif,3,1555.0,465.0
@@ -5224,6 +5152,7 @@ suède@NOUN,1131,NOUN,suède,2.154062311354684e-06,substantif,1,1840.0,180.0
 positivité@NOUN,173,NOUN,positivité,3.294896373690188e-07,substantif,1,1659.0,361.0
 clipper@NOUN,892,NOUN,clipper,1.6988714250471954e-06,substantif,2,1823.0,197.0
 aquarium@NOUN,2550,NOUN,aquarium,4.856639163531781e-06,substantif,1,1860.0,160.0
+papule@NOUN,101,NOUN,papule,1.9236100216341562e-07,substantif,2,1500.0,520.0
 inoculation@NOUN,394,NOUN,inoculation,7.503983648751065e-07,substantif,1,1580.0,440.0
 hypertrophie@NOUN,362,NOUN,hypertrophie,6.894523047837273e-07,substantif,2,1818.0,202.0
 lymphatique@ADJ,617,ADJ,lymphatique,1.1751162211369054e-06,adjectif,2,1546.0,474.0
@@ -5256,7 +5185,6 @@ agnatique@ADJ,126,ADJ,agnatique,2.3997511160980566e-07,adjectif,1,1735.0,285.0
 inattention@NOUN,240,NOUN,inattention,4.5709545068534404e-07,substantif,1,1662.0,358.0
 péripétie@NOUN,2249,NOUN,péripétie,4.283365285797245e-06,substantif,2,1605.0,415.0
 reformuler@VERB,397,VERB,reformuler,7.561120580086733e-07,verbe,1,1954.0,66.0
-sous-groupe@NOUN,2907,NOUN,sous-groupe,5.53656864642623e-06,substantif,2,1891.0,129.0
 réprimande@NOUN,306,NOUN,réprimande,5.827966996238137e-07,substantif,2,1549.0,471.0
 sororité@NOUN,180,NOUN,sororité,3.4282158801400806e-07,substantif,2,1546.0,474.0
 indulgent@ADJ,302,ADJ,indulgent,5.751784421123913e-07,adjectif,1,1542.0,478.0
@@ -5377,7 +5305,6 @@ pyrolyse@NOUN,231,NOUN,pyrolyse,4.3995437128464367e-07,substantif,1,1890.0,130.0
 gazéification@NOUN,121,NOUN,gazéification,2.3045228972052764e-07,substantif,1,1840.0,180.0
 catalyseur@NOUN,1610,NOUN,catalyseur,3.0663486483475165e-06,substantif,2,1884.0,136.0
 cancérigène@ADJ,306,ADJ,cancérigène,5.827966996238137e-07,adjectif,1,1920.0,100.0
-sous-produit@NOUN,698,NOUN,sous-produit,1.329385935743209e-06,substantif,2,1873.0,147.0
 benzène@NOUN,544,NOUN,benzène,1.0360830215534465e-06,substantif,1,1835.0,185.0
 toluène@NOUN,221,NOUN,toluène,4.2090872750608764e-07,substantif,1,1850.0,170.0
 inorganique@ADJ,697,ADJ,inorganique,1.3274813713653533e-06,adjectif,1,1579.0,441.0
@@ -5410,7 +5337,6 @@ symétrique@ADJ,4009,ADJ,symétrique,7.635398590823102e-06,adjectif,4,1529.0,491
 cerbère@NOUN,391,NOUN,cerbère,7.446846717415397e-07,substantif,2,1550.0,470.0
 informatif@ADJ,608,ADJ,informatif,1.157975141736205e-06,adjectif,1,1520.0,500.0
 cantonnier@NOUN,150,NOUN,cantonnier,2.8568465667834004e-07,substantif,2,1628.0,392.0
-saint-cyrien@NOUN,171,NOUN,saint-cyrien,3.2568050861330763e-07,substantif,35,1851.0,169.0
 polytechnicien@NOUN,272,NOUN,polytechnicien,5.180415107767233e-07,substantif,3,1842.0,178.0
 capitule@NOUN,487,NOUN,capitule,9.275228520156773e-07,substantif,2,1721.0,299.0
 bractée@NOUN,664,NOUN,bractée,1.2646307468961186e-06,substantif,1,1771.0,249.0
@@ -5498,9 +5424,9 @@ catharisme@NOUN,286,NOUN,catharisme,5.447054120667017e-07,substantif,1,1947.0,73
 gnose@NOUN,247,NOUN,gnose,4.704274013303333e-07,substantif,4,1697.0,323.0
 occultiste@ADJ,189,ADJ,occultiste,3.5996266741470843e-07,adjectif,1,1881.0,139.0
 continuateur@NOUN,866,NOUN,continuateur,1.64935275122295e-06,substantif,2,1579.0,441.0
+prosaïquement@ADV,122,ADV,prosaïquement,2.3235685409838324e-07,adverbe,1,1500.0,520.0
 radicalisme@NOUN,717,NOUN,radicalisme,1.3655726589224655e-06,substantif,1,1820.0,200.0
 anglicanisme@NOUN,285,NOUN,anglicanisme,5.428008476888461e-07,substantif,1,1800.0,220.0
-arrière-pensée@NOUN,188,NOUN,arrière-pensée,3.5805810303685283e-07,substantif,1,1587.0,433.0
 libéralisation@NOUN,1827,NOUN,libéralisation,3.4796391183421817e-06,substantif,1,1835.0,185.0
 farouche@NOUN,1302,NOUN,farouche,2.4797428199679915e-06,substantif,1,1796.0,224.0
 teck@NOUN,392,NOUN,teck,7.465892361193953e-07,substantif,1,1614.0,406.0
@@ -5544,21 +5470,18 @@ rétrospectivement@ADV,730,ADV,rétrospectivement,1.390331995834588e-06,adverbe,
 inéluctablement@ADV,225,ADV,inéluctablement,4.285269850175101e-07,adverbe,1,1872.0,148.0
 irremplaçable@ADJ,340,ADJ,irremplaçable,6.475518884709041e-07,adjectif,1,1845.0,175.0
 redoute@NOUN,1857,NOUN,redoute,3.5367760496778496e-06,substantif,3,1599.0,421.0
-cross-country@NOUN,952,NOUN,cross-country,1.8131452877185314e-06,substantif,1,1767.0,253.0
 iriser@VERB,170,VERB,iriser,3.2377594423545203e-07,verbe,2,1749.0,271.0
 dérailleur@NOUN,142,NOUN,dérailleur,2.7044814165549526e-07,substantif,1,1916.0,104.0
 ego@NOUN,1273,NOUN,ego,2.424510453010179e-06,substantif,1,1886.0,134.0
 syntaxique@ADJ,1058,ADJ,syntaxique,2.015029111771225e-06,adjectif,1,1819.0,201.0
 quatrain@NOUN,176,NOUN,quatrain,3.3520333050258567e-07,substantif,2,1543.0,477.0
 tercet@NOUN,107,NOUN,tercet,2.0378838843054923e-07,substantif,1,1513.0,507.0
-gréco-latin@ADJ,341,ADJ,gréco-latin,6.494564528487597e-07,adjectif,1,1821.0,199.0
 sassanide@ADJ,908,ADJ,sassanide,1.7293444550928851e-06,adjectif,1,1816.0,204.0
 paléolithique@ADJ,574,ADJ,paléolithique,1.0932199528891145e-06,adjectif,1,1866.0,154.0
 thermidor@NOUN,1704,NOUN,thermidor,3.245377699865943e-06,substantif,1,1793.0,227.0
 hindou@NOUN,813,NOUN,hindou,1.548410839196603e-06,substantif,2,1653.0,367.0
 dominante@NOUN,1994,NOUN,dominante,3.797701369444067e-06,substantif,1,1732.0,288.0
 autodrome@NOUN,262,NOUN,autodrome,4.989958669981673e-07,substantif,1,1909.0,111.0
-contre-espionnage@NOUN,814,NOUN,contre-espionnage,1.5503154035744587e-06,substantif,1,1899.0,121.0
 bruitage@NOUN,415,NOUN,bruitage,7.903942168100741e-07,substantif,1,1948.0,72.0
 dérailler@VERB,262,VERB,dérailler,4.989958669981673e-07,verbe,5,1838.0,182.0
 taquiner@VERB,182,VERB,taquiner,3.4663071676971925e-07,verbe,2,1660.0,360.0
@@ -5585,7 +5508,6 @@ transatlantique@ADJ,1849,ADJ,transatlantique,3.5215395346550048e-06,adjectif,1,1
 aéronaval@ADJ,1104,ADJ,aéronaval,2.1026390731525826e-06,adjectif,1,1861.0,159.0
 désarticuler@VERB,138,VERB,désarticuler,2.628298841440728e-07,verbe,3,1778.0,242.0
 anamorphose@NOUN,178,NOUN,anamorphose,3.3901245925829686e-07,substantif,3,1751.0,269.0
-petite-nièce@NOUN,363,NOUN,petite-nièce,6.913568691615829e-07,substantif,1,1531.0,489.0
 régicide@NOUN,448,NOUN,régicide,8.532448412793089e-07,substantif,4,1550.0,470.0
 laverie@NOUN,226,NOUN,laverie,4.304315493953657e-07,substantif,3,1555.0,465.0
 blanchisserie@NOUN,559,NOUN,blanchisserie,1.0646514872212806e-06,substantif,2,1671.0,349.0
@@ -5603,7 +5525,6 @@ retraverser@VERB,154,VERB,retraverser,2.9330291418976243e-07,verbe,1,1547.0,473.
 onomastique@NOUN,240,NOUN,onomastique,4.5709545068534404e-07,substantif,2,1578.0,442.0
 historiographique@ADJ,921,ADJ,historiographique,1.754103792005008e-06,adjectif,1,1832.0,188.0
 modalité@NOUN,4928,NOUN,modalité,9.385693254072398e-06,substantif,3,1607.0,413.0
-sous-secrétaire@NOUN,984,NOUN,sous-secrétaire,1.8740913478099107e-06,substantif,1,1640.0,380.0
 rhéteur@NOUN,412,NOUN,rhéteur,7.846805236765073e-07,substantif,2,1534.0,486.0
 panégyrique@NOUN,405,NOUN,panégyrique,7.713485730315181e-07,substantif,2,1512.0,508.0
 monodie@NOUN,141,NOUN,monodie,2.685435772776396e-07,substantif,2,1576.0,444.0
@@ -5727,7 +5648,6 @@ déboiser@VERB,269,VERB,déboiser,5.123278176431565e-07,verbe,1,1697.0,323.0
 machette@NOUN,327,NOUN,machette,6.227925515587813e-07,substantif,1,1704.0,316.0
 phrasé@NOUN,330,NOUN,phrasé,6.285062446923481e-07,substantif,1,1778.0,242.0
 philharmonie@NOUN,848,NOUN,philharmonie,1.615070592421549e-06,substantif,2,1845.0,175.0
-sous-commission@NOUN,412,NOUN,sous-commission,7.846805236765073e-07,substantif,1,1871.0,149.0
 romanisation@NOUN,988,NOUN,romanisation,1.881709605321333e-06,substantif,1,1894.0,126.0
 bimestriel@ADJ,276,ADJ,bimestriel,5.256597682881456e-07,adjectif,1,1832.0,188.0
 merlin@NOUN,549,NOUN,merlin,1.0456058434427245e-06,substantif,3,1624.0,396.0
@@ -5763,6 +5683,7 @@ ligueur@NOUN,774,NOUN,ligueur,1.4741328284602346e-06,substantif,2,1550.0,470.0
 dynamiser@VERB,772,VERB,dynamiser,1.4703236997045235e-06,verbe,1,1872.0,148.0
 refroidisseur@NOUN,132,NOUN,refroidisseur,2.5140249787693924e-07,substantif,2,1827.0,193.0
 sidérurgiste@NOUN,125,NOUN,sidérurgiste,2.3807054723195003e-07,substantif,1,1934.0,86.0
+portugaise@NOUN,136,NOUN,portugaise,2.5902075538836163e-07,substantif,2,1500.0,520.0
 liman@NOUN,127,NOUN,liman,2.4187967598766125e-07,substantif,1,1840.0,180.0
 bulgare@NOUN,3141,NOUN,bulgare,5.982236710844441e-06,substantif,2,1606.0,414.0
 diorama@NOUN,272,NOUN,diorama,5.180415107767233e-07,substantif,1,1822.0,198.0
@@ -5793,6 +5714,7 @@ frontin@NOUN,192,NOUN,frontin,3.656763605482753e-07,substantif,1,1650.0,370.0
 rupestre@ADJ,876,ADJ,rupestre,1.6683983950015058e-06,adjectif,1,1812.0,208.0
 multilatéral@ADJ,523,ADJ,multilatéral,9.96087169618479e-07,adjectif,2,1928.0,92.0
 sultane@NOUN,143,NOUN,sultane,2.7235270603335086e-07,substantif,1,1541.0,479.0
+courtisane@NOUN,1074,NOUN,courtisane,2.0455021418169148e-06,substantif,2,1500.0,520.0
 misanthrope@NOUN,380,NOUN,misanthrope,7.237344635851281e-07,substantif,3,1548.0,472.0
 bagatelle@NOUN,297,NOUN,bagatelle,5.656556202231132e-07,substantif,5,1548.0,472.0
 amphitryon@NOUN,156,NOUN,amphitryon,2.971120429454736e-07,substantif,2,1752.0,268.0
@@ -5828,7 +5750,6 @@ milliardaire@NOUN,1050,NOUN,milliardaire,1.9997925967483804e-06,substantif,1,186
 tubercule@NOUN,2072,NOUN,tubercule,3.9462573909168035e-06,substantif,3,1541.0,479.0
 espacement@NOUN,656,NOUN,espacement,1.2493942318732738e-06,substantif,1,1680.0,340.0
 organigramme@NOUN,488,NOUN,organigramme,9.29427416393533e-07,substantif,1,1947.0,73.0
-saint-émilion@NOUN,103,NOUN,saint-émilion,1.9617013091912682e-07,substantif,1,1797.0,223.0
 coranique@ADJ,1506,ADJ,coranique,2.868273953050534e-06,adjectif,2,1877.0,143.0
 pastèque@NOUN,339,NOUN,pastèque,6.456473240930485e-07,substantif,2,1619.0,401.0
 jovien@ADJ,456,ADJ,jovien,8.684813563021538e-07,adjectif,3,1554.0,466.0
@@ -5897,7 +5818,6 @@ aixois@NOUN,234,NOUN,aixois,4.4566806441821046e-07,substantif,11,1866.0,154.0
 urbaniser@VERB,2368,VERB,urbaniser,4.5100084467620615e-06,verbe,1,1785.0,235.0
 cumul@NOUN,1641,NOUN,cumul,3.12539014406104e-06,substantif,2,1692.0,328.0
 giratoire@ADJ,291,ADJ,giratoire,5.542282339559797e-07,adjectif,1,1773.0,247.0
-mont-blanc@NOUN,121,NOUN,mont-blanc,2.3045228972052764e-07,substantif,1,1863.0,157.0
 fluidifier@VERB,263,VERB,fluidifier,5.009004313760228e-07,verbe,2,1830.0,190.0
 contresens@NOUN,249,NOUN,contresens,4.7423653008604447e-07,substantif,4,1607.0,413.0
 paralyser@VERB,2449,VERB,paralyser,4.664278161368365e-06,verbe,2,1575.0,445.0
@@ -5929,6 +5849,7 @@ bronche@NOUN,310,NOUN,bronche,5.90414957135236e-07,substantif,1,1560.0,460.0
 privatiser@VERB,1099,VERB,privatiser,2.0931162512633045e-06,verbe,1,1960.0,60.0
 florilège@NOUN,250,NOUN,florilège,4.7614109446390007e-07,substantif,1,1697.0,323.0
 lapidaire@ADJ,554,ADJ,lapidaire,1.0551286653320026e-06,adjectif,4,1550.0,470.0
+polenta@NOUN,173,NOUN,polenta,3.294896373690188e-07,substantif,1,1500.0,520.0
 gruyère@NOUN,274,NOUN,gruyère,5.218506395324344e-07,substantif,1,1680.0,340.0
 lacustre@ADJ,689,ADJ,lacustre,1.3122448563425086e-06,adjectif,4,1573.0,447.0
 hellénisme@NOUN,296,NOUN,hellénisme,5.637510558452577e-07,substantif,2,1580.0,440.0
@@ -5937,8 +5858,6 @@ hémoglobine@NOUN,912,NOUN,hémoglobine,1.7369627126043075e-06,substantif,1,1872
 sexuellement@ADV,564,ADV,sexuellement,1.0741743091105584e-06,adverbe,1,1896.0,124.0
 égalisation@NOUN,694,NOUN,égalisation,1.3217676782317866e-06,substantif,3,1593.0,427.0
 réévaluation@NOUN,441,NOUN,réévaluation,8.399128906343197e-07,substantif,1,1925.0,95.0
-gastro-entérite@NOUN,148,NOUN,gastro-entérite,2.8187552792262884e-07,substantif,1,1821.0,199.0
-contre-indication@NOUN,283,NOUN,contre-indication,5.389917189331349e-07,substantif,1,1797.0,223.0
 médullaire@ADJ,271,ADJ,médullaire,5.161369463988677e-07,adjectif,1,1515.0,505.0
 radiothérapie@NOUN,695,NOUN,radiothérapie,1.3236722426096422e-06,substantif,1,1901.0,119.0
 aspirine@NOUN,319,NOUN,aspirine,6.075560365359365e-07,substantif,2,1894.0,126.0
@@ -5955,7 +5874,6 @@ rocambolesque@ADJ,351,ADJ,rocambolesque,6.685020966273157e-07,adjectif,1,1859.0,
 chanceux@ADJ,669,ADJ,chanceux,1.2741535687853966e-06,adjectif,2,1606.0,414.0
 fez@NOUN,191,NOUN,fez,3.637717961704196e-07,substantif,1,1664.0,356.0
 chérif@NOUN,305,NOUN,chérif,5.808921352459581e-07,substantif,2,1528.0,492.0
-belles-lettres@NOUN,718,NOUN,belles-lettres,1.367477223300321e-06,substantif,2,1691.0,329.0
 sourate@NOUN,1363,NOUN,sourate,2.595921247017183e-06,substantif,1,1559.0,461.0
 schématiquement@ADV,173,ADV,schématiquement,3.294896373690188e-07,adverbe,1,1870.0,150.0
 courson@NOUN,468,NOUN,courson,8.913361288364209e-07,substantif,1,1537.0,483.0
@@ -6001,7 +5919,6 @@ hétérosexuel@ADJ,1090,ADJ,hétérosexuel,2.0759751718626043e-06,adjectif,1,189
 inconsolable@ADJ,279,ADJ,inconsolable,5.313734614217125e-07,adjectif,2,1544.0,476.0
 sosie@NOUN,680,NOUN,sosie,1.2951037769418081e-06,substantif,1,1738.0,282.0
 compendium@NOUN,269,NOUN,compendium,5.123278176431565e-07,substantif,3,1584.0,436.0
-grand-duc@NOUN,3471,NOUN,grand-duc,6.610742955536789e-06,substantif,3,1690.0,330.0
 didactique@ADJ,1550,ADJ,didactique,2.9520747856761805e-06,adjectif,3,1554.0,466.0
 didactique@NOUN,202,NOUN,didactique,3.8472200432683125e-07,substantif,1,1554.0,466.0
 lourdeur@NOUN,538,NOUN,lourdeur,1.024655635286313e-06,substantif,1,1787.0,233.0
@@ -6015,6 +5932,7 @@ roser@VERB,2597,VERB,roser,4.946153689290994e-06,verbe,1,1671.0,349.0
 verticille@NOUN,218,NOUN,verticille,4.1519503437252085e-07,substantif,1,1622.0,398.0
 symbiote@NOUN,501,NOUN,symbiote,9.541867533056557e-07,substantif,1,1904.0,116.0
 rhizome@NOUN,1083,NOUN,rhizome,2.062643221217615e-06,substantif,1,1804.0,216.0
+sylvicole@ADJ,275,ADJ,sylvicole,5.237552039102901e-07,adjectif,1,1500.0,520.0
 désherbage@NOUN,350,NOUN,désherbage,6.665975322494601e-07,substantif,2,1907.0,113.0
 éclaircie@NOUN,316,NOUN,éclaircie,6.018423434023697e-07,substantif,3,1550.0,470.0
 minaret@NOUN,1236,NOUN,minaret,2.354041571029522e-06,substantif,1,1606.0,414.0
@@ -6023,12 +5941,10 @@ ascidie@NOUN,155,NOUN,ascidie,2.95207478567618e-07,substantif,1,1805.0,215.0
 bourgeonnement@NOUN,186,NOUN,bourgeonnement,3.5424897428114164e-07,substantif,1,1600.0,420.0
 traçant@ADJ,243,ADJ,traçant,4.628091438189109e-07,adjectif,1,1694.0,326.0
 renfler@VERB,300,VERB,renfler,5.713693133566801e-07,verbe,1,1549.0,471.0
-fac-similé@NOUN,521,NOUN,fac-similé,9.922780408627678e-07,substantif,3,1650.0,370.0
 combinat@NOUN,252,NOUN,combinat,4.799502232196113e-07,substantif,1,1939.0,81.0
 oligarque@NOUN,250,NOUN,oligarque,4.7614109446390007e-07,substantif,1,1562.0,458.0
 milliardaire@ADJ,616,ADJ,milliardaire,1.1732116567590497e-06,adjectif,1,1866.0,154.0
 aphteux@ADJ,166,ADJ,aphteux,3.1615768672402965e-07,adjectif,1,1768.0,252.0
-franc-parler@NOUN,232,NOUN,franc-parler,4.4185893566249926e-07,substantif,1,1784.0,236.0
 morse@NOUN,766,NOUN,morse,1.4588963134373898e-06,substantif,2,1540.0,480.0
 géorgien@NOUN,1151,NOUN,géorgien,2.192153598911796e-06,substantif,5,1840.0,180.0
 graffiti@NOUN,1439,NOUN,graffiti,2.7406681397342086e-06,substantif,1,1657.0,363.0
@@ -6037,7 +5953,6 @@ brocart@NOUN,247,NOUN,brocart,4.704274013303333e-07,substantif,1,1519.0,501.0
 sidéral@ADJ,348,ADJ,sidéral,6.627884034937488e-07,adjectif,3,1530.0,490.0
 démonologie@NOUN,131,NOUN,démonologie,2.4949793349908364e-07,substantif,1,1600.0,420.0
 irréfutable@ADJ,361,ADJ,irréfutable,6.875477404058717e-07,adjectif,1,1747.0,273.0
-strip-tease@NOUN,279,NOUN,strip-tease,5.313734614217125e-07,substantif,1,1936.0,84.0
 transhumance@NOUN,839,NOUN,transhumance,1.5979295130208487e-06,substantif,1,1818.0,202.0
 branchial@ADJ,380,ADJ,branchial,7.237344635851281e-07,adjectif,1,1770.0,250.0
 branchie@NOUN,735,NOUN,branchie,1.3998548177238661e-06,substantif,1,1690.0,330.0
@@ -6086,7 +6001,6 @@ toilettage@NOUN,202,NOUN,toilettage,3.8472200432683125e-07,substantif,1,1936.0,8
 ovulation@NOUN,353,NOUN,ovulation,6.723112253830269e-07,substantif,1,1844.0,176.0
 précocité@NOUN,464,NOUN,précocité,8.837178713249985e-07,substantif,1,1690.0,330.0
 immobilisation@NOUN,657,NOUN,immobilisation,1.2512987962511295e-06,substantif,2,1819.0,201.0
-contre-attaquer@VERB,538,VERB,contre-attaquer,1.024655635286313e-06,verbe,1,1916.0,104.0
 balayage@NOUN,1181,NOUN,balayage,2.249290530247464e-06,substantif,6,1633.0,387.0
 sternal@ADJ,101,ADJ,sternal,1.9236100216341562e-07,adjectif,1,1805.0,215.0
 abdominal@ADJ,1471,ADJ,abdominal,2.801614199825588e-06,adjectif,1,1611.0,409.0
@@ -6151,7 +6065,6 @@ crescendo@NOUN,340,NOUN,crescendo,6.475518884709041e-07,substantif,1,1650.0,370.
 tonal@ADJ,886,ADJ,tonal,1.6874440387800619e-06,adjectif,3,1828.0,192.0
 croche@NOUN,457,NOUN,croche,8.703859206800093e-07,substantif,2,1680.0,340.0
 strident@ADJ,113,ADJ,strident,2.1521577469768284e-07,adjectif,1,1529.0,491.0
-demi-ton@NOUN,431,NOUN,demi-ton,8.208672468557637e-07,substantif,2,1627.0,393.0
 diéser@VERB,243,VERB,diéser,4.628091438189109e-07,verbe,1,1710.0,310.0
 pizzicato@NOUN,144,NOUN,pizzicato,2.7425727041120646e-07,substantif,1,1624.0,396.0
 scander@VERB,993,VERB,scander,1.8912324272106111e-06,verbe,4,1516.0,504.0
@@ -6239,6 +6152,7 @@ chefferie@NOUN,1358,NOUN,chefferie,2.586398425127905e-06,substantif,2,1845.0,175
 congolais@NOUN,672,NOUN,congolais,1.2798672619189634e-06,substantif,3,1721.0,299.0
 okapi@NOUN,211,NOUN,okapi,4.0186308372753167e-07,substantif,1,1900.0,120.0
 chimpanzé@NOUN,969,NOUN,chimpanzé,1.8455228821420766e-06,substantif,1,1738.0,282.0
+laineux@ADJ,443,ADJ,laineux,8.437220193900309e-07,adjectif,3,1500.0,520.0
 anthropomorphe@NOUN,384,NOUN,anthropomorphe,7.313527210965506e-07,substantif,1,1734.0,286.0
 hiérarchiquement@ADV,138,ADV,hiérarchiquement,2.628298841440728e-07,adverbe,1,1690.0,330.0
 minéraliser@VERB,273,VERB,minéraliser,5.199460751545789e-07,verbe,1,1751.0,269.0
@@ -6269,6 +6183,7 @@ métonymie@NOUN,584,NOUN,métonymie,1.1122655966676706e-06,substantif,1,1521.0,4
 scratch@NOUN,855,NOUN,scratch,1.6284025430665382e-06,substantif,5,1778.0,242.0
 grisaille@NOUN,518,NOUN,grisaille,9.865643477292009e-07,substantif,2,1625.0,395.0
 revirement@NOUN,737,NOUN,revirement,1.4036639464795774e-06,substantif,2,1585.0,435.0
+marcheur@NOUN,748,NOUN,marcheur,1.424614154635989e-06,substantif,3,1500.0,520.0
 embrancher@VERB,215,VERB,embrancher,4.0948134123895406e-07,verbe,2,1773.0,247.0
 programmeur@NOUN,1735,NOUN,programmeur,3.3044191955794666e-06,substantif,1,1960.0,60.0
 zonal@ADJ,349,ADJ,zonal,6.646929678716045e-07,adjectif,2,1842.0,178.0
@@ -6391,7 +6306,6 @@ casserole@NOUN,571,NOUN,casserole,1.0875062597555478e-06,substantif,2,1583.0,437
 harfang@NOUN,106,NOUN,harfang,2.0188382405269363e-07,substantif,1,1770.0,250.0
 survol@NOUN,1425,NOUN,survol,2.7140042384442303e-06,substantif,1,1911.0,109.0
 kilométrage@NOUN,198,NOUN,kilométrage,3.7710374681540886e-07,substantif,2,1867.0,153.0
-prêt-à-porter@NOUN,449,NOUN,prêt-à-porter,8.551494056571645e-07,substantif,1,1951.0,69.0
 boudoir@NOUN,284,NOUN,boudoir,5.408962833109905e-07,substantif,2,1730.0,290.0
 tutu@NOUN,101,NOUN,tutu,1.9236100216341562e-07,substantif,1,1860.0,160.0
 hibernation@NOUN,684,NOUN,hibernation,1.3027220344532305e-06,substantif,2,1838.0,182.0
@@ -6417,7 +6331,6 @@ prolétarien@ADJ,903,ADJ,prolétarien,1.719821633203607e-06,adjectif,1,1871.0,14
 encyclopédiste@NOUN,387,NOUN,encyclopédiste,7.370664142301173e-07,substantif,2,1683.0,337.0
 mihrab@NOUN,308,NOUN,mihrab,5.866058283795249e-07,substantif,1,1765.0,255.0
 zoroastrien@NOUN,337,NOUN,zoroastrien,6.418381953373373e-07,substantif,1,1765.0,255.0
-avant-cour@NOUN,120,NOUN,avant-cour,2.2854772534267202e-07,substantif,1,1564.0,456.0
 funambule@NOUN,234,NOUN,funambule,4.4566806441821046e-07,substantif,1,1528.0,492.0
 arcature@NOUN,1747,NOUN,arcature,3.3272739681137336e-06,substantif,1,1845.0,175.0
 soufi@NOUN,637,NOUN,soufi,1.2132075086940173e-06,substantif,1,1511.0,509.0
@@ -6484,7 +6397,6 @@ tatami@NOUN,223,NOUN,tatami,4.2471785626179884e-07,substantif,2,1904.0,116.0
 préluder@VERB,141,VERB,préluder,2.685435772776396e-07,verbe,2,1657.0,363.0
 autodafé@NOUN,349,NOUN,autodafé,6.646929678716045e-07,substantif,3,1714.0,306.0
 écœurer@VERB,376,VERB,écœurer,7.161162060737057e-07,verbe,6,1611.0,409.0
-contre-torpilleur@NOUN,518,NOUN,contre-torpilleur,9.865643477292009e-07,substantif,1,1890.0,130.0
 majorat@NOUN,256,NOUN,majorat,4.875684807310337e-07,substantif,3,1701.0,319.0
 dribbler@VERB,148,VERB,dribbler,2.8187552792262884e-07,verbe,1,1863.0,157.0
 adducteur@NOUN,277,NOUN,adducteur,5.275643326660013e-07,substantif,1,1690.0,330.0
@@ -6567,7 +6479,6 @@ fémur@NOUN,953,NOUN,fémur,1.815049852096387e-06,substantif,1,1541.0,479.0
 gracile@ADJ,232,ADJ,gracile,4.4185893566249926e-07,adjectif,1,1515.0,505.0
 garderie@NOUN,688,NOUN,garderie,1.310340291964653e-06,substantif,1,1540.0,480.0
 neutronique@ADJ,341,ADJ,neutronique,6.494564528487597e-07,adjectif,1,1935.0,85.0
-électro-aimant@NOUN,105,NOUN,électro-aimant,1.9997925967483804e-07,substantif,1,1849.0,171.0
 réactivité@NOUN,827,NOUN,réactivité,1.5750747404865815e-06,substantif,5,1796.0,224.0
 indium@NOUN,280,NOUN,indium,5.33278025799568e-07,substantif,1,1863.0,157.0
 cobalt@NOUN,513,NOUN,cobalt,9.770415258399228e-07,substantif,8,1564.0,456.0
@@ -6619,7 +6530,6 @@ tellure@NOUN,138,NOUN,tellure,2.628298841440728e-07,substantif,1,1798.0,222.0
 volatilité@NOUN,420,NOUN,volatilité,7.999170386993522e-07,substantif,1,1641.0,379.0
 moustérien@ADJ,207,ADJ,moustérien,3.9424482621610923e-07,adjectif,5,1869.0,151.0
 inutilisable@ADJ,1040,ADJ,inutilisable,1.9807469529698244e-06,adjectif,1,1845.0,175.0
-post-scriptum@NOUN,252,NOUN,post-scriptum,4.799502232196113e-07,substantif,1,1701.0,319.0
 polissage@NOUN,534,NOUN,polissage,1.0170373777748906e-06,substantif,1,1749.0,271.0
 décontraction@NOUN,116,NOUN,décontraction,2.2092946783124963e-07,substantif,2,1892.0,128.0
 asturien@NOUN,120,NOUN,asturien,2.2854772534267202e-07,substantif,2,1740.0,280.0
@@ -6666,7 +6576,6 @@ stagnant@ADJ,549,ADJ,stagnant,1.0456058434427245e-06,adjectif,2,1552.0,468.0
 marbrure@NOUN,186,NOUN,marbrure,3.5424897428114164e-07,substantif,4,1680.0,340.0
 guillotine@NOUN,1055,NOUN,guillotine,2.0093154186376585e-06,substantif,2,1790.0,230.0
 alfa@NOUN,185,NOUN,alfa,3.5234440990328604e-07,substantif,2,1680.0,340.0
-anti-aérien@ADJ,1347,ADJ,anti-aérien,2.5654482169714935e-06,adjectif,1,1910.0,110.0
 hiatus@NOUN,549,NOUN,hiatus,1.0456058434427245e-06,substantif,2,1521.0,499.0
 parabolique@ADJ,922,ADJ,parabolique,1.7560083563828634e-06,adjectif,1,1550.0,470.0
 radôme@NOUN,133,NOUN,radôme,2.5330706225479484e-07,substantif,1,1960.0,60.0
@@ -6727,13 +6636,11 @@ exigible@ADJ,118,ADJ,exigible,2.2473859658696083e-07,adjectif,1,1603.0,417.0
 loyalisme@NOUN,154,NOUN,loyalisme,2.9330291418976243e-07,substantif,1,1834.0,186.0
 italianiser@VERB,243,VERB,italianiser,4.628091438189109e-07,verbe,1,1555.0,465.0
 psychologiquement@ADV,597,ADV,psychologiquement,1.1370249335797934e-06,adverbe,1,1815.0,205.0
-demi-teinte@NOUN,559,NOUN,demi-teinte,1.0646514872212806e-06,substantif,2,1651.0,369.0
 ambulancier@NOUN,480,NOUN,ambulancier,9.141909013706881e-07,substantif,1,1877.0,143.0
 vacciner@VERB,755,VERB,vacciner,1.4379461052809783e-06,verbe,2,1801.0,219.0
 collectiviser@VERB,112,VERB,collectiviser,2.1331121031982722e-07,verbe,1,1871.0,149.0
 euphorie@NOUN,593,NOUN,euphorie,1.129406676068371e-06,substantif,1,1732.0,288.0
 pluraliste@ADJ,358,ADJ,pluraliste,6.818340472723049e-07,adjectif,2,1909.0,111.0
-contre-révolution@NOUN,533,NOUN,contre-révolution,1.015132813397035e-06,substantif,3,1790.0,230.0
 affabulation@NOUN,119,NOUN,affabulation,2.2664316096481642e-07,substantif,3,1798.0,222.0
 bourbonien@ADJ,173,ADJ,bourbonien,3.294896373690188e-07,adjectif,2,1559.0,461.0
 radiateur@NOUN,1232,NOUN,radiateur,2.3464233135180994e-06,substantif,3,1836.0,184.0
@@ -6761,7 +6668,6 @@ kaolin@NOUN,137,NOUN,kaolin,2.609253197662172e-07,substantif,1,1712.0,308.0
 slovaque@NOUN,909,NOUN,slovaque,1.7312490194707406e-06,substantif,2,1841.0,179.0
 bleuter@VERB,412,VERB,bleuter,7.846805236765073e-07,verbe,1,1843.0,177.0
 thonier@NOUN,138,NOUN,thonier,2.628298841440728e-07,substantif,1,1904.0,116.0
-sous-marinier@NOUN,690,NOUN,sous-marinier,1.3141494207203642e-06,substantif,1,1934.0,86.0
 ferrailler@VERB,563,VERB,ferrailler,1.072269744732703e-06,verbe,2,1654.0,366.0
 ordonnée@NOUN,382,NOUN,ordonnée,7.275435923408393e-07,substantif,1,1639.0,381.0
 bolide@NOUN,366,NOUN,bolide,6.970705622951497e-07,substantif,2,1548.0,472.0
@@ -6975,7 +6881,6 @@ cubiste@ADJ,564,ADJ,cubiste,1.0741743091105584e-06,adjectif,1,1894.0,126.0
 cheminot@NOUN,1545,NOUN,cheminot,2.9425519637869024e-06,substantif,1,1891.0,129.0
 giboyeux@ADJ,115,ADJ,giboyeux,2.1902490345339404e-07,adjectif,1,1740.0,280.0
 printanier@ADJ,734,ADJ,printanier,1.3979502533460107e-06,adjectif,3,1553.0,467.0
-semi-automatique@ADJ,744,ADJ,semi-automatique,1.4169958971245666e-06,adjectif,1,1896.0,124.0
 fredonner@VERB,146,VERB,fredonner,2.7806639916691765e-07,verbe,3,1547.0,473.0
 sélecteur@NOUN,326,NOUN,sélecteur,6.208879871809257e-07,substantif,3,1890.0,130.0
 préfabriquer@VERB,800,VERB,préfabriquer,1.5236515022844802e-06,verbe,1,1932.0,88.0
@@ -6996,10 +6901,10 @@ mutualité@NOUN,399,NOUN,mutualité,7.599211867643845e-07,substantif,1,1599.0,42
 capitaliste@ADJ,2223,ADJ,capitaliste,4.233846611972999e-06,adjectif,1,1694.0,326.0
 dramaturgie@NOUN,680,NOUN,dramaturgie,1.2951037769418081e-06,substantif,1,1775.0,245.0
 émancipateur@NOUN,145,NOUN,émancipateur,2.7616183478906205e-07,substantif,1,1836.0,184.0
+libérateur@ADJ,236,ADJ,libérateur,4.4947719317392165e-07,adjectif,1,1500.0,520.0
 déconstruire@VERB,418,VERB,déconstruire,7.96107909943641e-07,verbe,2,1798.0,222.0
 épéiste@NOUN,146,NOUN,épéiste,2.7806639916691765e-07,substantif,1,1907.0,113.0
 prédéterminer@VERB,648,VERB,prédéterminer,1.234157716850429e-06,verbe,1,1530.0,490.0
-belle-famille@NOUN,472,NOUN,belle-famille,8.989543863478433e-07,substantif,1,1896.0,124.0
 burlesque@NOUN,700,NOUN,burlesque,1.3331950644989203e-06,substantif,2,1566.0,454.0
 cosmogonie@NOUN,423,NOUN,cosmogonie,8.056307318329189e-07,substantif,1,1585.0,435.0
 théogonie@NOUN,109,NOUN,théogonie,2.0759751718626043e-07,substantif,3,1556.0,464.0
@@ -7008,7 +6913,6 @@ vulcain@NOUN,352,NOUN,vulcain,6.704066610051713e-07,substantif,1,1552.0,468.0
 diviniser@VERB,399,VERB,diviniser,7.599211867643845e-07,verbe,2,1581.0,439.0
 catharsis@NOUN,226,NOUN,catharsis,4.304315493953657e-07,substantif,2,1865.0,155.0
 bijoutier@NOUN,568,NOUN,bijoutier,1.081792566621981e-06,substantif,1,1679.0,341.0
-garde-côte@NOUN,674,NOUN,garde-côte,1.2836763906746747e-06,substantif,1,1599.0,421.0
 médina@NOUN,276,NOUN,médina,5.256597682881456e-07,substantif,1,1897.0,123.0
 merlon@NOUN,238,NOUN,merlon,4.5328632192963285e-07,substantif,1,1561.0,459.0
 soufisme@NOUN,636,NOUN,soufisme,1.2113029443161619e-06,substantif,1,1831.0,189.0
@@ -7078,7 +6982,6 @@ aciérie@NOUN,1364,NOUN,aciérie,2.597825811395039e-06,substantif,1,1751.0,269.0
 granulation@NOUN,169,NOUN,granulation,3.2187137985759644e-07,substantif,2,1651.0,369.0
 pépite@NOUN,393,NOUN,pépite,7.484938004972509e-07,substantif,2,1550.0,470.0
 martel@NOUN,1359,NOUN,martel,2.588302989505761e-06,substantif,1,1550.0,470.0
-sous-directeur@NOUN,461,NOUN,sous-directeur,8.780041781914317e-07,substantif,1,1780.0,240.0
 nitrure@NOUN,341,NOUN,nitrure,6.494564528487597e-07,substantif,1,1832.0,188.0
 alumine@NOUN,461,NOUN,alumine,8.780041781914317e-07,substantif,2,1782.0,238.0
 acétylène@NOUN,387,NOUN,acétylène,7.370664142301173e-07,substantif,1,1836.0,184.0
@@ -7091,6 +6994,7 @@ taxi@NOUN,991,NOUN,taxi,1.8874232984548998e-06,substantif,4,1905.0,115.0
 dimensionnel@ADJ,387,ADJ,dimensionnel,7.370664142301173e-07,adjectif,1,1875.0,145.0
 hydrodynamique@ADJ,435,ADJ,hydrodynamique,8.284855043671862e-07,adjectif,1,1738.0,282.0
 portraitiste@NOUN,237,NOUN,portraitiste,4.5138175755177725e-07,substantif,1,1693.0,327.0
+libérateur@NOUN,964,NOUN,libérateur,1.8360000602527986e-06,substantif,1,1500.0,520.0
 désœuvrement@NOUN,108,NOUN,désœuvrement,2.0569295280840483e-07,substantif,1,1748.0,272.0
 germanique@NOUN,396,NOUN,germanique,7.542074936308177e-07,substantif,2,1532.0,488.0
 philhellène@NOUN,150,NOUN,philhellène,2.8568465667834004e-07,substantif,1,1823.0,197.0
@@ -7128,7 +7032,6 @@ traîtrise@NOUN,414,NOUN,traîtrise,7.884896524322185e-07,substantif,1,1810.0,21
 artificier@NOUN,210,NOUN,artificier,3.999585193496761e-07,substantif,2,1594.0,426.0
 insecticide@ADJ,240,ADJ,insecticide,4.5709545068534404e-07,adjectif,1,1838.0,182.0
 archaïsme@NOUN,437,NOUN,archaïsme,8.322946331228974e-07,substantif,1,1659.0,361.0
-garde-barrière@NOUN,102,NOUN,garde-barrière,1.9426556654127122e-07,substantif,2,1845.0,175.0
 palanquin@NOUN,158,NOUN,palanquin,3.0092117170118487e-07,substantif,2,1571.0,449.0
 ilot@NOUN,185,NOUN,ilot,3.5234440990328604e-07,substantif,1,1529.0,491.0
 badigeon@NOUN,269,NOUN,badigeon,5.123278176431565e-07,substantif,1,1676.0,344.0
@@ -7243,6 +7146,7 @@ masochiste@NOUN,155,NOUN,masochiste,2.95207478567618e-07,substantif,1,1896.0,124
 escroc@NOUN,875,NOUN,escroc,1.6664938306236501e-06,substantif,1,1634.0,386.0
 motel@NOUN,633,NOUN,motel,1.205589251182595e-06,substantif,1,1925.0,95.0
 accéléré@ADJ,367,ADJ,accéléré,6.989751266730053e-07,adjectif,1,1611.0,409.0
+provocateur@ADJ,635,ADJ,provocateur,1.2093983799383062e-06,adjectif,1,1500.0,520.0
 irrévérencieux@ADJ,273,ADJ,irrévérencieux,5.199460751545789e-07,adjectif,1,1776.0,244.0
 foc@NOUN,313,NOUN,foc,5.961286502688029e-07,substantif,1,1702.0,318.0
 cotre@NOUN,190,NOUN,cotre,3.6186723179256403e-07,substantif,1,1745.0,275.0
@@ -7253,10 +7157,8 @@ parthe@ADJ,284,ADJ,parthe,5.408962833109905e-07,adjectif,1,1574.0,446.0
 galérien@NOUN,118,NOUN,galérien,2.2473859658696083e-07,substantif,1,1568.0,452.0
 bagnard@NOUN,491,NOUN,bagnard,9.351411095270997e-07,substantif,1,1831.0,189.0
 numismatique@ADJ,319,ADJ,numismatique,6.075560365359365e-07,adjectif,1,1579.0,441.0
-demi-brigade@NOUN,1412,NOUN,demi-brigade,2.6892449015321075e-06,substantif,2,1794.0,226.0
 tronçonneuse@NOUN,364,NOUN,tronçonneuse,6.932614335394385e-07,substantif,2,1920.0,100.0
 anachronisme@NOUN,509,NOUN,anachronisme,9.694232683285005e-07,substantif,2,1625.0,395.0
-porte-drapeau@NOUN,689,NOUN,porte-drapeau,1.3122448563425086e-06,substantif,1,1578.0,442.0
 tangent@ADJ,347,ADJ,tangent,6.608838391158933e-07,adjectif,1,1626.0,394.0
 tore@NOUN,2502,NOUN,tore,4.765220073394712e-06,substantif,2,1530.0,490.0
 probabiliste@ADJ,667,ADJ,probabiliste,1.2703444400296853e-06,adjectif,2,1704.0,316.0
@@ -7276,7 +7178,6 @@ socialisation@NOUN,818,NOUN,socialisation,1.557933661085881e-06,substantif,1,183
 autofinancer@VERB,143,VERB,autofinancer,2.7235270603335086e-07,verbe,1,1966.0,54.0
 vauclusien@ADJ,121,ADJ,vauclusien,2.3045228972052764e-07,adjectif,3,1824.0,196.0
 torique@ADJ,527,ADJ,torique,1.0037054271299013e-06,adjectif,1,1890.0,130.0
-sous-chef@NOUN,237,NOUN,sous-chef,4.5138175755177725e-07,substantif,1,1791.0,229.0
 intrépidité@NOUN,268,NOUN,intrépidité,5.104232532653009e-07,substantif,1,1665.0,355.0
 palmette@NOUN,600,NOUN,palmette,1.1427386267133602e-06,substantif,2,1694.0,326.0
 tâcheron@NOUN,123,NOUN,tâcheron,2.3426141847623884e-07,substantif,1,1506.0,514.0
@@ -7309,7 +7210,6 @@ crayonner@VERB,151,VERB,crayonner,2.8758922105619564e-07,verbe,3,1584.0,436.0
 rancho@NOUN,132,NOUN,rancho,2.5140249787693924e-07,substantif,1,1868.0,152.0
 coupé@NOUN,1004,NOUN,coupé,1.9121826353670226e-06,substantif,6,1660.0,360.0
 rigidifier@VERB,200,VERB,rigidifier,3.8091287557112005e-07,verbe,2,1885.0,135.0
-sans-abri@NOUN,755,NOUN,sans-abri,1.4379461052809783e-06,substantif,1,1929.0,91.0
 légitimiste@NOUN,441,NOUN,légitimiste,8.399128906343197e-07,substantif,2,1830.0,190.0
 idéaliste@ADJ,393,ADJ,idéaliste,7.484938004972509e-07,adjectif,1,1701.0,319.0
 introductif@ADJ,443,ADJ,introductif,8.437220193900309e-07,adjectif,1,1520.0,500.0
@@ -7386,7 +7286,6 @@ zona@NOUN,140,NOUN,zona,2.66639012899784e-07,substantif,1,1810.0,210.0
 immoral@ADJ,817,ADJ,immoral,1.5560290967080254e-06,adjectif,2,1770.0,250.0
 psychisme@NOUN,435,NOUN,psychisme,8.284855043671862e-07,substantif,2,1812.0,208.0
 sémite@ADJ,194,ADJ,sémite,3.6948548930398647e-07,adjectif,1,1845.0,175.0
-contre-exemple@NOUN,398,NOUN,contre-exemple,7.580166223865289e-07,substantif,1,1599.0,421.0
 pangermanisme@NOUN,109,NOUN,pangermanisme,2.0759751718626043e-07,substantif,1,1845.0,175.0
 panthéisme@NOUN,227,NOUN,panthéisme,4.323361137732213e-07,substantif,1,1712.0,308.0
 jacobin@NOUN,1500,NOUN,jacobin,2.8568465667834005e-06,substantif,4,1790.0,230.0
@@ -7431,7 +7330,6 @@ stomate@NOUN,238,NOUN,stomate,4.5328632192963285e-07,substantif,1,1802.0,218.0
 agglomérat@NOUN,140,NOUN,agglomérat,2.66639012899784e-07,substantif,2,1829.0,191.0
 théophanie@NOUN,104,NOUN,théophanie,1.9807469529698244e-07,substantif,1,1732.0,288.0
 invisibilité@NOUN,361,NOUN,invisibilité,6.875477404058717e-07,substantif,1,1594.0,426.0
-casse-tête@NOUN,434,NOUN,casse-tête,8.265809399893305e-07,substantif,8,1690.0,330.0
 utérus@NOUN,1216,NOUN,utérus,2.31595028347241e-06,substantif,1,1573.0,447.0
 placenta@NOUN,477,NOUN,placenta,9.084772082371213e-07,substantif,2,1540.0,480.0
 indécision@NOUN,334,NOUN,indécision,6.361245022037705e-07,substantif,1,1611.0,409.0
@@ -7587,13 +7485,11 @@ thrace@ADJ,388,ADJ,thrace,7.389709786079729e-07,adjectif,1,1732.0,288.0
 lydien@NOUN,102,NOUN,lydien,1.9426556654127122e-07,substantif,2,1546.0,474.0
 envaser@VERB,111,VERB,envaser,2.1140664594197162e-07,verbe,2,1614.0,406.0
 larynx@NOUN,369,NOUN,larynx,7.027842554287165e-07,substantif,1,1532.0,488.0
-pique-nique@NOUN,461,NOUN,pique-nique,8.780041781914317e-07,substantif,2,1694.0,326.0
 stochastique@ADJ,579,ADJ,stochastique,1.1027427747783926e-06,adjectif,1,1949.0,71.0
 tomenteux@ADJ,165,ADJ,tomenteux,3.1425312234617405e-07,adjectif,1,1800.0,220.0
 patristique@ADJ,269,ADJ,patristique,5.123278176431565e-07,adjectif,1,1650.0,370.0
 gnosticisme@NOUN,184,NOUN,gnosticisme,3.5043984552543045e-07,substantif,1,1664.0,356.0
 druidisme@NOUN,102,NOUN,druidisme,1.9426556654127122e-07,substantif,1,1727.0,293.0
-arrière-petit-neveu@NOUN,117,NOUN,arrière-petit-neveu,2.2283403220910523e-07,substantif,1,1751.0,269.0
 torréfaction@NOUN,193,NOUN,torréfaction,3.6758092492613087e-07,substantif,1,1576.0,444.0
 ondulatoire@ADJ,332,ADJ,ondulatoire,6.323153734480593e-07,adjectif,1,1765.0,255.0
 zébu@NOUN,247,NOUN,zébu,4.704274013303333e-07,substantif,1,1754.0,266.0
@@ -7656,7 +7552,6 @@ lutherie@NOUN,274,NOUN,lutherie,5.218506395324344e-07,substantif,1,1767.0,253.0
 accastillage@NOUN,124,NOUN,accastillage,2.3616598285409444e-07,substantif,3,1690.0,330.0
 câblage@NOUN,440,NOUN,câblage,8.380083262564641e-07,substantif,5,1877.0,143.0
 herméneutique@NOUN,390,NOUN,herméneutique,7.427801073636841e-07,substantif,1,1777.0,243.0
-avant-scène@NOUN,225,NOUN,avant-scène,4.285269850175101e-07,substantif,5,1570.0,450.0
 révisionniste@NOUN,445,NOUN,révisionniste,8.475311481457421e-07,substantif,1,1851.0,169.0
 révisionniste@ADJ,156,ADJ,révisionniste,2.971120429454736e-07,adjectif,1,1851.0,169.0
 pacifiste@NOUN,478,NOUN,pacifiste,9.103817726149769e-07,substantif,1,1906.0,114.0
@@ -7676,7 +7571,6 @@ multiplex@NOUN,464,NOUN,multiplex,8.837178713249985e-07,substantif,1,1890.0,130.
 persienne@NOUN,130,NOUN,persienne,2.4759336912122804e-07,substantif,1,1614.0,406.0
 illettré@ADJ,134,ADJ,illettré,2.5521162663265043e-07,adjectif,2,1560.0,460.0
 autonomiste@NOUN,356,NOUN,autonomiste,6.780249185165937e-07,substantif,1,1870.0,150.0
-arrière-petite-fille@NOUN,433,NOUN,arrière-petite-fille,8.24676375611475e-07,substantif,1,1559.0,461.0
 palmiste@NOUN,137,NOUN,palmiste,2.609253197662172e-07,substantif,2,1601.0,419.0
 terrifier@VERB,1145,VERB,terrifier,2.1807262126446623e-06,verbe,1,1558.0,462.0
 féerique@ADJ,522,ADJ,féerique,9.941826052406233e-07,adjectif,3,1828.0,192.0
@@ -7692,14 +7586,12 @@ médiator@NOUN,142,NOUN,médiator,2.7044814165549526e-07,substantif,1,1907.0,113
 harmonium@NOUN,437,NOUN,harmonium,8.322946331228974e-07,substantif,1,1840.0,180.0
 trille@NOUN,217,NOUN,trille,4.1329046999466526e-07,substantif,3,1618.0,402.0
 colibri@NOUN,217,NOUN,colibri,4.1329046999466526e-07,substantif,1,1640.0,380.0
-ultra-violet@NOUN,113,NOUN,ultra-violet,2.1521577469768284e-07,substantif,1,1840.0,180.0
 polka@NOUN,242,NOUN,polka,4.609045794410553e-07,substantif,2,1835.0,185.0
 décapole@NOUN,126,NOUN,décapole,2.3997511160980566e-07,substantif,1,1803.0,217.0
 bandage@NOUN,454,NOUN,bandage,8.646722275464426e-07,substantif,6,1508.0,512.0
 bousculade@NOUN,291,NOUN,bousculade,5.542282339559797e-07,substantif,1,1848.0,172.0
 septicémie@NOUN,382,NOUN,septicémie,7.275435923408393e-07,substantif,1,1847.0,173.0
 dribbleur@NOUN,110,NOUN,dribbleur,2.0950208156411602e-07,substantif,1,1835.0,185.0
-hors-jeu@NOUN,201,NOUN,hors-jeu,3.8281743994897565e-07,substantif,1,1534.0,486.0
 pressing@NOUN,127,NOUN,pressing,2.4187967598766125e-07,substantif,3,1934.0,86.0
 altruiste@NOUN,155,NOUN,altruiste,2.95207478567618e-07,substantif,1,1852.0,168.0
 spider@NOUN,184,NOUN,spider,3.5043984552543045e-07,substantif,1,1877.0,143.0
@@ -7756,7 +7648,6 @@ python@NOUN,463,NOUN,python,8.818133069471429e-07,substantif,2,1550.0,470.0
 déclic@NOUN,318,NOUN,déclic,6.056514721580809e-07,substantif,4,1510.0,510.0
 pendulaire@ADJ,490,ADJ,pendulaire,9.332365451492442e-07,adjectif,1,1867.0,153.0
 insolvabilité@NOUN,221,NOUN,insolvabilité,4.2090872750608764e-07,substantif,1,1603.0,417.0
-haut-relief@NOUN,425,NOUN,haut-relief,8.094398605886301e-07,substantif,1,1669.0,351.0
 règlementer@VERB,398,VERB,règlementer,7.580166223865289e-07,verbe,1,1768.0,252.0
 acrostiche@NOUN,161,NOUN,acrostiche,3.0663486483475166e-07,substantif,1,1582.0,438.0
 estaminet@NOUN,221,NOUN,estaminet,4.2090872750608764e-07,substantif,2,1650.0,370.0
@@ -7861,7 +7752,6 @@ rho@NOUN,130,NOUN,rho,2.4759336912122804e-07,substantif,1,1832.0,188.0
 kimono@NOUN,360,NOUN,kimono,6.856431760280161e-07,substantif,1,1544.0,476.0
 arboricole@ADJ,397,ADJ,arboricole,7.561120580086733e-07,adjectif,2,1863.0,157.0
 éthanol@NOUN,1175,NOUN,éthanol,2.23786314398033e-06,substantif,1,1910.0,110.0
-chauffe-eau@NOUN,278,NOUN,chauffe-eau,5.294688970438568e-07,substantif,1,1929.0,91.0
 spiritisme@NOUN,625,NOUN,spiritisme,1.1903527361597501e-06,substantif,1,1856.0,164.0
 spirite@NOUN,159,NOUN,spirite,3.0282573607904047e-07,substantif,1,1848.0,172.0
 rotary@NOUN,373,NOUN,rotary,7.104025129401389e-07,substantif,1,1931.0,89.0
@@ -7872,7 +7762,6 @@ immuniser@VERB,534,VERB,immuniser,1.0170373777748906e-06,verbe,1,1894.0,126.0
 ratissage@NOUN,200,NOUN,ratissage,3.8091287557112005e-07,substantif,1,1765.0,255.0
 flasque@ADJ,176,ADJ,flasque,3.3520333050258567e-07,adjectif,2,1540.0,480.0
 explicable@ADJ,184,ADJ,explicable,3.5043984552543045e-07,adjectif,1,1554.0,466.0
-socio-culturel@ADJ,513,ADJ,socio-culturel,9.770415258399228e-07,adjectif,1,1948.0,72.0
 excrétion@NOUN,432,NOUN,excrétion,8.227718112336193e-07,substantif,1,1534.0,486.0
 dancing@NOUN,298,NOUN,dancing,5.675601846009689e-07,substantif,1,1920.0,100.0
 exubérer@VERB,173,VERB,exubérer,3.294896373690188e-07,verbe,1,1545.0,475.0
@@ -7893,6 +7782,7 @@ rentabiliser@VERB,549,VERB,rentabiliser,1.0456058434427245e-06,verbe,1,1962.0,58
 échinoderme@NOUN,456,NOUN,échinoderme,8.684813563021538e-07,substantif,1,1830.0,190.0
 charleston@NOUN,137,NOUN,charleston,2.609253197662172e-07,substantif,2,1929.0,91.0
 mambo@NOUN,143,NOUN,mambo,2.7235270603335086e-07,substantif,2,1948.0,72.0
+rhododendron@NOUN,382,NOUN,rhododendron,7.275435923408393e-07,substantif,1,1500.0,520.0
 électrotechnique@ADJ,590,ADJ,électrotechnique,1.123692982934804e-06,adjectif,1,1907.0,113.0
 mousqueton@NOUN,262,NOUN,mousqueton,4.989958669981673e-07,substantif,3,1620.0,400.0
 décadent@ADJ,295,ADJ,décadent,5.61846491467402e-07,adjectif,1,1516.0,504.0
@@ -7911,7 +7801,6 @@ phonologique@ADJ,478,ADJ,phonologique,9.103817726149769e-07,adjectif,1,1846.0,17
 phonologie@NOUN,517,NOUN,phonologie,9.846597833513454e-07,substantif,1,1846.0,174.0
 intertropical@ADJ,229,ADJ,intertropical,4.3614524252893247e-07,adjectif,1,1817.0,203.0
 expansionnisme@NOUN,415,NOUN,expansionnisme,7.903942168100741e-07,substantif,2,1922.0,98.0
-sous-développement@NOUN,228,NOUN,sous-développement,4.342406781510769e-07,substantif,3,1952.0,68.0
 mascarade@NOUN,457,NOUN,mascarade,8.703859206800093e-07,substantif,4,1554.0,466.0
 pondeur@ADJ,103,ADJ,pondeur,1.9617013091912682e-07,adjectif,1,1580.0,440.0
 animalier@NOUN,229,NOUN,animalier,4.3614524252893247e-07,substantif,1,1778.0,242.0
@@ -7928,7 +7817,6 @@ monothélisme@NOUN,145,NOUN,monothélisme,2.7616183478906205e-07,substantif,1,17
 madras@NOUN,504,NOUN,madras,9.599004464392226e-07,substantif,2,1797.0,223.0
 indétermination@NOUN,285,NOUN,indétermination,5.428008476888461e-07,substantif,2,1600.0,420.0
 pédiatrie@NOUN,671,NOUN,pédiatrie,1.2779626975411077e-06,substantif,1,1872.0,148.0
-franc-comtois@NOUN,331,NOUN,franc-comtois,6.304108090702036e-07,substantif,2,1698.0,322.0
 médoc@NOUN,673,NOUN,médoc,1.281771826296819e-06,substantif,1,1765.0,255.0
 incipit@NOUN,425,NOUN,incipit,8.094398605886301e-07,substantif,1,1840.0,180.0
 tapir@NOUN,229,NOUN,tapir,4.3614524252893247e-07,substantif,1,1558.0,462.0
@@ -7967,7 +7855,6 @@ pétrel@NOUN,246,NOUN,pétrel,4.685228369524777e-07,substantif,1,1676.0,344.0
 surexploiter@VERB,215,VERB,surexploiter,4.0948134123895406e-07,verbe,1,1918.0,102.0
 ute@NOUN,347,NOUN,ute,6.608838391158933e-07,substantif,1,1532.0,488.0
 futilité@NOUN,197,NOUN,futilité,3.7519918243755326e-07,substantif,2,1550.0,470.0
-clair-obscur@NOUN,613,NOUN,clair-obscur,1.167497963625483e-06,substantif,3,1596.0,424.0
 alinéa@NOUN,774,NOUN,alinéa,1.4741328284602346e-06,substantif,1,1654.0,366.0
 concertiste@NOUN,412,NOUN,concertiste,7.846805236765073e-07,substantif,2,1863.0,157.0
 brownien@ADJ,287,ADJ,brownien,5.466099764445573e-07,adjectif,1,1827.0,193.0
@@ -7978,8 +7865,8 @@ pubescent@ADJ,375,ADJ,pubescent,7.142116416958501e-07,adjectif,1,1516.0,504.0
 agnostique@ADJ,322,ADJ,agnostique,6.132697296695033e-07,adjectif,2,1869.0,151.0
 phéromone@NOUN,672,NOUN,phéromone,1.2798672619189634e-06,substantif,1,1968.0,52.0
 buccal@ADJ,1019,ADJ,buccal,1.9407511010348568e-06,adjectif,1,1735.0,285.0
-demi-fond@NOUN,358,NOUN,demi-fond,6.818340472723049e-07,substantif,1,1907.0,113.0
 prosélytisme@NOUN,674,NOUN,prosélytisme,1.2836763906746747e-06,substantif,1,1660.0,360.0
+intériorité@NOUN,338,NOUN,intériorité,6.437427597151929e-07,substantif,1,1500.0,520.0
 inconsistance@NOUN,111,NOUN,inconsistance,2.1140664594197162e-07,substantif,2,1650.0,370.0
 urbaniste@NOUN,391,NOUN,urbaniste,7.446846717415397e-07,substantif,2,1905.0,115.0
 islamisme@NOUN,611,NOUN,islamisme,1.1636888348697717e-06,substantif,3,1697.0,323.0
@@ -8068,7 +7955,6 @@ babylonien@ADJ,1032,ADJ,babylonien,1.9655104379469796e-06,adjectif,2,1550.0,470.
 silène@NOUN,270,NOUN,silène,5.142323820210121e-07,substantif,4,1765.0,255.0
 augustinien@ADJ,376,ADJ,augustinien,7.161162060737057e-07,adjectif,2,1740.0,280.0
 progressivité@NOUN,122,NOUN,progressivité,2.3235685409838324e-07,substantif,1,1833.0,187.0
-franc-comtois@ADJ,245,ADJ,franc-comtois,4.666182725746221e-07,adjectif,1,1698.0,322.0
 octane@NOUN,191,NOUN,octane,3.637717961704196e-07,substantif,1,1884.0,136.0
 transportable@ADJ,453,ADJ,transportable,8.627676631685869e-07,adjectif,1,1556.0,464.0
 tessiture@NOUN,473,NOUN,tessiture,9.00858950725699e-07,substantif,1,1901.0,119.0
@@ -8085,7 +7971,6 @@ obstétrical@ADJ,158,ADJ,obstétrical,3.0092117170118487e-07,adjectif,1,1775.0,2
 physiologiste@NOUN,285,NOUN,physiologiste,5.428008476888461e-07,substantif,1,1522.0,498.0
 surrénal@ADJ,185,ADJ,surrénal,3.5234440990328604e-07,adjectif,1,1762.0,258.0
 farfadet@NOUN,119,NOUN,farfadet,2.2664316096481642e-07,substantif,1,1542.0,478.0
-taille-douce@NOUN,938,NOUN,taille-douce,1.7864813864285531e-06,substantif,2,1561.0,459.0
 orientaliste@NOUN,301,NOUN,orientaliste,5.732738777345357e-07,substantif,1,1799.0,221.0
 électrolyse@NOUN,560,NOUN,électrolyse,1.066556051599136e-06,substantif,1,1834.0,186.0
 scaphandrier@NOUN,156,NOUN,scaphandrier,2.971120429454736e-07,substantif,1,1805.0,215.0
@@ -8112,6 +7997,7 @@ imprévu@NOUN,250,NOUN,imprévu,4.7614109446390007e-07,substantif,1,1535.0,485.0
 chiffonnier@NOUN,205,NOUN,chiffonnier,3.9043569746039804e-07,substantif,2,1640.0,380.0
 dahlia@NOUN,117,NOUN,dahlia,2.2283403220910523e-07,substantif,1,1804.0,216.0
 biogéographie@NOUN,209,NOUN,biogéographie,3.980539549718205e-07,substantif,1,1899.0,121.0
+malléable@ADJ,235,ADJ,malléable,4.4757262879606606e-07,adjectif,3,1500.0,520.0
 platée@NOUN,170,NOUN,platée,3.2377594423545203e-07,substantif,2,1694.0,326.0
 béotien@ADJ,109,ADJ,béotien,2.0759751718626043e-07,adjectif,2,1530.0,490.0
 équin@ADJ,581,ADJ,équin,1.1065519035341037e-06,adjectif,2,1509.0,511.0
@@ -8152,12 +8038,10 @@ arpège@NOUN,391,NOUN,arpège,7.446846717415397e-07,substantif,1,1751.0,269.0
 pianistique@ADJ,405,ADJ,pianistique,7.713485730315181e-07,adjectif,1,1895.0,125.0
 virginal@NOUN,130,NOUN,virginal,2.4759336912122804e-07,substantif,1,1530.0,490.0
 distanciation@NOUN,328,NOUN,distanciation,6.246971159366369e-07,substantif,1,1959.0,61.0
-grand-tante@NOUN,197,NOUN,grand-tante,3.7519918243755326e-07,substantif,1,1538.0,482.0
 madrigal@NOUN,1075,NOUN,madrigal,2.04740670619477e-06,substantif,2,1542.0,478.0
 blair@NOUN,327,NOUN,blair,6.227925515587813e-07,substantif,1,1834.0,186.0
 météorologue@NOUN,415,NOUN,météorologue,7.903942168100741e-07,substantif,2,1621.0,399.0
 hurlement@NOUN,651,NOUN,hurlement,1.2398714099839958e-06,substantif,2,1509.0,511.0
-pied-noir@NOUN,462,NOUN,pied-noir,8.799087425692873e-07,substantif,1,1901.0,119.0
 colonisateur@ADJ,219,ADJ,colonisateur,4.1709959875037645e-07,adjectif,1,1841.0,179.0
 trilingue@ADJ,339,ADJ,trilingue,6.456473240930485e-07,adjectif,2,1535.0,485.0
 psi@NOUN,894,NOUN,psi,1.7026805538029067e-06,substantif,1,1762.0,258.0
@@ -8229,7 +8113,6 @@ vidanger@VERB,147,VERB,vidanger,2.7997096354477325e-07,verbe,1,1578.0,442.0
 évacuateur@NOUN,117,NOUN,évacuateur,2.2283403220910523e-07,substantif,1,1825.0,195.0
 hospodar@NOUN,204,NOUN,hospodar,3.8853113308254244e-07,substantif,1,1663.0,357.0
 tatare@ADJ,161,ADJ,tatare,3.0663486483475166e-07,adjectif,1,1765.0,255.0
-chasse-neige@NOUN,153,NOUN,chasse-neige,2.9139834981190683e-07,substantif,6,1834.0,186.0
 décrépitude@NOUN,221,NOUN,décrépitude,4.2090872750608764e-07,substantif,2,1564.0,456.0
 réadapter@VERB,222,VERB,réadapter,4.2281329188394324e-07,verbe,1,1899.0,121.0
 vocaliste@NOUN,151,NOUN,vocaliste,2.8758922105619564e-07,substantif,1,1842.0,178.0
@@ -8256,7 +8139,6 @@ platière@NOUN,157,NOUN,platière,2.990166073233292e-07,substantif,3,1789.0,231.
 indubitable@ADJ,213,ADJ,indubitable,4.0567221248324287e-07,adjectif,1,1538.0,482.0
 madère@NOUN,297,NOUN,madère,5.656556202231132e-07,substantif,1,1765.0,255.0
 astringent@ADJ,169,ADJ,astringent,3.2187137985759644e-07,adjectif,1,1537.0,483.0
-vice-royauté@NOUN,858,NOUN,vice-royauté,1.634116236200105e-06,substantif,2,1636.0,384.0
 légumineuse@NOUN,702,NOUN,légumineuse,1.3370041932546314e-06,substantif,1,1570.0,450.0
 amorçage@NOUN,456,NOUN,amorçage,8.684813563021538e-07,substantif,1,1838.0,182.0
 ampère@NOUN,433,NOUN,ampère,8.24676375611475e-07,substantif,1,1865.0,155.0
@@ -8282,7 +8164,6 @@ galiléen@ADJ,344,ADJ,galiléen,6.551701459823265e-07,adjectif,2,1929.0,91.0
 neutrino@NOUN,913,NOUN,neutrino,1.738867276982163e-06,substantif,1,1935.0,85.0
 cataloguer@VERB,891,VERB,cataloguer,1.69696686066934e-06,verbe,2,1902.0,118.0
 antipathique@ADJ,207,ADJ,antipathique,3.9424482621610923e-07,adjectif,1,1568.0,452.0
-avant-projet@NOUN,654,NOUN,avant-projet,1.2455851031175625e-06,substantif,1,1845.0,175.0
 indexation@NOUN,619,NOUN,indexation,1.1789253498926167e-06,substantif,2,1948.0,72.0
 monophysite@NOUN,402,NOUN,monophysite,7.656348798979513e-07,substantif,1,1694.0,326.0
 hydrométrique@ADJ,360,ADJ,hydrométrique,6.856431760280161e-07,adjectif,1,1771.0,249.0
@@ -8337,7 +8218,6 @@ campanaire@ADJ,142,ADJ,campanaire,2.7044814165549526e-07,adjectif,2,1636.0,384.0
 phoque@NOUN,1195,NOUN,phoque,2.2759544315374423e-06,substantif,1,1532.0,488.0
 gecko@NOUN,718,NOUN,gecko,1.367477223300321e-06,substantif,1,1734.0,286.0
 septennat@NOUN,316,NOUN,septennat,6.018423434023697e-07,substantif,1,1875.0,145.0
-demi-saison@NOUN,398,NOUN,demi-saison,7.580166223865289e-07,substantif,1,1842.0,178.0
 salicorne@NOUN,102,NOUN,salicorne,1.9426556654127122e-07,substantif,1,1563.0,457.0
 angiosperme@NOUN,319,NOUN,angiosperme,6.075560365359365e-07,substantif,1,1740.0,280.0
 étiologique@ADJ,226,ADJ,étiologique,4.304315493953657e-07,adjectif,1,1811.0,209.0
@@ -8374,7 +8254,6 @@ radiologique@ADJ,519,ADJ,radiologique,9.884689121070565e-07,adjectif,2,1904.0,11
 endoscopie@NOUN,155,NOUN,endoscopie,2.95207478567618e-07,substantif,1,1866.0,154.0
 lissage@NOUN,260,NOUN,lissage,4.951867382424561e-07,substantif,3,1762.0,258.0
 dichotomie@NOUN,601,NOUN,dichotomie,1.1446431910912158e-06,substantif,6,1750.0,270.0
-court-circuit@NOUN,442,NOUN,court-circuit,8.418174550121753e-07,substantif,1,1890.0,130.0
 pulsionnel@ADJ,137,ADJ,pulsionnel,2.609253197662172e-07,adjectif,1,1949.0,71.0
 surmoi@NOUN,110,NOUN,surmoi,2.0950208156411602e-07,substantif,1,1923.0,97.0
 idéalisation@NOUN,324,NOUN,idéalisation,6.170788584252145e-07,substantif,1,1796.0,224.0
@@ -8386,6 +8265,7 @@ paternalisme@NOUN,182,NOUN,paternalisme,3.4663071676971925e-07,substantif,1,1881
 marneux@ADJ,395,ADJ,marneux,7.523029292529621e-07,adjectif,1,1567.0,453.0
 vaporisation@NOUN,277,NOUN,vaporisation,5.275643326660013e-07,substantif,1,1756.0,264.0
 fracas@NOUN,378,NOUN,fracas,7.199253348294169e-07,substantif,2,1611.0,409.0
+bassine@NOUN,197,NOUN,bassine,3.7519918243755326e-07,substantif,2,1500.0,520.0
 égouttage@NOUN,162,NOUN,égouttage,3.0853942921260726e-07,substantif,1,1778.0,242.0
 phénoménal@ADJ,923,ADJ,phénoménal,1.757912920760719e-06,adjectif,2,1803.0,217.0
 internationalisation@NOUN,649,NOUN,internationalisation,1.2360622812282847e-06,substantif,1,1845.0,175.0
@@ -8440,7 +8320,6 @@ voiturette@NOUN,356,NOUN,voiturette,6.780249185165937e-07,substantif,1,1886.0,13
 matraque@NOUN,306,NOUN,matraque,5.827966996238137e-07,substantif,2,1863.0,157.0
 contralto@NOUN,166,NOUN,contralto,3.1615768672402965e-07,substantif,1,1636.0,384.0
 délivre@NOUN,372,NOUN,délivre,7.084979485622833e-07,substantif,1,1606.0,414.0
-tire-bouchon@NOUN,197,NOUN,tire-bouchon,3.7519918243755326e-07,substantif,1,1718.0,302.0
 piéride@NOUN,154,NOUN,piéride,2.9330291418976243e-07,substantif,1,1801.0,219.0
 strapontin@NOUN,148,NOUN,strapontin,2.8187552792262884e-07,substantif,1,1560.0,460.0
 tuberculeux@ADJ,427,ADJ,tuberculeux,8.132489893443413e-07,adjectif,3,1569.0,451.0
@@ -8486,6 +8365,7 @@ luthéranisme@NOUN,467,NOUN,luthéranisme,8.894315644585654e-07,substantif,1,156
 sarcasme@NOUN,447,NOUN,sarcasme,8.513402769014533e-07,substantif,1,1521.0,499.0
 germinal@NOUN,208,NOUN,germinal,3.961493905939649e-07,substantif,1,1793.0,227.0
 mirepoix@NOUN,501,NOUN,mirepoix,9.541867533056557e-07,substantif,1,1751.0,269.0
+adage@NOUN,560,NOUN,adage,1.066556051599136e-06,substantif,2,1500.0,520.0
 branché@ADJ,670,ADJ,branché,1.2760581331632523e-06,adjectif,1,1849.0,171.0
 catalyse@NOUN,489,NOUN,catalyse,9.313319807713885e-07,substantif,1,1836.0,184.0
 skiff@NOUN,225,NOUN,skiff,4.285269850175101e-07,substantif,4,1851.0,169.0
@@ -8514,7 +8394,6 @@ grizzly@NOUN,170,NOUN,grizzly,3.2377594423545203e-07,substantif,1,1860.0,160.0
 ourson@NOUN,701,NOUN,ourson,1.3350996288767757e-06,substantif,4,1545.0,475.0
 asticot@NOUN,194,NOUN,asticot,3.6948548930398647e-07,substantif,3,1828.0,192.0
 normalien@NOUN,180,NOUN,normalien,3.4282158801400806e-07,substantif,1,1861.0,159.0
-porte-voix@NOUN,136,NOUN,porte-voix,2.5902075538836163e-07,substantif,1,1680.0,340.0
 nitroglycérine@NOUN,182,NOUN,nitroglycérine,3.4663071676971925e-07,substantif,1,1857.0,163.0
 moscovite@ADJ,247,ADJ,moscovite,4.704274013303333e-07,adjectif,3,1575.0,445.0
 coursive@NOUN,234,NOUN,coursive,4.4566806441821046e-07,substantif,1,1687.0,333.0
@@ -8530,7 +8409,6 @@ monopolistique@ADJ,164,ADJ,monopolistique,3.1234855796831845e-07,adjectif,1,1903
 passacaille@NOUN,107,NOUN,passacaille,2.0378838843054923e-07,substantif,2,1632.0,388.0
 hermétiquement@ADV,174,ADV,hermétiquement,3.313942017468744e-07,adverbe,2,1608.0,412.0
 hanséatique@ADJ,622,ADJ,hanséatique,1.1846390430261834e-06,adjectif,1,1605.0,415.0
-avant-port@NOUN,181,NOUN,avant-port,3.4472615239186365e-07,substantif,1,1792.0,228.0
 fuchsia@NOUN,112,NOUN,fuchsia,2.1331121031982722e-07,substantif,3,1693.0,327.0
 bouilloire@NOUN,159,NOUN,bouilloire,3.0282573607904047e-07,substantif,2,1740.0,280.0
 hippophagie@NOUN,186,NOUN,hippophagie,3.5424897428114164e-07,substantif,1,1832.0,188.0
@@ -8548,7 +8426,6 @@ réanimer@VERB,362,VERB,réanimer,6.894523047837273e-07,verbe,2,1549.0,471.0
 hammam@NOUN,336,NOUN,hammam,6.399336309594817e-07,substantif,1,1655.0,365.0
 retranscription@NOUN,381,NOUN,retranscription,7.256390279629837e-07,substantif,2,1917.0,103.0
 inconstitutionnel@ADJ,398,ADJ,inconstitutionnel,7.580166223865289e-07,adjectif,1,1778.0,242.0
-non-conformité@NOUN,181,NOUN,non-conformité,3.4472615239186365e-07,substantif,1,1687.0,333.0
 biophysique@ADJ,104,ADJ,biophysique,1.9807469529698244e-07,adjectif,1,1920.0,100.0
 effriter@VERB,189,VERB,effriter,3.5996266741470843e-07,verbe,3,1852.0,168.0
 gangrener@VERB,184,VERB,gangrener,3.5043984552543045e-07,verbe,2,1680.0,340.0
@@ -8561,7 +8438,6 @@ parsec@NOUN,201,NOUN,parsec,3.8281743994897565e-07,substantif,1,1924.0,96.0
 hittite@ADJ,665,ADJ,hittite,1.2665353112739742e-06,adjectif,1,1560.0,460.0
 cloisonnement@NOUN,311,NOUN,cloisonnement,5.923195215130917e-07,substantif,2,1845.0,175.0
 lavis@NOUN,424,NOUN,lavis,8.075352962107745e-07,substantif,1,1676.0,344.0
-sous-traitance@NOUN,525,NOUN,sous-traitance,9.998962983741902e-07,substantif,1,1959.0,61.0
 daguerréotype@NOUN,334,NOUN,daguerréotype,6.361245022037705e-07,substantif,2,1839.0,181.0
 cadavérique@ADJ,116,ADJ,cadavérique,2.2092946783124963e-07,adjectif,1,1787.0,233.0
 belliciste@ADJ,213,ADJ,belliciste,4.0567221248324287e-07,adjectif,1,1908.0,112.0
@@ -8570,7 +8446,6 @@ whig@NOUN,216,NOUN,whig,4.1138590561680966e-07,substantif,1,1648.0,372.0
 belligérant@ADJ,180,ADJ,belligérant,3.4282158801400806e-07,adjectif,1,1744.0,276.0
 commérage@NOUN,168,NOUN,commérage,3.1996681547974084e-07,substantif,1,1546.0,474.0
 sore@NOUN,153,NOUN,sore,2.9139834981190683e-07,substantif,1,1815.0,205.0
-saint-simonien@ADJ,219,ADJ,saint-simonien,4.1709959875037645e-07,adjectif,4,1830.0,190.0
 individuation@NOUN,325,NOUN,individuation,6.189834228030701e-07,substantif,1,1551.0,469.0
 couchage@NOUN,315,NOUN,couchage,5.999377790245141e-07,substantif,3,1657.0,363.0
 santon@NOUN,424,NOUN,santon,8.075352962107745e-07,substantif,3,1896.0,124.0
@@ -8581,10 +8456,10 @@ pouponnière@NOUN,175,NOUN,pouponnière,3.3329876612473007e-07,substantif,1,1851
 cosinus@NOUN,193,NOUN,cosinus,3.6758092492613087e-07,substantif,1,1620.0,400.0
 encart@NOUN,225,NOUN,encart,4.285269850175101e-07,substantif,1,1810.0,210.0
 acarien@NOUN,379,NOUN,acarien,7.218298992072725e-07,substantif,1,1832.0,188.0
+essoufflement@NOUN,309,NOUN,essoufflement,5.885103927573805e-07,substantif,1,1500.0,520.0
 ambivalence@NOUN,435,NOUN,ambivalence,8.284855043671862e-07,substantif,2,1910.0,110.0
 tissulaire@ADJ,382,ADJ,tissulaire,7.275435923408393e-07,adjectif,1,1842.0,178.0
 généreusement@ADV,358,ADV,généreusement,6.818340472723049e-07,adverbe,3,1580.0,440.0
-ex-libris@NOUN,184,NOUN,ex-libris,3.5043984552543045e-07,substantif,1,1840.0,180.0
 thésaurus@NOUN,133,NOUN,thésaurus,2.5330706225479484e-07,substantif,1,1904.0,116.0
 inimitable@ADJ,243,ADJ,inimitable,4.628091438189109e-07,adjectif,1,1550.0,470.0
 mensualité@NOUN,163,NOUN,mensualité,3.1044399359046285e-07,substantif,2,1874.0,146.0
@@ -8605,7 +8480,6 @@ boulangiste@NOUN,103,NOUN,boulangiste,1.9617013091912682e-07,substantif,1,1887.0
 dreyfusard@NOUN,232,NOUN,dreyfusard,4.4185893566249926e-07,substantif,1,1897.0,123.0
 titrage@NOUN,279,NOUN,titrage,5.313734614217125e-07,substantif,3,1841.0,179.0
 charolais@NOUN,512,NOUN,charolais,9.751369614620674e-07,substantif,1,1732.0,288.0
-sous-alimentation@NOUN,155,NOUN,sous-alimentation,2.95207478567618e-07,substantif,1,1918.0,102.0
 foirail@NOUN,116,NOUN,foirail,2.2092946783124963e-07,substantif,1,1864.0,156.0
 ménopause@NOUN,277,NOUN,ménopause,5.275643326660013e-07,substantif,1,1823.0,197.0
 transsexuel@ADJ,219,ADJ,transsexuel,4.1709959875037645e-07,adjectif,2,1957.0,63.0
@@ -8621,7 +8495,6 @@ inconsistant@ADJ,141,ADJ,inconsistant,2.685435772776396e-07,adjectif,1,1769.0,25
 gêné@NOUN,145,NOUN,gêné,2.7616183478906205e-07,substantif,1,1909.0,111.0
 führer@NOUN,234,NOUN,führer,4.4566806441821046e-07,substantif,1,1934.0,86.0
 orphique@ADJ,186,ADJ,orphique,3.5424897428114164e-07,adjectif,2,1545.0,475.0
-extrême-oriental@ADJ,213,ADJ,extrême-oriental,4.0567221248324287e-07,adjectif,1,1908.0,112.0
 réfracter@VERB,133,VERB,réfracter,2.5330706225479484e-07,verbe,1,1612.0,408.0
 intransigeant@ADJ,628,ADJ,intransigeant,1.1960664292933169e-06,adjectif,1,1873.0,147.0
 anthracite@NOUN,283,NOUN,anthracite,5.389917189331349e-07,substantif,2,1549.0,471.0
@@ -8639,7 +8512,6 @@ officialisation@NOUN,384,NOUN,officialisation,7.313527210965506e-07,substantif,1
 boche@NOUN,124,NOUN,boche,2.3616598285409444e-07,substantif,1,1862.0,158.0
 chérifien@ADJ,348,ADJ,chérifien,6.627884034937488e-07,adjectif,2,1869.0,151.0
 pompéien@ADJ,265,ADJ,pompéien,5.04709560131734e-07,adjectif,3,1831.0,189.0
-sous-évaluer@VERB,174,VERB,sous-évaluer,3.313942017468744e-07,verbe,2,1856.0,164.0
 lanterneau@NOUN,160,NOUN,lanterneau,3.0473030045689606e-07,substantif,1,1721.0,299.0
 rubéole@NOUN,147,NOUN,rubéole,2.7997096354477325e-07,substantif,1,1842.0,178.0
 insatisfaction@NOUN,487,NOUN,insatisfaction,9.275228520156773e-07,substantif,1,1622.0,398.0
@@ -8723,7 +8595,6 @@ imperméabilisation@NOUN,116,NOUN,imperméabilisation,2.2092946783124963e-07,sub
 imparable@ADJ,124,ADJ,imparable,2.3616598285409444e-07,adjectif,1,1604.0,416.0
 mygale@NOUN,224,NOUN,mygale,4.2662242063965443e-07,substantif,1,1802.0,218.0
 humérus@NOUN,329,NOUN,humérus,6.266016803144924e-07,substantif,1,1579.0,441.0
-vice-légat@NOUN,143,NOUN,vice-légat,2.7235270603335086e-07,substantif,1,1568.0,452.0
 losanger@VERB,112,VERB,losanger,2.1331121031982722e-07,verbe,1,1841.0,179.0
 omniprésence@NOUN,656,NOUN,omniprésence,1.2493942318732738e-06,substantif,2,1601.0,419.0
 supplicier@VERB,126,VERB,supplicier,2.3997511160980566e-07,verbe,1,1590.0,430.0
@@ -8747,7 +8618,6 @@ horizontalité@NOUN,191,NOUN,horizontalité,3.637717961704196e-07,substantif,1,1
 sinusoïde@NOUN,110,NOUN,sinusoïde,2.0950208156411602e-07,substantif,1,1729.0,291.0
 masseur@NOUN,386,NOUN,masseur,7.351618498522617e-07,substantif,1,1779.0,241.0
 hélion@NOUN,106,NOUN,hélion,2.0188382405269363e-07,substantif,2,1923.0,97.0
-grand-ducal@ADJ,525,ADJ,grand-ducal,9.998962983741902e-07,adjectif,1,1815.0,205.0
 stéroïde@NOUN,821,NOUN,stéroïde,1.5636473542194478e-06,substantif,1,1956.0,64.0
 sarbacane@NOUN,158,NOUN,sarbacane,3.0092117170118487e-07,substantif,2,1524.0,496.0
 cartonnerie@NOUN,114,NOUN,cartonnerie,2.1712033907553844e-07,substantif,2,1751.0,269.0
@@ -8761,7 +8631,6 @@ iguane@NOUN,712,NOUN,iguane,1.3560498370331875e-06,substantif,1,1533.0,487.0
 sexisme@NOUN,730,NOUN,sexisme,1.390331995834588e-06,substantif,1,1948.0,72.0
 kabyle@ADJ,759,ADJ,kabyle,1.4455643627924007e-06,adjectif,1,1664.0,356.0
 adressage@NOUN,441,NOUN,adressage,8.399128906343197e-07,substantif,1,1968.0,52.0
-arrière-grand-mère@NOUN,304,NOUN,arrière-grand-mère,5.789875708681025e-07,substantif,1,1787.0,233.0
 corpusculaire@ADJ,111,ADJ,corpusculaire,2.1140664594197162e-07,adjectif,1,1721.0,299.0
 automoteur@NOUN,393,NOUN,automoteur,7.484938004972509e-07,substantif,2,1824.0,196.0
 sérique@ADJ,241,ADJ,sérique,4.5900001506319964e-07,adjectif,1,1924.0,96.0
@@ -8770,7 +8639,6 @@ australopithèque@NOUN,119,NOUN,australopithèque,2.2664316096481642e-07,substan
 cataclysmique@ADJ,120,ADJ,cataclysmique,2.2854772534267202e-07,adjectif,2,1863.0,157.0
 sériel@ADJ,395,ADJ,sériel,7.523029292529621e-07,adjectif,1,1832.0,188.0
 sérialisme@NOUN,154,NOUN,sérialisme,2.9330291418976243e-07,substantif,1,1961.0,59.0
-anti-américain@ADJ,210,ADJ,anti-américain,3.999585193496761e-07,adjectif,1,1776.0,244.0
 complétude@NOUN,237,NOUN,complétude,4.5138175755177725e-07,substantif,3,1943.0,77.0
 aéroplane@NOUN,431,NOUN,aéroplane,8.208672468557637e-07,substantif,1,1855.0,165.0
 stoïcisme@NOUN,329,NOUN,stoïcisme,6.266016803144924e-07,substantif,2,1688.0,332.0
@@ -8830,7 +8698,6 @@ démoder@VERB,265,VERB,démoder,5.04709560131734e-07,verbe,1,1827.0,193.0
 tannique@ADJ,130,ADJ,tannique,2.4759336912122804e-07,adjectif,1,1848.0,172.0
 zigzag@NOUN,390,NOUN,zigzag,7.427801073636841e-07,substantif,1,1662.0,358.0
 graphite@NOUN,540,NOUN,graphite,1.0284647640420241e-06,substantif,1,1789.0,231.0
-sans-culotte@NOUN,430,NOUN,sans-culotte,8.189626824779081e-07,substantif,1,1790.0,230.0
 wisigoth@ADJ,177,ADJ,wisigoth,3.3710789488044127e-07,adjectif,1,1601.0,419.0
 glouton@NOUN,231,NOUN,glouton,4.3995437128464367e-07,substantif,2,1671.0,349.0
 intrigant@ADJ,318,ADJ,intrigant,6.056514721580809e-07,adjectif,2,1583.0,437.0
@@ -8852,7 +8719,6 @@ rajah@NOUN,157,NOUN,rajah,2.990166073233292e-07,substantif,1,1525.0,495.0
 tantale@NOUN,263,NOUN,tantale,5.009004313760228e-07,substantif,3,1623.0,397.0
 dimensionner@VERB,392,VERB,dimensionner,7.465892361193953e-07,verbe,2,1927.0,93.0
 laotien@ADJ,483,ADJ,laotien,9.199045945042549e-07,adjectif,1,1765.0,255.0
-mal-être@NOUN,274,NOUN,mal-être,5.218506395324344e-07,substantif,1,1590.0,430.0
 jubilatoire@ADJ,126,ADJ,jubilatoire,2.3997511160980566e-07,adjectif,1,1828.0,192.0
 bandoulière@NOUN,201,NOUN,bandoulière,3.8281743994897565e-07,substantif,3,1586.0,434.0
 profileur@NOUN,120,NOUN,profileur,2.2854772534267202e-07,substantif,3,1875.0,145.0
@@ -9177,7 +9043,6 @@ calcique@ADJ,318,ADJ,calcique,6.056514721580809e-07,adjectif,2,1838.0,182.0
 calcination@NOUN,201,NOUN,calcination,3.8281743994897565e-07,substantif,1,1516.0,504.0
 intercostal@ADJ,104,ADJ,intercostal,1.9807469529698244e-07,adjectif,2,1536.0,484.0
 exégétique@ADJ,244,ADJ,exégétique,4.647137081967665e-07,adjectif,1,1694.0,326.0
-saint-simonien@NOUN,207,NOUN,saint-simonien,3.9424482621610923e-07,substantif,4,1830.0,190.0
 surgeler@VERB,245,VERB,surgeler,4.666182725746221e-07,verbe,1,1961.0,59.0
 tentaculaire@ADJ,206,ADJ,tentaculaire,3.9234026183825363e-07,adjectif,1,1797.0,223.0
 revendicatif@ADJ,304,ADJ,revendicatif,5.789875708681025e-07,adjectif,1,1949.0,71.0
@@ -9275,7 +9140,6 @@ coloriste@NOUN,257,NOUN,coloriste,4.894730451088892e-07,substantif,2,1668.0,352.
 jersey@NOUN,238,NOUN,jersey,4.5328632192963285e-07,substantif,2,1550.0,470.0
 pinçon@NOUN,171,NOUN,pinçon,3.2568050861330763e-07,substantif,2,1527.0,493.0
 synclinal@ADJ,109,ADJ,synclinal,2.0759751718626043e-07,adjectif,1,1833.0,187.0
-contre-manifestation@NOUN,135,NOUN,contre-manifestation,2.5711619101050603e-07,substantif,1,1848.0,172.0
 girondin@ADJ,528,ADJ,girondin,1.005609991507757e-06,adjectif,1,1792.0,228.0
 négociable@ADJ,255,ADJ,négociable,4.85663916353178e-07,adjectif,1,1678.0,342.0
 millionième@ADJ,117,ADJ,millionième,2.2283403220910523e-07,adjectif,2,1550.0,470.0
@@ -9294,7 +9158,6 @@ hydrophile@ADJ,340,ADJ,hydrophile,6.475518884709041e-07,adjectif,2,1902.0,118.0
 assouplissement@NOUN,236,NOUN,assouplissement,4.4947719317392165e-07,substantif,1,1892.0,128.0
 fléchette@NOUN,377,NOUN,fléchette,7.180207704515613e-07,substantif,2,1896.0,124.0
 musquer@VERB,242,VERB,musquer,4.609045794410553e-07,verbe,3,1571.0,449.0
-contre-expertise@NOUN,144,NOUN,contre-expertise,2.7425727041120646e-07,substantif,1,1847.0,173.0
 dirigisme@NOUN,115,NOUN,dirigisme,2.1902490345339404e-07,substantif,2,1941.0,79.0
 sympathisant@ADJ,342,ADJ,sympathisant,6.513610172266153e-07,adjectif,1,1928.0,92.0
 chanterelle@NOUN,130,NOUN,chanterelle,2.4759336912122804e-07,substantif,6,1552.0,468.0
@@ -9302,6 +9165,7 @@ estragon@NOUN,111,NOUN,estragon,2.1140664594197162e-07,substantif,1,1539.0,481.0
 pyramidion@NOUN,112,NOUN,pyramidion,2.1331121031982722e-07,substantif,1,1828.0,192.0
 maniériste@NOUN,106,NOUN,maniériste,2.0188382405269363e-07,substantif,1,1668.0,352.0
 instinctivement@ADV,152,ADV,instinctivement,2.8949378543405123e-07,adverbe,1,1801.0,219.0
+crasseux@ADJ,116,ADJ,crasseux,2.2092946783124963e-07,adjectif,2,1500.0,520.0
 vadrouille@NOUN,152,NOUN,vadrouille,2.8949378543405123e-07,substantif,5,1678.0,342.0
 pullman@NOUN,154,NOUN,pullman,2.9330291418976243e-07,substantif,1,1864.0,156.0
 cylindrer@VERB,157,VERB,cylindrer,2.990166073233292e-07,verbe,3,1772.0,248.0
@@ -9314,11 +9178,9 @@ saké@NOUN,340,NOUN,saké,6.475518884709041e-07,substantif,1,1667.0,353.0
 caféier@NOUN,325,NOUN,caféier,6.189834228030701e-07,substantif,2,1715.0,305.0
 frugivore@ADJ,107,ADJ,frugivore,2.0378838843054923e-07,adjectif,1,1764.0,256.0
 jubilaire@ADJ,124,ADJ,jubilaire,2.3616598285409444e-07,adjectif,1,1566.0,454.0
-avant-goût@NOUN,188,NOUN,avant-goût,3.5805810303685283e-07,substantif,1,1610.0,410.0
 concrétisation@NOUN,495,NOUN,concrétisation,9.427593670385221e-07,substantif,1,1936.0,84.0
 réimplanter@VERB,121,VERB,réimplanter,2.3045228972052764e-07,verbe,1,1656.0,364.0
 testeur@NOUN,389,NOUN,testeur,7.408755429858285e-07,substantif,1,1952.0,68.0
-garde-boue@NOUN,138,NOUN,garde-boue,2.628298841440728e-07,substantif,1,1869.0,151.0
 licencieux@ADJ,270,ADJ,licencieux,5.142323820210121e-07,adjectif,1,1537.0,483.0
 kana@NOUN,108,NOUN,kana,2.0569295280840483e-07,substantif,1,1727.0,293.0
 pétrification@NOUN,114,NOUN,pétrification,2.1712033907553844e-07,substantif,2,1515.0,505.0
@@ -9348,7 +9210,6 @@ téléski@NOUN,692,NOUN,téléski,1.3179585494760753e-06,substantif,1,1935.0,85.
 accoucheur@NOUN,191,NOUN,accoucheur,3.637717961704196e-07,substantif,1,1671.0,349.0
 adepte@ADJ,326,ADJ,adepte,6.208879871809257e-07,adjectif,1,1630.0,390.0
 brimer@VERB,103,VERB,brimer,1.9617013091912682e-07,verbe,1,1709.0,311.0
-pot-au-feu@NOUN,111,NOUN,pot-au-feu,2.1140664594197162e-07,substantif,1,1673.0,347.0
 frugal@ADJ,200,ADJ,frugal,3.8091287557112005e-07,adjectif,2,1534.0,486.0
 arnica@NOUN,158,NOUN,arnica,3.0092117170118487e-07,substantif,1,1697.0,323.0
 oreillard@NOUN,107,NOUN,oreillard,2.0378838843054923e-07,substantif,2,1560.0,460.0
@@ -9378,7 +9239,6 @@ lepton@NOUN,126,NOUN,lepton,2.3997511160980566e-07,substantif,1,1840.0,180.0
 rouf@NOUN,103,NOUN,rouf,1.9617013091912682e-07,substantif,1,1582.0,438.0
 drisse@NOUN,104,NOUN,drisse,1.9807469529698244e-07,substantif,1,1607.0,413.0
 carnassier@ADJ,109,ADJ,carnassier,2.0759751718626043e-07,adjectif,1,1501.0,519.0
-contre-révolutionnaire@NOUN,279,NOUN,contre-révolutionnaire,5.313734614217125e-07,substantif,1,1790.0,230.0
 spinal@ADJ,312,ADJ,spinal,5.942240858909472e-07,adjectif,1,1534.0,486.0
 phone@NOUN,139,NOUN,phone,2.647344485219284e-07,substantif,2,1857.0,163.0
 orthophonie@NOUN,133,NOUN,orthophonie,2.5330706225479484e-07,substantif,1,1855.0,165.0
@@ -9478,7 +9338,6 @@ concevable@ADJ,263,ADJ,concevable,5.009004313760228e-07,adjectif,1,1547.0,473.0
 caravagesque@ADJ,133,ADJ,caravagesque,2.5330706225479484e-07,adjectif,2,1951.0,69.0
 papiste@NOUN,125,NOUN,papiste,2.3807054723195003e-07,substantif,1,1526.0,494.0
 dentellière@NOUN,117,NOUN,dentellière,2.2283403220910523e-07,substantif,1,1647.0,373.0
-sous-couche@NOUN,230,NOUN,sous-couche,4.3804980690678807e-07,substantif,1,1872.0,148.0
 liseuse@NOUN,181,NOUN,liseuse,3.4472615239186365e-07,substantif,6,1867.0,153.0
 éros@NOUN,116,NOUN,éros,2.2092946783124963e-07,substantif,2,1838.0,182.0
 paranoïaque@ADJ,549,ADJ,paranoïaque,1.0456058434427245e-06,adjectif,1,1892.0,128.0
@@ -9532,7 +9391,6 @@ verbaliser@VERB,144,VERB,verbaliser,2.7425727041120646e-07,verbe,4,1668.0,352.0
 marceline@NOUN,288,NOUN,marceline,5.485145408224129e-07,substantif,3,1833.0,187.0
 irrédentisme@NOUN,127,NOUN,irrédentisme,2.4187967598766125e-07,substantif,2,1877.0,143.0
 reinette@NOUN,166,NOUN,reinette,3.1615768672402965e-07,substantif,1,1535.0,485.0
-porte-greffe@NOUN,329,NOUN,porte-greffe,6.266016803144924e-07,substantif,1,1877.0,143.0
 ondin@NOUN,436,NOUN,ondin,8.303900687450417e-07,substantif,1,1569.0,451.0
 joule@NOUN,244,NOUN,joule,4.647137081967665e-07,substantif,1,1818.0,202.0
 commissionnaire@NOUN,331,NOUN,commissionnaire,6.304108090702036e-07,substantif,3,1506.0,514.0
@@ -9577,7 +9435,6 @@ hypothyroïdie@NOUN,123,NOUN,hypothyroïdie,2.3426141847623884e-07,substantif,1,
 tétanos@NOUN,277,NOUN,tétanos,5.275643326660013e-07,substantif,1,1541.0,479.0
 dunette@NOUN,119,NOUN,dunette,2.2664316096481642e-07,substantif,2,1550.0,470.0
 chott@NOUN,149,NOUN,chott,2.8378009230048444e-07,substantif,1,1857.0,163.0
-semi-aride@ADJ,431,ADJ,semi-aride,8.208672468557637e-07,adjectif,1,1898.0,122.0
 donatiste@NOUN,122,NOUN,donatiste,2.3235685409838324e-07,substantif,1,1704.0,316.0
 anticolonialiste@ADJ,256,ADJ,anticolonialiste,4.875684807310337e-07,adjectif,1,1938.0,82.0
 collectivisme@NOUN,269,NOUN,collectivisme,5.123278176431565e-07,substantif,1,1836.0,184.0
@@ -9593,14 +9450,13 @@ pinnule@NOUN,165,NOUN,pinnule,3.1425312234617405e-07,substantif,1,1528.0,492.0
 gitan@NOUN,539,NOUN,gitan,1.0265601996641685e-06,substantif,2,1570.0,450.0
 pisé@NOUN,177,NOUN,pisé,3.3710789488044127e-07,substantif,1,1562.0,458.0
 champignonnière@NOUN,142,NOUN,champignonnière,2.7044814165549526e-07,substantif,1,1694.0,326.0
-saut-de-mouton@NOUN,105,NOUN,saut-de-mouton,1.9997925967483804e-07,substantif,1,1611.0,409.0
 gramophone@NOUN,194,NOUN,gramophone,3.6948548930398647e-07,substantif,1,1901.0,119.0
 huileux@ADJ,157,ADJ,huileux,2.990166073233292e-07,adjectif,2,1538.0,482.0
 autocratie@NOUN,230,NOUN,autocratie,4.3804980690678807e-07,substantif,1,1794.0,226.0
 mastodonte@NOUN,162,NOUN,mastodonte,3.0853942921260726e-07,substantif,2,1812.0,208.0
+tartine@NOUN,204,NOUN,tartine,3.8853113308254244e-07,substantif,2,1500.0,520.0
 buggy@NOUN,150,NOUN,buggy,2.8568465667834004e-07,substantif,1,1773.0,247.0
 plancher@VERB,417,VERB,plancher,7.942033455657853e-07,verbe,1,1905.0,115.0
-demi-colonne@NOUN,314,NOUN,demi-colonne,5.980332146466584e-07,substantif,1,1690.0,330.0
 papetier@NOUN,209,NOUN,papetier,3.980539549718205e-07,substantif,1,1507.0,513.0
 structuraliste@ADJ,125,ADJ,structuraliste,2.3807054723195003e-07,adjectif,1,1932.0,88.0
 incomplétude@NOUN,227,NOUN,incomplétude,4.323361137732213e-07,substantif,1,1903.0,117.0
@@ -9610,7 +9466,6 @@ rigoriste@ADJ,190,ADJ,rigoriste,3.6186723179256403e-07,adjectif,1,1683.0,337.0
 minette@NOUN,184,NOUN,minette,3.5043984552543045e-07,substantif,5,1573.0,447.0
 triumvir@NOUN,293,NOUN,triumvir,5.580373627116908e-07,substantif,1,1507.0,513.0
 nervation@NOUN,120,NOUN,nervation,2.2854772534267202e-07,substantif,2,1798.0,222.0
-casse-croûte@NOUN,101,NOUN,casse-croûte,1.9236100216341562e-07,substantif,4,1803.0,217.0
 espiègle@ADJ,121,ADJ,espiègle,2.3045228972052764e-07,adjectif,1,1515.0,505.0
 jonquille@NOUN,140,NOUN,jonquille,2.66639012899784e-07,substantif,3,1596.0,424.0
 cotonneux@ADJ,140,ADJ,cotonneux,2.66639012899784e-07,adjectif,2,1552.0,468.0
@@ -9630,12 +9485,10 @@ anthologique@ADJ,170,ADJ,anthologique,3.2377594423545203e-07,adjectif,1,1832.0,1
 kinétoscope@NOUN,181,NOUN,kinétoscope,3.4472615239186365e-07,substantif,1,1864.0,156.0
 colloïdal@ADJ,154,ADJ,colloïdal,2.9330291418976243e-07,adjectif,1,1855.0,165.0
 pistil@NOUN,291,NOUN,pistil,5.542282339559797e-07,substantif,1,1685.0,335.0
-sous-cutané@ADJ,304,ADJ,sous-cutané,5.789875708681025e-07,adjectif,1,1765.0,255.0
 hermaphrodisme@NOUN,117,NOUN,hermaphrodisme,2.2283403220910523e-07,substantif,2,1765.0,255.0
 céladon@NOUN,201,NOUN,céladon,3.8281743994897565e-07,substantif,4,1607.0,413.0
 rifle@NOUN,314,NOUN,rifle,5.980332146466584e-07,substantif,2,1833.0,187.0
 diphtérie@NOUN,376,NOUN,diphtérie,7.161162060737057e-07,substantif,1,1817.0,203.0
-sous-secrétariat@NOUN,107,NOUN,sous-secrétariat,2.0378838843054923e-07,substantif,1,1834.0,186.0
 renoncule@NOUN,194,NOUN,renoncule,3.6948548930398647e-07,substantif,1,1549.0,471.0
 claquage@NOUN,164,NOUN,claquage,3.1234855796831845e-07,substantif,2,1901.0,119.0
 adsorber@VERB,202,VERB,adsorber,3.8472200432683125e-07,verbe,1,1920.0,100.0
@@ -9668,6 +9521,7 @@ shrapnel@NOUN,147,NOUN,shrapnel,2.7997096354477325e-07,substantif,2,1860.0,160.0
 concordataire@ADJ,202,ADJ,concordataire,3.8472200432683125e-07,adjectif,3,1838.0,182.0
 mutualisme@NOUN,209,NOUN,mutualisme,3.980539549718205e-07,substantif,2,1840.0,180.0
 blatte@NOUN,272,NOUN,blatte,5.180415107767233e-07,substantif,1,1534.0,486.0
+milan@NOUN,120,NOUN,milan,2.2854772534267202e-07,substantif,1,1500.0,520.0
 hébertiste@NOUN,180,NOUN,hébertiste,3.4282158801400806e-07,substantif,1,1794.0,226.0
 gavage@NOUN,151,NOUN,gavage,2.8758922105619564e-07,substantif,4,1877.0,143.0
 mascaret@NOUN,129,NOUN,mascaret,2.4568880474337245e-07,substantif,2,1552.0,468.0
@@ -9779,7 +9633,6 @@ diablotin@NOUN,136,NOUN,diablotin,2.5902075538836163e-07,substantif,2,1544.0,476
 ambulant@NOUN,322,NOUN,ambulant,6.132697296695033e-07,substantif,1,1558.0,462.0
 pompon@NOUN,214,NOUN,pompon,4.0757677686109846e-07,substantif,3,1556.0,464.0
 jacquet@NOUN,140,NOUN,jacquet,2.66639012899784e-07,substantif,1,1827.0,193.0
-non-intervention@NOUN,245,NOUN,non-intervention,4.666182725746221e-07,substantif,3,1830.0,190.0
 paquetage@NOUN,230,NOUN,paquetage,4.3804980690678807e-07,substantif,4,1868.0,152.0
 ardennais@NOUN,346,NOUN,ardennais,6.589792747380376e-07,substantif,1,1842.0,178.0
 diatomée@NOUN,328,NOUN,diatomée,6.246971159366369e-07,substantif,1,1834.0,186.0
@@ -9790,7 +9643,6 @@ fluage@NOUN,134,NOUN,fluage,2.5521162663265043e-07,substantif,1,1922.0,98.0
 naseau@NOUN,190,NOUN,naseau,3.6186723179256403e-07,substantif,1,1520.0,500.0
 anabaptiste@ADJ,174,ADJ,anabaptiste,3.313942017468744e-07,adjectif,1,1526.0,494.0
 anser@VERB,115,VERB,anser,2.1902490345339404e-07,verbe,1,1606.0,414.0
-sous-ordre@NOUN,203,NOUN,sous-ordre,3.8662656870468684e-07,substantif,2,1690.0,330.0
 hebdomadairement@ADV,170,ADV,hebdomadairement,3.2377594423545203e-07,adverbe,1,1781.0,239.0
 universaliste@ADJ,282,ADJ,universaliste,5.370871545552792e-07,adjectif,1,1684.0,336.0
 goule@NOUN,283,NOUN,goule,5.389917189331349e-07,substantif,4,1697.0,323.0
@@ -9837,7 +9689,6 @@ laotien@NOUN,102,NOUN,laotien,1.9426556654127122e-07,substantif,3,1765.0,255.0
 coriace@ADJ,252,ADJ,coriace,4.799502232196113e-07,adjectif,2,1531.0,489.0
 pondéral@ADJ,198,ADJ,pondéral,3.7710374681540886e-07,adjectif,1,1842.0,178.0
 brocoli@NOUN,134,NOUN,brocoli,2.5521162663265043e-07,substantif,1,1550.0,470.0
-chou-fleur@NOUN,121,NOUN,chou-fleur,2.3045228972052764e-07,substantif,2,1550.0,470.0
 collinaire@ADJ,185,ADJ,collinaire,3.5234440990328604e-07,adjectif,1,1838.0,182.0
 convulsif@ADJ,164,ADJ,convulsif,3.1234855796831845e-07,adjectif,1,1546.0,474.0
 dépravation@NOUN,221,NOUN,dépravation,4.2090872750608764e-07,substantif,2,1532.0,488.0
@@ -9895,7 +9746,6 @@ limitatif@ADJ,163,ADJ,limitatif,3.1044399359046285e-07,adjectif,2,1545.0,475.0
 odyssée@NOUN,154,NOUN,odyssée,2.9330291418976243e-07,substantif,1,1798.0,222.0
 job@NOUN,184,NOUN,job,3.5043984552543045e-07,substantif,1,1770.0,250.0
 dundee@NOUN,248,NOUN,dundee,4.7233196570818887e-07,substantif,1,1900.0,120.0
-contre-enquête@NOUN,132,NOUN,contre-enquête,2.5140249787693924e-07,substantif,1,1734.0,286.0
 aménorrhée@NOUN,157,NOUN,aménorrhée,2.990166073233292e-07,substantif,1,1795.0,225.0
 craquement@NOUN,156,NOUN,craquement,2.971120429454736e-07,substantif,1,1553.0,467.0
 andésite@NOUN,229,NOUN,andésite,4.3614524252893247e-07,substantif,2,1866.0,154.0
@@ -9951,7 +9801,6 @@ akkadien@ADJ,261,ADJ,akkadien,4.970913026203116e-07,adjectif,1,1873.0,147.0
 dipôle@NOUN,473,NOUN,dipôle,9.00858950725699e-07,substantif,2,1912.0,108.0
 hématologique@ADJ,125,ADJ,hématologique,2.3807054723195003e-07,adjectif,1,1910.0,110.0
 extérioriser@VERB,163,VERB,extérioriser,3.1044399359046285e-07,verbe,2,1866.0,154.0
-tête-à-queue@NOUN,322,NOUN,tête-à-queue,6.132697296695033e-07,substantif,1,1855.0,165.0
 longitudinalement@ADV,304,ADV,longitudinalement,5.789875708681025e-07,adverbe,2,1752.0,268.0
 fluorescent@ADJ,576,ADJ,fluorescent,1.0970290816448258e-06,adjectif,1,1865.0,155.0
 marsupial@NOUN,335,NOUN,marsupial,6.380290665816261e-07,substantif,1,1736.0,284.0
@@ -9985,8 +9834,6 @@ niobium@NOUN,243,NOUN,niobium,4.628091438189109e-07,substantif,2,1844.0,176.0
 molybdène@NOUN,337,NOUN,molybdène,6.418381953373373e-07,substantif,1,1549.0,471.0
 hydrure@NOUN,321,NOUN,hydrure,6.113651652916477e-07,substantif,1,1789.0,231.0
 icone@NOUN,122,NOUN,icone,2.3235685409838324e-07,substantif,1,1833.0,187.0
-porte-monnaie@NOUN,162,NOUN,porte-monnaie,3.0853942921260726e-07,substantif,1,1847.0,173.0
-non-combattant@NOUN,139,NOUN,non-combattant,2.647344485219284e-07,substantif,1,1804.0,216.0
 classificateur@NOUN,135,NOUN,classificateur,2.5711619101050603e-07,substantif,2,1783.0,237.0
 covariance@NOUN,278,NOUN,covariance,5.294688970438568e-07,substantif,2,1921.0,99.0
 cardan@NOUN,286,NOUN,cardan,5.447054120667017e-07,substantif,2,1866.0,154.0
@@ -10015,7 +9862,6 @@ illégitimité@NOUN,134,NOUN,illégitimité,2.5521162663265043e-07,substantif,1,
 défaitisme@NOUN,149,NOUN,défaitisme,2.8378009230048444e-07,substantif,1,1918.0,102.0
 tenace@ADJ,122,ADJ,tenace,2.3235685409838324e-07,adjectif,4,1501.0,519.0
 nautile@NOUN,104,NOUN,nautile,1.9807469529698244e-07,substantif,1,1562.0,458.0
-contre-projet@NOUN,316,NOUN,contre-projet,6.018423434023697e-07,substantif,1,1829.0,191.0
 glaciologie@NOUN,118,NOUN,glaciologie,2.2473859658696083e-07,substantif,1,1901.0,119.0
 vêlage@NOUN,197,NOUN,vêlage,3.7519918243755326e-07,substantif,2,1834.0,186.0
 dorien@ADJ,192,ADJ,dorien,3.656763605482753e-07,adjectif,2,1658.0,362.0
@@ -10054,7 +9900,6 @@ nihilisme@NOUN,424,NOUN,nihilisme,8.075352962107745e-07,substantif,2,1787.0,233.
 christologie@NOUN,288,NOUN,christologie,5.485145408224129e-07,substantif,1,1673.0,347.0
 ecclésiologie@NOUN,121,NOUN,ecclésiologie,2.3045228972052764e-07,substantif,1,1927.0,93.0
 ilion@NOUN,109,NOUN,ilion,2.0759751718626043e-07,substantif,1,1555.0,465.0
-bas-ventre@NOUN,157,NOUN,bas-ventre,2.990166073233292e-07,substantif,1,1636.0,384.0
 roque@NOUN,133,NOUN,roque,2.5330706225479484e-07,substantif,1,1859.0,161.0
 marigot@NOUN,135,NOUN,marigot,2.5711619101050603e-07,substantif,2,1654.0,366.0
 oxalate@NOUN,202,NOUN,oxalate,3.8472200432683125e-07,substantif,1,1787.0,233.0
@@ -10062,6 +9907,7 @@ lapon@NOUN,138,NOUN,lapon,2.628298841440728e-07,substantif,1,1671.0,349.0
 tata@NOUN,107,NOUN,tata,2.0378838843054923e-07,substantif,8,1690.0,330.0
 cérium@NOUN,115,NOUN,cérium,2.1902490345339404e-07,substantif,2,1801.0,219.0
 anaphore@NOUN,128,NOUN,anaphore,2.4378424036551685e-07,substantif,2,1521.0,499.0
+bouledogue@NOUN,125,NOUN,bouledogue,2.3807054723195003e-07,substantif,1,1500.0,520.0
 hydrographe@NOUN,160,NOUN,hydrographe,3.0473030045689606e-07,substantif,2,1548.0,472.0
 carrossage@NOUN,167,NOUN,carrossage,3.1806225110188524e-07,substantif,1,1873.0,147.0
 peupleraie@NOUN,150,NOUN,peupleraie,2.8568465667834004e-07,substantif,1,1600.0,420.0
@@ -10131,7 +9977,6 @@ fedayin@NOUN,112,NOUN,fedayin,2.1331121031982722e-07,substantif,1,1955.0,65.0
 reclassement@NOUN,337,NOUN,reclassement,6.418381953373373e-07,substantif,1,1865.0,155.0
 cœlacanthe@NOUN,110,NOUN,cœlacanthe,2.0950208156411602e-07,substantif,1,1842.0,178.0
 cavernicole@ADJ,102,ADJ,cavernicole,1.9426556654127122e-07,adjectif,1,1874.0,146.0
-hors-bord@NOUN,135,NOUN,hors-bord,2.5711619101050603e-07,substantif,2,1934.0,86.0
 argentan@NOUN,197,NOUN,argentan,3.7519918243755326e-07,substantif,1,1837.0,183.0
 cosmopolitisme@NOUN,217,NOUN,cosmopolitisme,4.1329046999466526e-07,substantif,1,1823.0,197.0
 transformisme@NOUN,152,NOUN,transformisme,2.8949378543405123e-07,substantif,1,1867.0,153.0
@@ -10157,7 +10002,6 @@ indécence@NOUN,141,NOUN,indécence,2.685435772776396e-07,substantif,2,1568.0,45
 déménageur@NOUN,113,NOUN,déménageur,2.1521577469768284e-07,substantif,1,1852.0,168.0
 menstruation@NOUN,298,NOUN,menstruation,5.675601846009689e-07,substantif,1,1761.0,259.0
 testiculaire@ADJ,169,ADJ,testiculaire,3.2187137985759644e-07,adjectif,1,1805.0,215.0
-intra-utérin@ADJ,158,ADJ,intra-utérin,3.0092117170118487e-07,adjectif,1,1826.0,194.0
 guéridon@NOUN,155,NOUN,guéridon,2.95207478567618e-07,substantif,1,1650.0,370.0
 hématie@NOUN,208,NOUN,hématie,3.961493905939649e-07,substantif,1,1865.0,155.0
 gerbille@NOUN,110,NOUN,gerbille,2.0950208156411602e-07,substantif,1,1804.0,216.0
@@ -10249,7 +10093,6 @@ bagnolet@NOUN,296,NOUN,bagnolet,5.637510558452577e-07,substantif,2,1529.0,491.0
 bobineau@NOUN,151,NOUN,bobineau,2.8758922105619564e-07,substantif,1,1567.0,453.0
 banlieusard@NOUN,112,NOUN,banlieusard,2.1331121031982722e-07,substantif,1,1900.0,120.0
 flip@NOUN,166,NOUN,flip,3.1615768672402965e-07,substantif,4,1695.0,325.0
-saint-simonisme@NOUN,131,NOUN,saint-simonisme,2.4949793349908364e-07,substantif,1,1830.0,190.0
 volontarisme@NOUN,138,NOUN,volontarisme,2.628298841440728e-07,substantif,2,1896.0,124.0
 étatisme@NOUN,153,NOUN,étatisme,2.9139834981190683e-07,substantif,1,1890.0,130.0
 théisme@NOUN,110,NOUN,théisme,2.0950208156411602e-07,substantif,2,1745.0,275.0
@@ -10383,7 +10226,6 @@ oligopole@NOUN,121,NOUN,oligopole,2.3045228972052764e-07,substantif,1,1944.0,76.
 johannique@ADJ,126,ADJ,johannique,2.3997511160980566e-07,adjectif,1,1863.0,157.0
 cacatoès@NOUN,166,NOUN,cacatoès,3.1615768672402965e-07,substantif,1,1630.0,390.0
 naturisme@NOUN,279,NOUN,naturisme,5.313734614217125e-07,substantif,3,1778.0,242.0
-non-existence@NOUN,115,NOUN,non-existence,2.1902490345339404e-07,substantif,1,1646.0,374.0
 tantrisme@NOUN,114,NOUN,tantrisme,2.1712033907553844e-07,substantif,1,1904.0,116.0
 strass@NOUN,102,NOUN,strass,1.9426556654127122e-07,substantif,1,1746.0,274.0
 pali@NOUN,186,NOUN,pali,3.5424897428114164e-07,substantif,1,1752.0,268.0
@@ -10406,7 +10248,6 @@ repliement@NOUN,303,NOUN,repliement,5.770830064902469e-07,substantif,1,1572.0,44
 monotype@NOUN,207,NOUN,monotype,3.9424482621610923e-07,substantif,3,1800.0,220.0
 prosodique@ADJ,117,ADJ,prosodique,2.2283403220910523e-07,adjectif,1,1736.0,284.0
 divagation@NOUN,208,NOUN,divagation,3.961493905939649e-07,substantif,3,1577.0,443.0
-arrière-cour@NOUN,144,NOUN,arrière-cour,2.7425727041120646e-07,substantif,2,1586.0,434.0
 nymphomane@NOUN,101,NOUN,nymphomane,1.9236100216341562e-07,substantif,2,1819.0,201.0
 zeppelin@NOUN,278,NOUN,zeppelin,5.294688970438568e-07,substantif,2,1909.0,111.0
 contingenter@VERB,108,VERB,contingenter,2.0569295280840483e-07,verbe,2,1922.0,98.0
@@ -10418,7 +10259,6 @@ maximaliste@ADJ,113,ADJ,maximaliste,2.1521577469768284e-07,adjectif,1,1910.0,110
 ombrien@NOUN,130,NOUN,ombrien,2.4759336912122804e-07,substantif,1,1732.0,288.0
 infanticide@NOUN,114,NOUN,infanticide,2.1712033907553844e-07,substantif,1,1564.0,456.0
 sensationnalisme@NOUN,113,NOUN,sensationnalisme,2.1521577469768284e-07,substantif,2,1909.0,111.0
-contre-mesure@NOUN,376,NOUN,contre-mesure,7.161162060737057e-07,substantif,1,1550.0,470.0
 régurgiter@VERB,148,VERB,régurgiter,2.8187552792262884e-07,verbe,1,1540.0,480.0
 botulisme@NOUN,124,NOUN,botulisme,2.3616598285409444e-07,substantif,1,1922.0,98.0
 fiduciaire@NOUN,122,NOUN,fiduciaire,2.3235685409838324e-07,substantif,1,1593.0,427.0
@@ -10434,7 +10274,6 @@ défenestration@NOUN,111,NOUN,défenestration,2.1140664594197162e-07,substantif,
 gauchisme@NOUN,159,NOUN,gauchisme,3.0282573607904047e-07,substantif,1,1838.0,182.0
 hétairie@NOUN,125,NOUN,hétairie,2.3807054723195003e-07,substantif,2,1834.0,186.0
 coolie@NOUN,187,NOUN,coolie,3.5615353865899724e-07,substantif,2,1554.0,466.0
-contre-jour@NOUN,109,NOUN,contre-jour,2.0759751718626043e-07,substantif,2,1615.0,405.0
 calot@NOUN,109,NOUN,calot,2.0759751718626043e-07,substantif,4,1751.0,269.0
 cicatriciel@ADJ,101,ADJ,cicatriciel,1.9236100216341562e-07,adjectif,1,1863.0,157.0
 défenestrer@VERB,155,VERB,défenestrer,2.95207478567618e-07,verbe,2,1564.0,456.0
@@ -10484,7 +10323,6 @@ trachéotomie@NOUN,109,NOUN,trachéotomie,2.0759751718626043e-07,substantif,1,17
 atropine@NOUN,134,NOUN,atropine,2.5521162663265043e-07,substantif,1,1836.0,184.0
 rétroactivement@ADV,123,ADV,rétroactivement,2.3426141847623884e-07,adverbe,1,1604.0,416.0
 férocement@ADV,106,ADV,férocement,2.0188382405269363e-07,adverbe,1,1530.0,490.0
-porte-étendard@NOUN,107,NOUN,porte-étendard,2.0378838843054923e-07,substantif,2,1680.0,340.0
 roquefort@NOUN,186,NOUN,roquefort,3.5424897428114164e-07,substantif,1,1642.0,378.0
 scoliose@NOUN,124,NOUN,scoliose,2.3616598285409444e-07,substantif,1,1820.0,200.0
 oscilloscope@NOUN,167,NOUN,oscilloscope,3.1806225110188524e-07,substantif,1,1931.0,89.0
@@ -10608,7 +10446,6 @@ naumachie@NOUN,165,NOUN,naumachie,3.1425312234617405e-07,substantif,2,1520.0,500
 aérostier@NOUN,138,NOUN,aérostier,2.628298841440728e-07,substantif,1,1794.0,226.0
 sensationnaliste@ADJ,112,ADJ,sensationnaliste,2.1331121031982722e-07,adjectif,1,1967.0,53.0
 papou@ADJ,114,ADJ,papou,2.1712033907553844e-07,adjectif,2,1721.0,299.0
-haut-de-forme@NOUN,101,NOUN,haut-de-forme,1.9236100216341562e-07,substantif,1,1660.0,360.0
 théiste@ADJ,139,ADJ,théiste,2.647344485219284e-07,adjectif,1,1705.0,315.0
 inexécution@NOUN,130,NOUN,inexécution,2.4759336912122804e-07,substantif,1,1620.0,400.0
 polyandrie@NOUN,102,NOUN,polyandrie,1.9426556654127122e-07,substantif,2,1765.0,255.0
