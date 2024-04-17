@@ -1,4 +1,17 @@
-# 2023-longevity-number-of-meanings
+# The Semantic Snowball Effect: Long-lived Words Accrue More Meanings
+## Online supplement
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10988781.svg)](https://doi.org/10.5281/zenodo.10988781)
+
+Authors: 
+
+- Alexey Koshevoy
+- Isabelle Dautriche
+- Olivier Morin
+
+## 0. Pre-registration 
+
+This study was preregistered on the Open Science Framework. The pre-registration document is stored [here]([https://osf.io/h8mqk/?view_only=3d6d827e16ce4330ae2ba25d56195e79](https://osf.io/7rfp4/?view_only=076fb4537e8d404394ab9f92df03a41f)).
 
 ## 1. Pre-requisites. 
 
