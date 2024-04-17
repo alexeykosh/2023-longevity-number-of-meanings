@@ -12,6 +12,8 @@ library(broom)
 library(marginaleffects)
 library(distributions3)
 library(latex2exp)
+library(modelsummary)
+library(ggridges)
 
 theme_set(theme_bw())
 
@@ -22,7 +24,7 @@ zip_df <- data.frame(value =  random(ZIPoisson(2, 0.5), 10000), distribution = "
 pois_df <- data.frame(value = rpois(10000, 2), distribution = "Poisson(2)")
 combined_df <- rbind(zip_df, pois_df)
 
-ggplot(combined_df, aes(x = value, fill = distribution)) +
+zippoisson_ex <- ggplot(combined_df, aes(x = value, fill = distribution)) +
   geom_bar(alpha = 1, stat = "count", position = "dodge") +
   labs(x = "",
        y = "",
@@ -32,6 +34,8 @@ ggplot(combined_df, aes(x = value, fill = distribution)) +
                     labels = c("ZIPoisson(2, 0.5)" = TeX("ZIPoisson(\\lambda = 2, \\pi = 0.5)"),
                                "Poisson(2)" = TeX("Poisson(\\lambda = 2)"))) +
   theme(legend.position = 'bottom', text = element_text(size = 15))
+
+ggsave('figures/zip_poisson_ex.pdf', zippoisson_ex, width = 10, height = 4)
 
 # Function to save models
 run_model <- function(expr, path, reuse = TRUE) {
@@ -75,9 +79,10 @@ rbind(initial_counts, post_counts) %>%
 # Save the plot
 ggsave("figures/pos_counts.pdf", width = 10, height = 4)
 
+## Combined descriptive figure
 # Distribution of age:
 fig_age <- ggplot(aes(x = etymology), data = age_estimation) +
-  geom_histogram(bins = 50, fill = 'grey') +
+  geom_histogram(bins = 50, fill = '#08519C') +
   labs(x = 'Estimated date of appearance', y = 'Count') +
   annotate(
     geom = "curve", x = 1650, y = 600, xend = 1560, yend = 760, 
@@ -85,31 +90,28 @@ fig_age <- ggplot(aes(x = etymology), data = age_estimation) +
   ) +
   annotate(geom = "text", x = 1655, y = 605, label = "16th century as 1550", 
            hjust = "left")
-# Save the plot
-ggsave("figures/age_distibution.pdf", fig_age, width = 10, height = 4)
-
 # Distribution of POS per 50 year periods
-age_estimation %>%
-  mutate(etymology = etymology %/% 50) %>%
+pos_distr <- age_estimation %>%
+  mutate(etymology = etymology %/% 40) %>%
   group_by(etymology, pos) %>%
   summarise(count = n()) %>%
-  ggplot(aes(x = etymology * 50, y = count, fill = pos)) + 
+  ggplot(aes(x = etymology * 40, y = count, fill = pos)) + 
   geom_bar(position = "fill", stat = "identity") +
   scale_fill_brewer() +
-  labs(x = 'Year', y = 'Share') +
+  labs(x = 'Year of appearance', y = 'Share', fill = 'POS') +
   scale_y_continuous(labels = scales::percent)
-
 # Distribution of the number of additional meanings
-age_estimation %>%
+num_additional <- age_estimation %>%
   ggplot(aes(x = factor(number_of_meanings - 1))) +
   geom_bar(stat = "count", fill = "#08519C", alpha = 1) +
-  xlab('Number of additional meanings')+ 
-  scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
-                     labels = trans_format("log10", math_format(10^.x))) +
-  ylab('Count (log)')
+  xlab('Number of additional meanings')
 
+# + 
+#   scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
+#                 labels = trans_format("log10", math_format(10^.x))) +
+#   ylab('Count (log)')
 ## Share of words that have one than more meaning at time t 
-age_estimation %>%
+additional_share <- age_estimation %>%
   mutate(etymology = etymology %/% 40) %>%
   mutate(bin_add_meaning = if_else(number_of_meanings - 1 >= 1, 
                                    'At least 1', 
@@ -123,6 +125,9 @@ age_estimation %>%
        y = 'Share', 
        fill = ' Number of \n additional \n meanings') +
   scale_y_continuous(labels = scales::percent)
+arr_descr <- ggarrange(fig_age, pos_distr, num_additional, additional_share, 
+          labels = c("A", "B", "C", "D"))
+ggsave("figures/summary_figures.pdf", arr_descr, width = 10, height = 4)
 
 ### Statistical analysis ### 
 ## Create a dataset
@@ -131,6 +136,21 @@ df <- read.csv('data/age_estimations.csv') %>%
          z_age = (age - mean(age))/ sd(age),
          meanings = number_of_meanings - 1,
          z_length = (nchar(lemma) - mean(nchar(lemma)))/sd(nchar(lemma)))
+## Plot frequency age relationship conditioned on polysemy
+df %>%
+  mutate(polysemy = ifelse(meanings > 0, 'yes', 'no'))  %>%
+  ggplot(aes(x = z_age, y = z_freq, color = polysemy, fill = polysemy)) +
+  # stat_density_2d(geom = "point",
+  #                 aes(size = after_stat(density)),
+  #                 n = 20, contour = FALSE, alpha = 1) +
+  geom_point()+
+  facet_wrap(~polysemy) +
+  theme(legend.position = 'none') +
+  geom_smooth(method = 'lm', color = 'black')
+
+m <- lm(z_freq ~ z_age + meanings, data = df)
+summary(m)
+
 ## Spearman correlation coefficient (longevity ~ frequency)
 cor.test(df$z_age, df$z_freq, method=c("kendall"))
 ## Spearman correlation coefficient (longevity ~ length)
@@ -207,7 +227,7 @@ hypothesis(x = model_full, 'z_age > z_freq')
 mcmc_neff(neff_ratio(model_full))+ 
   theme_bw()
 ## Predictions of the model
-crossing(
+model_1500_pred <- crossing(
   z_freq = seq(min(df$z_freq), max(df$z_freq), length.out = 30),
   z_age = seq(min(df$z_age), max(df$z_age), length.out = 30),
   pos = unique(df$pos)) %>%
@@ -222,8 +242,8 @@ crossing(
          mean = mean(prediction)) %>%
   ggplot(aes(x = z_age, y = mean)) +
   facet_wrap(~pos) +
-  geom_line(size = 2, color = 'blue') +
-  geom_ribbon(aes(ymin = min, ymax = max), fill = "grey", alpha = 0.5) +
+  geom_line(size = 2, color = '#08519C') +
+  geom_ribbon(aes(ymin = min, ymax = max), fill = "#08519C", alpha = 0.2) +
   geom_point(data = df,
              aes(x = z_age, y = meanings),
              alpha = 0.1) +
@@ -238,7 +258,8 @@ crossing(
     breaks = seq(min(df$z_age), max(df$z_age), length.out = 5)
   ) +
   xlab('Longevity') +
-  ylab('Number of additional meanings')
+  ylab('Number of additional meanings') +
+  ggtitle('1500-2020')
 ## Combined frequency + full model
 full <- avg_comparisons(model_full) %>%
   posterior_draws(shape = "rvar") %>%
@@ -263,11 +284,32 @@ only_freq <- avg_comparisons(model_freq) %>%
              linetype="dotted",
              color = 'red')
 ggarrange(full, only_freq, nrow=3, ncol=1)
-## Fitting the subset models
+
+
+### Fitting the subset models ###
 df_1800 <- read.csv('data/age_estimations_1800.csv') %>%
   mutate(z_freq = (log(freq) - mean(log(freq))) / sd(log(freq)),
          z_age = (age - mean(age))/ sd(age),
          meanings = number_of_meanings - 1)
+
+## Combined distribution of pos longevity for two datasets
+age_estimation$dataset <- "1500-2020"
+df_1800$dataset <- "1800-2020"
+combined_data <- bind_rows(age_estimation, df_1800)
+combined_hist <- combined_data %>%
+  group_by(pos, dataset) %>%
+  mutate(avg_long = mean(age)) %>%
+  ggplot(aes(x = age, y = pos, fill = pos)) +
+  geom_density_ridges(stat = "binline", bins = 40,) +
+  # quantile_lines = TRUE, quantiles = 0.5,
+  scale_fill_brewer() +
+  ylab('') +
+  xlab('Longevity') +
+  theme(legend.position = 'none') +
+  facet_wrap(~dataset, nrow = 2, ncol = 1) +
+  theme(strip.background = element_rect(colour = "black", fill = NA))
+ggsave("figures/combined_hist.pdf", plot = combined_hist, width = 10, height = 4)
+
 ## Age frequency correlation
 cor.test(df_1800$age, df_1800$freq, method=c("kendall"))
 ## Full model
@@ -347,29 +389,41 @@ ggsave("figures/posterior_beta.pdf", plot = posterior_beta_both, width = 10, hei
 hypothesis(model_full, 'z_age > z_freq')
 hypothesis(model_full_1800, 'z_age < z_freq')
 ## Plotting model predictions
-re_model_only <- crossing(z_freq = seq(min(df_1800$z_freq), 
-                                       max(df_1800$z_freq), length.out=100),
-                          z_age = seq(min(df_1800$z_age), 
-                                      max(df$z_age), length.out=100),
-                          pos = unique(df_1800$pos)) %>%
+model_1800_pred <- crossing(z_freq = seq(min(df_1800$z_freq), 
+                      max(df_1800$z_freq), length.out=20),
+         z_age = seq(min(df_1800$z_age), 
+                     max(df_1800$z_age), length.out=20),
+         pos = unique(df_1800$pos)) %>%
   tidybayes::epred_draws(newdata = ., object = model_full_1800,
-              scale = "response", ndraws = 1e3)
-ggplot(re_model_only,
-       aes(x = z_age, y = .epred)) +
+                         scale = "response", ndraws = 1e3) %>%
+  rename('prediction' = '.epred' ) %>%
+  group_by(z_age, pos) %>%
+  mutate(min = bayestestR::ci(prediction)$CI_low, 
+         max = bayestestR::ci(prediction)$CI_high, 
+         mean = mean(prediction)) %>%
+  ggplot(aes(x = z_age, y = mean)) +
   facet_wrap(~pos) +
-  geom_count(data = df_1800, 
+  geom_line(size = 2, color = '#08519C') +
+  geom_ribbon(aes(ymin = min, ymax = max), fill = "#08519C", alpha = 0.2) +
+  geom_point(data = df_1800,
              aes(x = z_age, y = meanings),
              alpha = 0.1) +
-  stat_lineribbon(.width = c(.95, 0.8, 0.5), 
-                  color = "#08519C", 
-                  alpha = 0.5) +
-  scale_fill_brewer('CI') +
   theme(strip.background=element_rect(colour="black",
                                       fill=NA)) +
   scale_y_continuous(
     trans = scales::pseudo_log_trans(base = 10),
     breaks = c(0, 2, 5, 8, 10, 12)
-  )
+  ) +
+  scale_x_continuous(
+    labels = round(seq(min(df_1800$age), max(df_1800$age), length.out = 5)),
+    breaks = seq(min(df_1800$z_age), max(df_1800$z_age), length.out = 5)
+  ) +
+  xlab('Longevity') +
+  ylab('Number of additional meanings') +
+  ggtitle('1800-2020')
+arr_1800_1500 <- ggarrange(model_1500_pred, model_1800_pred, nrow=1, ncol=2, labels = c("A", "B"))
+ggsave("figures/model_18500_pred.pdf", arr_1800_1500, width = 10, height = 6)
+
 ## Figure 6
 # Average number of meanings per decade
 pos_year <- df %>%
@@ -416,3 +470,58 @@ combined_plot <- ggarrange(pos_year, avg_pos, labels = c("A", "B"),
                            widths = c(1.5, 1))
 combined_plot
 ggsave("figures/combined_plot.pdf", plot = combined_plot, width = 10, height = 4)
+
+
+## Idividual PoS analysis
+ranef_long <- as.data.frame(ranef(model_full)) %>%
+  rownames_to_column(var = "POS") %>%
+  rename_with(~c("POS", "Estimate", "Est.Error", 
+                 "Q2.5", "Q97.5"), everything())
+random_int <- ranef_long %>% ggplot(aes(x = Estimate, 
+                          y = reorder(POS, Estimate),
+                          color = POS)) +
+  geom_point() +
+  geom_pointrange(aes(xmin=Q2.5, xmax=Q97.5)) +
+  xlim(-2, 2) +
+  scale_colour_brewer(palette = "Spectral") +
+  theme(legend.position = 'none') +
+  labs(y = '', x = 'Intercept')
+new_pred <- crossing(
+  z_freq = seq(min(df$z_freq), max(df$z_freq), length.out = 30),
+  z_age = seq(min(df$z_age), max(df$z_age), length.out = 30),
+  pos = unique(df$pos)) %>%
+  tidybayes::epred_draws(
+    newdata = ., object = model_full,
+    scale = "response", ndraws = 1e1
+  ) %>%
+  rename('prediction' = '.epred' ) %>%
+  group_by(z_age, pos) %>%
+  mutate(min = bayestestR::ci(prediction)$CI_low, 
+         max = bayestestR::ci(prediction)$CI_high, 
+         mean = mean(prediction)) %>%
+  ggplot(aes(x = z_age, y = mean, color = pos)) +
+  facet_wrap(~pos) +
+  geom_line(size = 2) +
+  geom_ribbon(aes(ymin = min, ymax = max), alpha = 0.2,
+              colour = NA) +
+  theme(strip.background=element_rect(colour="black",
+                                      fill=NA),
+        legend.position = 'none') +
+  scale_y_continuous(
+    trans = scales::pseudo_log_trans(base = 10),
+    breaks = c(0, 2, 5, 8, 10, 12)
+  ) +
+  scale_x_continuous(
+    labels = round(seq(min(df$age), max(df$age), length.out = 5)),
+    breaks = seq(min(df$z_age), max(df$z_age), length.out = 5)
+  ) +
+  xlab('Longevity') +
+  ylab('Number of additional meanings') +
+  scale_colour_brewer(palette = "Spectral")
+  # geom_count(data = df,
+  #            aes(x = z_age, y = meanings),
+  #            alpha = 0.05, color='black')
+combined_pred_ranef <- ggarrange(random_int, new_pred, labels = c("A", "B"), 
+                           widths = c(1, 1.5))
+ggsave("figures/1500_pred_ranef.pdf", combined_pred_ranef, 
+       width = 10, height = 4)
