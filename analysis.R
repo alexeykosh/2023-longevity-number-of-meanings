@@ -19,24 +19,6 @@ theme_set(theme_bw())
 
 set.seed(42)
 
-# ZIPoison vs Poison
-zip_df <- data.frame(value =  random(ZIPoisson(2, 0.5), 10000), distribution = "ZIPoisson(2, 0.5)")
-pois_df <- data.frame(value = rpois(10000, 2), distribution = "Poisson(2)")
-combined_df <- rbind(zip_df, pois_df)
-
-zippoisson_ex <- ggplot(combined_df, aes(x = value, fill = distribution)) +
-  geom_bar(alpha = 1, stat = "count", position = "dodge") +
-  labs(x = "",
-       y = "",
-       fill = "Distribution") +
-  scale_fill_brewer(palette = "Set1") +
-  scale_fill_manual(values = c("ZIPoisson(2, 0.5)" = "blue", "Poisson(2)" = "orange"),
-                    labels = c("ZIPoisson(2, 0.5)" = TeX("ZIPoisson(\\lambda = 2, \\pi = 0.5)"),
-                               "Poisson(2)" = TeX("Poisson(\\lambda = 2)"))) +
-  theme(legend.position = 'bottom', text = element_text(size = 15))
-
-ggsave('figures/zip_poisson_ex.pdf', zippoisson_ex, width = 10, height = 4)
-
 # Function to save models
 run_model <- function(expr, path, reuse = TRUE) {
   path <- paste0(path, ".Rds")
@@ -105,12 +87,7 @@ num_additional <- age_estimation %>%
   ggplot(aes(x = factor(number_of_meanings - 1))) +
   geom_bar(stat = "count", fill = "#08519C", alpha = 1) +
   xlab('Number of additional meanings')
-
-# + 
-#   scale_y_log10(breaks = trans_breaks("log10", function(x) 10^x),
-#                 labels = trans_format("log10", math_format(10^.x))) +
-#   ylab('Count (log)')
-## Share of words that have one than more meaning at time t 
+# Share of additional meanings
 additional_share <- age_estimation %>%
   mutate(etymology = etymology %/% 40) %>%
   mutate(bin_add_meaning = if_else(number_of_meanings - 1 >= 1, 
@@ -136,39 +113,10 @@ df <- read.csv('data/age_estimations.csv') %>%
          z_age = (age - mean(age))/ sd(age),
          meanings = number_of_meanings - 1,
          z_length = (nchar(lemma) - mean(nchar(lemma)))/sd(nchar(lemma)))
-## Plot frequency age relationship conditioned on polysemy
-df %>%
-  mutate(polysemy = ifelse(meanings > 0, 'yes', 'no'))  %>%
-  ggplot(aes(x = z_age, y = z_freq, color = polysemy, fill = polysemy)) +
-  # stat_density_2d(geom = "point",
-  #                 aes(size = after_stat(density)),
-  #                 n = 20, contour = FALSE, alpha = 1) +
-  geom_point()+
-  facet_wrap(~polysemy) +
-  theme(legend.position = 'none') +
-  geom_smooth(method = 'lm', color = 'black')
-
-m <- lm(z_freq ~ z_age + meanings, data = df)
-summary(m)
-
 ## Spearman correlation coefficient (longevity ~ frequency)
 cor.test(df$z_age, df$z_freq, method=c("kendall"))
 ## Spearman correlation coefficient (longevity ~ length)
 cor.test(df$z_age, df$z_length, method=c("kendall"))
-## Model with length as a predictor (draft) 
-# model_length <- brm(meanings ~ 1 + z_length + z_age + (1 | pos),
-#                   data = df, 
-#                   family = zero_inflated_poisson(),
-#                   prior = c(prior(normal(0, 0.5), class = 'b'), #beta 
-#                             prior(beta(2, 2), class = 'zi'), #pi or zi
-#                             prior(normal(0, 1), class = Intercept), #alpha bar
-#                             prior(exponential(1), class = sd)), # sigma
-#                   cores = 16,
-#                   backend = "cmdstanr",
-#                   adapt_delta = 0.95,
-#                   iter = 5000,
-#                   save_pars=save_pars(all=TRUE))
-# summary(model_length)
 ## Full model
 model_full <- brm(meanings ~ 1 + z_freq + z_age + (1 | pos),
                     data = df, 
@@ -183,6 +131,7 @@ model_full <- brm(meanings ~ 1 + z_freq + z_age + (1 | pos),
                     iter = 5000,
                     save_pars=save_pars(all=TRUE))
 model_full <- add_criterion(model_full, criterion = 'loo')
+summary(model_full)
 ## Frequency only model
 model_freq <- brm(meanings ~ 1 + z_freq + (1 | pos),
                   data = df, 
@@ -197,29 +146,13 @@ model_freq <- brm(meanings ~ 1 + z_freq + (1 | pos),
                   iter = 5000, 
                   save_pars=save_pars(all=TRUE))
 model_freq <- add_criterion(model_freq, criterion = 'loo')
-# ## Only age model
-# model_age <- brm(meanings ~ 1 + z_age + (1 | pos),
-#                   data = df, 
-#                   family = zero_inflated_poisson(),
-#                   prior = c(prior(normal(0, 0.5), class = 'b'), #beta 
-#                             prior(beta(2, 2), class = 'zi'), #pi or zi
-#                             prior(normal(0, 1), class = Intercept), #alpha bar
-#                             prior(exponential(1), class = sd)), # sigma
-#                   cores = 16,
-#                   backend = "cmdstanr",
-#                   adapt_delta = 0.95,
-#                   iter = 5000)
-# model_age <- add_criterion(model_age, criterion = 'loo')
-# summary(model_age)
+summary(model_freq)
 ## LOOIC comparison
 loo_compare(model_full, model_freq, criterion = 'loo') %>% 
   print(simplify = F)
-# brms::bayes_factor(model_full, model_freq)
-summary(model_full)
 ## Posterior predictive checks
 pp_check(model_full, ndraws = 100, type = "bars")
 pp_check(model_freq, ndraws = 100, type = "bars")
-# pp_check(model_age, ndraws = 100, type = "bars")
 ## Hypotheses
 hypothesis(x = model_full, 'z_age > 0')
 hypothesis(x = model_full, 'z_age > z_freq')
@@ -291,7 +224,6 @@ df_1800 <- read.csv('data/age_estimations_1800.csv') %>%
   mutate(z_freq = (log(freq) - mean(log(freq))) / sd(log(freq)),
          z_age = (age - mean(age))/ sd(age),
          meanings = number_of_meanings - 1)
-
 ## Combined distribution of pos longevity for two datasets
 age_estimation$dataset <- "1500-2020"
 df_1800$dataset <- "1800-2020"
@@ -340,18 +272,6 @@ model_freq_1800 <- brm(meanings ~ 1 + z_freq + (1 | pos),
                        iter = 5000)
 model_freq_1800 <- add_criterion(model_freq_1800, criterion = 'loo')
 summary(model_freq_1800)
-# model_age_1800 <- brm(meanings ~ 1 + z_age + (1 | pos),
-#                        data = df_1800, 
-#                        family = zero_inflated_poisson(),
-#                        prior = c(prior(normal(0, 0.5), class = 'b'), #beta 
-#                                  prior(beta(2, 2), class = 'zi'), #pi or zi
-#                                  prior(normal(0, 1), class = Intercept), #alpha bar
-#                                  prior(exponential(1), class = sd)), # sigma
-#                        cores = 16,
-#                        backend = "cmdstanr",
-#                        adapt_delta = 0.95,
-#                        iter = 5000)
-# summary(model_age_1800)
 ## LOO comparison
 loo_compare(model_full_1800, model_freq_1800, criterion = 'loo') %>% 
   print(simplify = F)
@@ -371,15 +291,17 @@ plot_avg_comparisons <- function(model, title) {
   return(plot)
 }
 ## Combined results (Figure 5)
-plot_full <- plot_avg_comparisons(model_full_1800, 'Cross-validated dataset')
-plot_freq <- plot_avg_comparisons(model_freq_1800, 'Frequency')
+plot_full <- plot_avg_comparisons(model_full, 'Full dataset') +
+  scale_y_discrete(labels=c('Longevity', 'Frequency'))
+plot_freq <- plot_avg_comparisons(model_full_1800, 'Cross-validated dataset') +
+  scale_y_discrete(labels=c('Longevity', 'Frequency'))
 ggarrange(plot_full, plot_freq, nrow=2, ncol=1)
-posterior_beta_both <- ggarrange(full, 
+posterior_beta_both <- ggarrange(plot_full, 
                                 pp_check(model_full, ndraws = 100, type = "bars") + 
-                                  labs(x = 'N of additional meanings'), 
-                                plot_full, 
+                                  labs(x = 'N. of additional meanings'), 
+                                plot_freq, 
                                 pp_check(model_full_1800, ndraws = 100, type = "bars") + 
-                                  labs(x = 'N of additional meanings'), 
+                                  labs(x = 'N. of additional meanings'), 
                                 nrow=2, ncol=2,
                                 common.legend = TRUE,
                                 align = 'hv',
@@ -525,3 +447,4 @@ combined_pred_ranef <- ggarrange(random_int, new_pred, labels = c("A", "B"),
                            widths = c(1, 1.5))
 ggsave("figures/1500_pred_ranef.pdf", combined_pred_ranef, 
        width = 10, height = 4)
+
