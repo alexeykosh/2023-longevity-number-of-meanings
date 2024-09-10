@@ -3,7 +3,7 @@
 
 **Manual Version Number:** 1.0.0
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10988781.svg)](https://doi.org/10.5281/zenodo.10988781)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13740276.svg)](https://doi.org/10.5281/zenodo.13740276)
 
 ### Short Summary:
 Why do some words have more meanings than others? Some researchers have argued for an explanation based on efficient communication: words that are shorter, more frequent, and easier to pronounce get more meanings, allowing for a more compact organization of the lexicon. However, these explanations mostly address synchronic effects, while linguistic ambiguity is inherently diachronic. We propose a novel approach where we rely on the longevity of words to estimate their degree of ambiguity. Using data covering more than half of a millennium, we find that words used for longer periods become more ambiguous. Our results support the intuition that the process of meaning accumulation is time-driven, indicating that time signatures are important predictors of linguistic features.
