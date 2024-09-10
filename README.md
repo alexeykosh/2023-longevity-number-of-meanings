@@ -11,7 +11,7 @@ Why do some words have more meanings than others? Some researchers have argued f
 ### Folder/File Overview:
 
 #### Root Folder:
-- **analysis.R**: R script for analyzing the results of the study.
+- **analysis.R**: R script for the statistical analysis of the results.
 
 #### `data/` Folder:
 Contains input and output data related to word age estimation and frequencies:
