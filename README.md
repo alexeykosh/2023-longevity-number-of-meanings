@@ -1,9 +1,8 @@
 # The Semantic Snowball Effect: Long-lived Words Accrue More Meanings
 ## Online supplement
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10988781.svg)](https://doi.org/10.5281/zenodo.10988781)
-
 **Manual Version Number:** 1.0.0
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10988781.svg)](https://doi.org/10.5281/zenodo.10988781)
 
 ### Short Summary:
 Why do some words have more meanings than others? Some researchers have argued for an explanation based on efficient communication: words that are shorter, more frequent, and easier to pronounce get more meanings, allowing for a more compact organization of the lexicon. However, these explanations mostly address synchronic effects, while linguistic ambiguity is inherently diachronic. We propose a novel approach where we rely on the longevity of words to estimate their degree of ambiguity. Using data covering more than half of a millennium, we find that words used for longer periods become more ambiguous. Our results support the intuition that the process of meaning accumulation is time-driven, indicating that time signatures are important predictors of linguistic features.
@@ -30,6 +29,7 @@ Contains Jupyter notebooks used in the study:
 Contains Python scripts for processing data:
 - `etymology_extraction.py`: Python script that extracts etymology information for words.
 - `wiki_tokenizer.py`: Script to tokenize the Wiki40b dataset.
+- `wikitionnary_preprocessing.py`: Python script for preprocessing the Wiktionary dump.
 
 #### Additional Files:
 - **requirements.txt**: Lists the necessary Python packages to run the project.
@@ -64,7 +64,7 @@ Before running the project, ensure the following resources are available:
    The results will be saved in `data/age_estimations.csv`.
 
 3. **Validity Check:**
-   Use the `change_point_detection.ipynb` notebook to validate the etymology extraction method.
+   Use the `change_point_detection.ipynb` notebook to validate the etymology extraction method and obtain the cross-validated dataset.
 
 4. **Analyze the Results:**
-   Use the `analysis.R` script to analyze the output data and generate insights into the relationship between word age and the number of meanings.
+   Use the `analysis.R` script to reproduce the statistical analysis and generate the figures.
